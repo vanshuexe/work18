@@ -1,0 +1,7 @@
+{
+  "id": 37,
+  "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-b2dfcc82-f4d7-472d-8016-185196f1a005.png",
+  "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this darkened bicycle outdoor lifestyle photograph faithfully as a fresh high quality photograph, preserve composition, dark exposure and bicycle subject. Match original aspect ratio 1350:511. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\bg_1.png"
+}

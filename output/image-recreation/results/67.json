@@ -1,0 +1,7 @@
+{
+  "id": 67,
+  "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-be28bba2-a154-497d-8a0c-9f3bf7a3790f.png",
+  "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1450:385. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\frame-bnr.png"
+}

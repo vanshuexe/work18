@@ -1,0 +1,7 @@
+{
+  "id": 120,
+  "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-fb25ded1-34d9-4885-b207-328f7266c6aa.png",
+  "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 550:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\bb-199.png"
+}

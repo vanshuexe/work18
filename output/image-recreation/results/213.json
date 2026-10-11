@@ -1,0 +1,7 @@
+{
+  "id": 213,
+  "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-7f94e771-c0cd-4ee9-a6cb-6b0591a6bc54.png",
+  "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1600:836. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\slide4.png"
+}

@@ -1,0 +1,85 @@
+{
+  "total": 276,
+  "failures": [
+    {
+      "url": "https://harison.in/images/products/kick-scooty/kick-scooty-frame1.png",
+      "file": "public/images/products/kick-scooty/kick-scooty-frame1.png",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/fonts/glyphicons-halflings-regular-4.html#glyphicons-halflingsregular",
+      "file": "public/fonts/glyphicons-halflings-regular-4.html",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/fonts/glyphicons-halflings-regular-3.html",
+      "file": "public/fonts/glyphicons-halflings-regular-3.html",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/css/fonts/flexslider-icon.eot",
+      "file": "public/css/fonts/flexslider-icon.eot",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/fonts/glyphicons-halflings-regular.html",
+      "file": "public/fonts/glyphicons-halflings-regular.html",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/fonts/glyphicons-halflings-regular-2.html",
+      "file": "public/fonts/glyphicons-halflings-regular-2.html",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/css/fonts/flexslider-icon.eot?#iefix",
+      "file": "public/css/fonts/flexslider-icon.eot",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/fonts/glyphicons-halflings-regulard41d.html?#iefix",
+      "file": "public/fonts/glyphicons-halflings-regulard41d.html",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/css/fonts/flexslider-icon.ttf",
+      "file": "public/css/fonts/flexslider-icon.ttf",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/css/fonts/flexslider-icon.woff",
+      "file": "public/css/fonts/flexslider-icon.woff",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/css/fonts/flexslider-icon.svg#flexslider-icon",
+      "file": "public/css/fonts/flexslider-icon.svg",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/assets/tech-2-mobile.jpg",
+      "file": "public/assets/tech-2-mobile.jpg",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/images/slider/video-replace-mobile.jpg",
+      "file": "public/images/slider/video-replace-mobile.jpg",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/assets/tech-1-mobile.jpg",
+      "file": "public/assets/tech-1-mobile.jpg",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/css/AjaxLoader.gif",
+      "file": "public/css/AjaxLoader.gif",
+      "error": "404"
+    },
+    {
+      "url": "https://harison.in/css/grabbing.png",
+      "file": "public/css/grabbing.png",
+      "error": "404"
+    }
+  ]
+}

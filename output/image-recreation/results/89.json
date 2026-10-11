@@ -1,0 +1,7 @@
+{
+  "id": 89,
+  "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-157e4250-ec10-4740-8527-6ed1a2baa9a8.png",
+  "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows short blasting.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\short-blasting.png"
+}

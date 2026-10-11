@@ -1,0 +1,7 @@
+{
+  "id": 32,
+  "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-7f914265-e4a8-4d59-8a12-84dd040062e0.png",
+  "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this award plaque photograph faithfully, same black rectangular frame and gold star with engraved plate. Preserve visible plaque wording as accurately as possible; do not invent new award claims. Same portrait composition. Match original aspect ratio 1024:1220. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\award2.png"
+}

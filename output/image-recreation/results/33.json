@@ -1,0 +1,7 @@
+{
+  "id": 33,
+  "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-7b260815-0926-431e-b30c-1047527b3fce.png",
+  "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this group award presentation photograph with the same number of adult men, positions, clothing, trophy and industrial background, sharper natural documentary photograph, no extra subjects. Match original aspect ratio 1024:1220. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\award3.png"
+}

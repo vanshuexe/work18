@@ -1,0 +1,7 @@
+{
+  "id": 0,
+  "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-e199dfb1-6cbe-4feb-969c-51d873d8074d.png",
+  "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate the exact outlined gold italic underlined text \"1986\", clean edges, on transparent background. Preserve appearance and wide aspect ratio. Match original aspect ratio 254:52. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\1986.png"
+}

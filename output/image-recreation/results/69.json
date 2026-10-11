@@ -1,0 +1,7 @@
+{
+  "id": 69,
+  "path": "C:/Users/vansh/Downloads/work18/output/image-recreation/company-name.svg",
+  "prompt": "Recreate exact black bold typography \"HARISON INTERNATIONAL\" as a deterministic vector wordmark, original dimensions 353x21.",
+  "method": "native SVG typography/icon",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\harison-intr.png"
+}

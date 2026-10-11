@@ -1,0 +1,7 @@
+{
+  "id": 210,
+  "path": "C:/Users/vansh/Downloads/work18/output/image-recreation/hero-01.png",
+  "prompt": "Use case: photorealistic-natural. Recreate this reference as a fresh high quality website hero photograph. Keep the same subject and composition: low viewpoint looking up at blue sky, leafy branch hanging from upper left, lush green grass along bottom, cropped black mountain bicycle front wheel and handlebars on far right, wide uncluttered sky across left and center for existing website overlay. Natural afternoon sunlight, crisp realistic photography, landscape 1600x836 aspect ratio. No text, logos or watermark. Generate a new original photograph rather than retaining the source pixels.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\slide1.png"
+}

@@ -1,0 +1,1556 @@
+[
+  {
+    "id": 0,
+    "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-e199dfb1-6cbe-4feb-969c-51d873d8074d.png",
+    "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate the exact outlined gold italic underlined text \"1986\", clean edges, on transparent background. Preserve appearance and wide aspect ratio. Match original aspect ratio 254:52. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\1986.png"
+  },
+  {
+    "id": 1,
+    "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-6c2fc9b4-c8c9-48a5-bf9a-fcdf6157b98f.png",
+    "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this factory aerial photo collage as a new sharp photorealistic architectural collage with the same layout, industrial buildings, landscaping and angles. Preserve arrangement and transparent surrounding space. Match original aspect ratio 650:629. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\abt-p.png"
+  },
+  {
+    "id": 2,
+    "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-0f5e3619-6927-4c7b-80b3-5ebd75400c13.png",
+    "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate the reference bicycle accessories category image: mountain bicycle with accessory detail, same hexagonal crop against white. New sharp photorealistic image, keep bicycle subject, composition and crop. Match original aspect ratio 450:450. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\access.png"
+  },
+  {
+    "id": 3,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-777ec143-7ea3-4491-871c-409e32f13cf7.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\center-stand\\center-stand-1.png"
+  },
+  {
+    "id": 4,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-c5a2ea02-738a-4007-8cd1-6caab9d2b9bd.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\center-stand\\center-stand-2.png"
+  },
+  {
+    "id": 5,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-bdcec50f-527f-49d2-8eb4-23fcf2002d64.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\center-stand\\center-stand-3.png"
+  },
+  {
+    "id": 6,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-0ee7cfe9-e67c-49e9-92bf-085b3262c2f2.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\center-stand\\center-stand-4.png"
+  },
+  {
+    "id": 7,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-7f760b7d-79a7-4d7b-b558-1070cb395647.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\center-stand\\center-stand-5.png"
+  },
+  {
+    "id": 8,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-11b7ad86-0248-40c4-9bdd-32fddce471e8.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\center-stand\\center-stand-6.png"
+  },
+  {
+    "id": 9,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-03d6b9ed-d318-4117-a429-de27a53b28b2.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\center-stand\\center-stand-7.png"
+  },
+  {
+    "id": 10,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-36aee8f5-9a96-4726-ba53-3b4f4d39daf7.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 500:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-hook\\side-hook1.png"
+  },
+  {
+    "id": 11,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-eba60882-c7c6-42f4-94ff-cc0146f0fd0e.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 500:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-hook\\side-hook2.png"
+  },
+  {
+    "id": 12,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-74954824-dae8-4667-80d6-cbe75f8c3f98.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-hook\\side-hook3.png"
+  },
+  {
+    "id": 13,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-cbf851af-3ce3-430b-b46c-76f09a8ec2af.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-hook\\side-hook4.png"
+  },
+  {
+    "id": 14,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-047cdd54-eb8d-444e-8c54-b3c4322fd02b.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 400:400 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-1.png"
+  },
+  {
+    "id": 15,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-04241850-21af-497b-8b03-c931992cf4ad.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-10.png"
+  },
+  {
+    "id": 16,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-f7181134-5709-4d9e-8102-8c5e18443bf5.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-11.png"
+  },
+  {
+    "id": 17,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b1499ba2-d394-4c7a-a61a-93bdba880e55.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-12.png"
+  },
+  {
+    "id": 18,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-8953dc73-17af-4629-9225-03bbd05de1b0.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-13.png"
+  },
+  {
+    "id": 19,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-8bf8e194-d9d4-4e0b-bfbf-99075e8ef735.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-14.png"
+  },
+  {
+    "id": 20,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-928d02cf-85b7-4408-aa64-852844023870.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-15.png"
+  },
+  {
+    "id": 21,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-27adf2ad-53a4-4cf3-b36e-9b9a81575acf.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-16.png"
+  },
+  {
+    "id": 22,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-7adf9b0b-f04d-48f7-b594-6155a2a364c8.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-17.png"
+  },
+  {
+    "id": 23,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-f1a231c0-0f83-43ab-bc0a-5cc982a87686.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 400:400 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-2.png"
+  },
+  {
+    "id": 24,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-6617a4b5-94ff-48f0-9dc2-960ef8fa77fc.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 400:400 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-3.png"
+  },
+  {
+    "id": 25,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-76c6f8e2-4ab7-42c7-bba1-0edecbfe5cc3.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 400:400 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-4.png"
+  },
+  {
+    "id": 26,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-67550fc2-d022-4324-9010-d3c19e92e067.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 400:400 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-5.png"
+  },
+  {
+    "id": 27,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-1989675c-a421-463e-95ea-0753bc687f4e.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 400:400 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-6.png"
+  },
+  {
+    "id": 28,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-8597afc6-f6e0-4c62-9142-504e53b752c9.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 400:400 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-7.png"
+  },
+  {
+    "id": 29,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-09e7df46-42ea-4dad-9181-0c27b12bbe69.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 400:400 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-8.png"
+  },
+  {
+    "id": 30,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-7d7af4b1-6c1d-46b7-90ef-37aae7da728d.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 500:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\autopart\\side-stand\\side-stand-9.png"
+  },
+  {
+    "id": 31,
+    "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-5fb1c7dc-800e-48a8-8d40-928bb221c7ae.png",
+    "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this award trophy photograph faithfully, same black rectangular frame and gold star trophy with plaque. Preserve visible plaque wording as accurately as possible; do not invent additional award claims. Sharper photo, same portrait composition. Match original aspect ratio 1024:1220. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\award1.png"
+  },
+  {
+    "id": 32,
+    "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-7f914265-e4a8-4d59-8a12-84dd040062e0.png",
+    "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this award plaque photograph faithfully, same black rectangular frame and gold star with engraved plate. Preserve visible plaque wording as accurately as possible; do not invent new award claims. Same portrait composition. Match original aspect ratio 1024:1220. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\award2.png"
+  },
+  {
+    "id": 33,
+    "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-7b260815-0926-431e-b30c-1047527b3fce.png",
+    "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this group award presentation photograph with the same number of adult men, positions, clothing, trophy and industrial background, sharper natural documentary photograph, no extra subjects. Match original aspect ratio 1024:1220. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\award3.png"
+  },
+  {
+    "id": 34,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-88bfe9fc-61a5-42c3-b05c-49a3df320776.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 1480:495. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\banner\\banner1.png"
+  },
+  {
+    "id": 35,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-3ffa71da-728e-4a77-9a39-b698e2364ebe.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 1480:495. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\banner\\banner2.png"
+  },
+  {
+    "id": 36,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-3424cc6f-16c4-4311-b910-3973711d2936.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 1480:495. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\banner\\two-wheeler-bnr.png"
+  },
+  {
+    "id": 37,
+    "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-b2dfcc82-f4d7-472d-8016-185196f1a005.png",
+    "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this darkened bicycle outdoor lifestyle photograph faithfully as a fresh high quality photograph, preserve composition, dark exposure and bicycle subject. Match original aspect ratio 1350:511. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\bg_1.png"
+  },
+  {
+    "id": 38,
+    "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-c00f2e9a-00fd-471d-8912-d68c0b518f86.png",
+    "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this bicycle rear luggage carrier category image as a fresh high quality photograph with the same black rack mounted above the rear bicycle wheel, same hexagonal crop and white surround. Match original aspect ratio 450:450. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\carrier-p.png"
+  },
+  {
+    "id": 39,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-e37bd936-7ad2-47df-978e-c36fb042be4c.png",
+    "prompt": "Recreate this reference as a new high quality product category photograph with the same red scooter, black center stand on ground, hexagonal crop and white surrounding background. Preserve the composition and vehicle geometry. Square 450x450 composition. No extra text or watermark.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\center-stand-p.png"
+  },
+  {
+    "id": 40,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-71bb4d4e-2f04-4039-9c86-d649e5d772f9.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"HERO CYCLES\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client1.png"
+  },
+  {
+    "id": 41,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-76de9b22-6468-47aa-ac6e-bce16349471b.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"cult.sport\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client10.png"
+  },
+  {
+    "id": 42,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-bba7c8a1-ceae-4093-8c8b-70c5d0d4eeca.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"NNE\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client2.png"
+  },
+  {
+    "id": 43,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-a94ecdc9-46b2-4d2e-958a-351f1c958785.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"Neelam\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client3.png"
+  },
+  {
+    "id": 44,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-96642427-926e-4f4f-927b-123caaa44574.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"HERCULES\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client4.png"
+  },
+  {
+    "id": 45,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-e02324d2-53bd-4ea1-89bc-8f169493f238.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"AVON\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client5.png"
+  },
+  {
+    "id": 46,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-98fc23e7-bca5-4751-97bf-cc5416a9dd20.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"TATA\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client6.png"
+  },
+  {
+    "id": 47,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-1420c97d-ee9b-4f16-921d-03abe5b62eef.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"BSA\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client7.png"
+  },
+  {
+    "id": 48,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-fa7c9ca6-dcd9-41cf-bb7d-828eaf8d3f3a.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"Eastman INDUSTRIES LTD. ...let’s win together\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client8.png"
+  },
+  {
+    "id": 49,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-67178933-95f6-4f12-a90b-32608c7d59d4.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 220:63. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Recreate this logo faithfully. Text: \"KROSS\". Preserve exact emblem, typography and colors from the reference, clean crisp edges, same original background.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\clients\\client9.png"
+  },
+  {
+    "id": 50,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-77d7817c-c257-4e14-8321-577ac8c9921d.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1450:385. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\ctr-stand-bnr.png"
+  },
+  {
+    "id": 51,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-3701acdb-addf-4733-adcb-aa944b0b341f.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\e-bike.png"
+  },
+  {
+    "id": 52,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b23d8136-e64a-451f-859b-b31d1f3baed0.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 564:75. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet. This is a brand or typography graphic; reproduce existing lettering and brand marks faithfully, with the same colors and transparent/opaque background as the reference, keep edges clean.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\est.png"
+  },
+  {
+    "id": 53,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-4ac62909-b2dc-4007-8126-9831df84f7f2.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\european-s.png"
+  },
+  {
+    "id": 54,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-52c234f8-94f8-4f5a-81b5-227a33669d33.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 550:361. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\events1.png"
+  },
+  {
+    "id": 55,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b5ed5a69-92d9-4b1c-8f16-d7dbd1ef3e74.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 550:361. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\events2.png"
+  },
+  {
+    "id": 56,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b4786c9b-383a-49f3-b9e9-76d939c62048.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1024:1220. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\exhib-2011.png"
+  },
+  {
+    "id": 57,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-c043b263-2a25-4cc6-b0f0-b14d811b771a.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1024:1220. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\exhib-2014.png"
+  },
+  {
+    "id": 58,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-8698e46f-6e14-44cb-ba43-db51d99b9bce.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1024:1220. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\exhib-2015.png"
+  },
+  {
+    "id": 59,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-f39b36ab-bb8a-4bb4-8aed-f06dbf18e445.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1024:1220. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\exhib-2016.png"
+  },
+  {
+    "id": 60,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-e8d1d989-89e9-4df5-8b22-40a9ab65092c.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1024:1220. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\exhib-2024.png"
+  },
+  {
+    "id": 61,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-0302f2bd-93cc-47f1-992c-0bcc4d6d37b3.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1024:1220. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\exhib-2025.png"
+  },
+  {
+    "id": 62,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-25e28c21-5a24-4d5f-971b-1791b654e406.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1600:600. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\footer-bg.png"
+  },
+  {
+    "id": 63,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ebb8cbf7-e639-4183-8947-ac143a60b161.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 134:28. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet. This is a brand or typography graphic; reproduce existing lettering and brand marks faithfully, with the same colors and transparent/opaque background as the reference, keep edges clean.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\footer-logo.png"
+  },
+  {
+    "id": 64,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-da75037e-2a86-461c-95cf-47b36554699b.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1480:495. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\footrest-bnr.png"
+  },
+  {
+    "id": 65,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-63d99c70-8643-4565-ac77-2c9d856eb26f.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\footrest-p.png"
+  },
+  {
+    "id": 66,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-bc15b47f-67b4-4a18-9adc-446b2fb47f27.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\forks-p.png"
+  },
+  {
+    "id": 67,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-be28bba2-a154-497d-8a0c-9f3bf7a3790f.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1450:385. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\frame-bnr.png"
+  },
+  {
+    "id": 68,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-7f3a48ef-9002-4e57-9c77-8c9a9c75a69d.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\frame-p.png"
+  },
+  {
+    "id": 69,
+    "path": "C:/Users/vansh/Downloads/work18/output/image-recreation/company-name.svg",
+    "prompt": "Recreate exact black bold typography \"HARISON INTERNATIONAL\" as a deterministic vector wordmark, original dimensions 353x21.",
+    "method": "native SVG typography/icon",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\harison-intr.png"
+  },
+  {
+    "id": 70,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-51b850e9-8d09-4b4f-b5f5-a15bb7aae7d0.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\hi-end.png"
+  },
+  {
+    "id": 71,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-be562202-80ab-47a6-8e25-ed05116e8fe7.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows black coating.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\black-coating.png"
+  },
+  {
+    "id": 72,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5b978aff-4e4f-459d-b0c7-01a1b218b49f.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows bubble packing.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\bubble-packing.png"
+  },
+  {
+    "id": 73,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-277bafc0-891d-4ed0-81e8-542ce5c2a08f.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows bubble packing2.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\bubble-packing2.png"
+  },
+  {
+    "id": 74,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ef332296-46ab-4c15-90bb-80a5b5ac4381.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows butt welding.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\butt-welding.png"
+  },
+  {
+    "id": 75,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-877b3a47-d97c-49c0-9906-a229d438c213.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows cnc wire forming.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\cnc-wire-forming.png"
+  },
+  {
+    "id": 76,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-f3521a32-6751-4f51-9483-617508f9fd80.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows display rack.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\display-rack.png"
+  },
+  {
+    "id": 77,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-9f866dff-1c48-4008-b83f-576e934d4c54.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows electric furace.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\electric-furace.png"
+  },
+  {
+    "id": 78,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-6ec7593e-ac01-4d75-a04e-bdafe8ae3454.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows high quality auto parts cartoon packing.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\high-quality-auto-parts-cartoon-packing.png"
+  },
+  {
+    "id": 79,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-c43d81b7-0d7c-42db-a69e-7df1e08082f4.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows hydraulic press.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\hydraulic-press.png"
+  },
+  {
+    "id": 80,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-439150d9-ffee-4637-9799-3380b9236ede.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows new1.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\new1.png"
+  },
+  {
+    "id": 81,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b42b1dd6-651c-4d72-a8d7-92fdcbcca408.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows new2.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\new2.png"
+  },
+  {
+    "id": 82,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5268d2f6-173c-4864-a232-005bf4128b6f.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows new3.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\new3.png"
+  },
+  {
+    "id": 83,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-a12c1abc-0ca9-4913-8745-af64bdf21a47.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows packing.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\packing.png"
+  },
+  {
+    "id": 84,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-46650aa3-b7a6-4d9b-8125-26a1b7c4c758.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows power coating.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\power-coating.png"
+  },
+  {
+    "id": 85,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-42f0d317-ba54-40a2-b534-095322af6597.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows power coating2.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\power-coating2.png"
+  },
+  {
+    "id": 86,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-19ca3795-89f8-49f1-a47f-af4ed4313ab2.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows press shop.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\press-shop.png"
+  },
+  {
+    "id": 87,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-3112e7f8-6e65-4929-a081-d78fdfcb8e3f.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: manufacturing infrastructure website photograph. Create a clean industrial workshop photograph of several green mechanical metal stamping presses in a row, similar to a small Indian bicycle-parts plant. Focus only on idle machinery and metal component trays. No people. Guards installed, uncluttered floor, natural workshop lighting, authentic realistic equipment details. Landscape 486:339 composition. No text, watermark, logos or dramatic effects.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\press-shop2.png"
+  },
+  {
+    "id": 88,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-10caf37c-f7ed-4364-95ac-2a0936ab63e2.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows projection welding.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\projection-welding.png"
+  },
+  {
+    "id": 89,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-157e4250-ec10-4740-8527-6ed1a2baa9a8.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows short blasting.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\short-blasting.png"
+  },
+  {
+    "id": 90,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5aa1a486-3265-4ceb-9116-86b65c30a4d8.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows tool room.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\tool-room.png"
+  },
+  {
+    "id": 91,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-fcff7007-506b-43bf-842c-944a4161700b.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows welding section.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\welding-section.png"
+  },
+  {
+    "id": 92,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ffc04dad-6406-474e-ba99-e89f1648de57.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows welding section2.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\welding-section2.png"
+  },
+  {
+    "id": 93,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-2c1dc9db-02de-44be-9ac8-9b240717f231.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 486:339. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. This factory photograph shows wire straightening.jpg. Recreate the same equipment and manufacturing process, with the same people count and positions, clean realistic industrial photography. Preserve reference content without inventing claims.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\infrastructure\\wire-straightening.png"
+  },
+  {
+    "id": 94,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ea5c43d0-9656-45ad-9b33-77e4b3b85124.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1450:385. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\inner-bnr.png"
+  },
+  {
+    "id": 95,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-81b7c9b1-3086-446f-a572-ed58c1f368bb.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1450:385. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\kick-scooty-bnr.png"
+  },
+  {
+    "id": 96,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-246e49e5-4df5-4c4d-911e-b1f239318fa4.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\kids.png"
+  },
+  {
+    "id": 97,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-2eb0a6ab-a91c-4440-8101-c75d63cd34d9.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\ladies.png"
+  },
+  {
+    "id": 98,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-deb74961-52ab-4cf8-a5f7-994e51a5ae63.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 1600:700. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\landing\\main-bg.png"
+  },
+  {
+    "id": 99,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-58ca88c3-9fd9-40fe-9873-985c6ec38fc8.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 276:57. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable. This is a typography/logo asset. Readable text must include: \"Harisons\". Faithfully reproduce the reference lettering, colors and symbol; do not output an empty canvas. Keep typography prominent, crisp, fully visible and centered.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\logo.png"
+  },
+  {
+    "id": 100,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-a999b6f6-5d1a-42bd-ab6f-030eae4f9a3c.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 289:94. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable. This is a typography/logo asset. Readable text must include: \"HARISONS, BICYCLE FRAME & FORKS\". Faithfully reproduce the reference lettering, colors and symbol; do not output an empty canvas. Keep typography prominent, crisp, fully visible and centered.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\logo1.png"
+  },
+  {
+    "id": 101,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-eccef38f-e280-4d9f-9d0d-301a6b5769d1.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 289:94. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable. This is a typography/logo asset. Readable text must include: \"bahadur, Carriers & Stand for Cycles, BICYCLE PARTS AND ACCESSORIES\". Faithfully reproduce the reference lettering, colors and symbol; do not output an empty canvas. Keep typography prominent, crisp, fully visible and centered.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\logo2.png"
+  },
+  {
+    "id": 102,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-556f21fb-8440-4e21-b89d-8b611798989f.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 289:94. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable. This is a typography/logo asset. Readable text must include: \"bahadur, TWO WHEELER SIDE, CENTRE STANDS AND FOOTRESTS\". Faithfully reproduce the reference lettering, colors and symbol; do not output an empty canvas. Keep typography prominent, crisp, fully visible and centered.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\logo3.png"
+  },
+  {
+    "id": 103,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-97b12f57-f77b-44ac-a66e-5ffa61b68e28.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 650:280. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\mission.png"
+  },
+  {
+    "id": 104,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-9004fd9a-a007-4c4e-bcc1-c4711fb92cd0.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\mtb.png"
+  },
+  {
+    "id": 105,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-aac64190-efba-4b37-a737-45b5a506b366.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1600:600. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\parallax2.png"
+  },
+  {
+    "id": 106,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-e73a0662-1846-4784-967f-d394be651835.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 850:427. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\product-2.png"
+  },
+  {
+    "id": 107,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-3897b584-5ada-407e-965b-007220b87d0a.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 850:427. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\product-3.png"
+  },
+  {
+    "id": 108,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-4a1f6cee-c896-4b6d-bed7-853b7150ab04.png",
+    "prompt": "Use case: illustration-story. Asset type: website product image unavailable graphic. Create a minimal crisp grey outline drawing of a bicycle frame centered on a pale grey background. Below it render the exact readable text \"Product image unavailable\" and, smaller, \"Contact us for product details\". Simple neutral font, generous blank space, landscape 640:480 composition. No other text or watermark.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\product-unavailable.png"
+  },
+  {
+    "id": 109,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-d3910faa-8708-446b-a40b-80e53be7be8b.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 600:600. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Product catalog photography: keep the exact number, shape, thickness and connections of every tube, wire, spring, mounting hole, bracket and platform. Preserve product finish and view direction. Keep product complete within frame with generous margins. Match reference backdrop and alpha.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\accessories1.png"
+  },
+  {
+    "id": 110,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ca182841-a2a4-4461-bcff-6d15ffc82d9b.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 600:600. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Product catalog photography: keep the exact number, shape, thickness and connections of every tube, wire, spring, mounting hole, bracket and platform. Preserve product finish and view direction. Keep product complete within frame with generous margins. Match reference backdrop and alpha.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\accessories2.png"
+  },
+  {
+    "id": 111,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-42bf969e-848c-40c3-a796-97c9546343b8.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference as a fresh high resolution website image. Preserve the subject, composition, object geometry, materials, colors, framing and all meaningful details. Match original aspect ratio 600:600. No extra objects, no invented text, no new watermark. Do not merely return the original pixels. One image only. Product catalog photography: keep the exact number, shape, thickness and connections of every tube, wire, spring, mounting hole, bracket and platform. Preserve product finish and view direction. Keep product complete within frame with generous margins. Match reference backdrop and alpha.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\accessories3.png"
+  },
+  {
+    "id": 112,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-8df12f10-fa4c-40cb-8280-f8cb63521b60.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 600:600 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\bb-132a.png"
+  },
+  {
+    "id": 113,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-25b928b5-41fa-41aa-b88b-c5f57badbc0c.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 600:600 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\bb-132b.png"
+  },
+  {
+    "id": 114,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-588bfe14-61a1-42b4-83d6-55b421680c73.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 550:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\e-bike1.png"
+  },
+  {
+    "id": 115,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-cc39b29b-f2ed-4f4b-8021-cc9a89710b13.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 600:600 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\e-bike2.png"
+  },
+  {
+    "id": 116,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-d1c71700-5214-4203-88a2-5425a5947b59.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 600:600 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\e-bike3.png"
+  },
+  {
+    "id": 117,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5e9fa7e7-6f35-4073-8f06-607aef89869e.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 600:600 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\ebike-cargo\\basket1.png"
+  },
+  {
+    "id": 118,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-23ca2b15-6d5a-4b5c-b2b1-1a80ccede97c.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 600:600 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\ebike-cargo\\basket2.png"
+  },
+  {
+    "id": 119,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-6f190239-a963-45ab-9b5c-cac5bcfe89f9.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 600:600 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\ebike-cargo\\basket3.png"
+  },
+  {
+    "id": 120,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-fb25ded1-34d9-4885-b207-328f7266c6aa.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 550:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\bb-199.png"
+  },
+  {
+    "id": 121,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-2e46dd49-a4ab-454e-b860-e587d514b282.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 550:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\bb-200.png"
+  },
+  {
+    "id": 122,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-1be7daea-6603-406c-87b3-7899f9679bc0.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 550:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\bb-202.png"
+  },
+  {
+    "id": 123,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-4c31d492-56f5-44e5-a305-86a56b4c8661.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 550:500 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\bb-f101.png"
+  },
+  {
+    "id": 124,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-a4eb06e6-1945-4f41-82a9-296974212f45.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\euro-1.png"
+  },
+  {
+    "id": 125,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-834a416f-53c6-488e-951c-f72bb656cf52.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\euro-2.png"
+  },
+  {
+    "id": 126,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-c288ac01-2b0c-442e-b596-202dfc506617.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\euro-3.png"
+  },
+  {
+    "id": 127,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-9094d46d-b1e6-4043-8451-323465014c27.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\euro-4.png"
+  },
+  {
+    "id": 128,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-2da7f18a-1474-4847-8764-0c6598244adc.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\euro-6.png"
+  },
+  {
+    "id": 129,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-9cb968f1-7a3a-4fbb-944b-b4a27999afdd.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\euro-7.png"
+  },
+  {
+    "id": 130,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-676fd120-bf03-4ab9-a7b5-ecd09fe29a04.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\euro-front-1.png"
+  },
+  {
+    "id": 131,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-13c5bf26-4ca2-4120-8329-7d0b68aab4de.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\euro-front-2.png"
+  },
+  {
+    "id": 132,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-25d39a07-e742-4e5e-8100-4d9fd01f6a55.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\european\\euro-front-3.png"
+  },
+  {
+    "id": 133,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-07f1cffd-fcc8-4c66-b9ab-020bb5ee71aa.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 450:450 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\footrest1.png"
+  },
+  {
+    "id": 134,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-a292ef8b-09e1-41d8-89c7-b8eea5891174.png",
+    "prompt": "Use case: product-mockup. Asset type: recreated manufacturer product catalogue photograph. Recreate the supplied product reference from scratch with fresh pixels, polished crisp studio detail and realistic finish. Preserve the exact product model: same geometry, number of metal tubes, wires, brackets, mounting holes, springs, platforms, supports and rubber pieces, in the same positions and connections. Keep the same viewing angle, colors and material finish. Keep the entire product inside the frame with the reference margins. Match the original 450:450 aspect ratio and original background/alpha. Preserve meaningful existing product markings. Do not invent new product parts, labels or text, and do not add a new watermark. One product image only, no montage.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\footrest2.png"
+  },
+  {
+    "id": 135,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-62cd440c-48ce-4aa5-89e3-ee33979cc38f.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\fork\\fork-jumbo.png"
+  },
+  {
+    "id": 136,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-c6e9f387-5007-462f-885a-53190a3a66b9.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\fork\\fork-kids.png"
+  },
+  {
+    "id": 137,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-79381310-6f77-4f57-ac61-7b066306cf0c.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\fork\\fork-ladies.png"
+  },
+  {
+    "id": 138,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-8ccf10aa-549c-4b8f-980f-cfc6e17caf5b.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\fork\\fork-mtb-swaging.png"
+  },
+  {
+    "id": 139,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-6273e8c3-aa2d-46f6-93b7-871d737c0335.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\fork\\fork-mtb.png"
+  },
+  {
+    "id": 140,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ab43255a-2e13-4da5-b7b8-8c30db7b1501.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\frame\\frame1.png"
+  },
+  {
+    "id": 141,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-7f8a241b-f0d0-42dd-866c-123e08463bec.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\frame\\frame2.png"
+  },
+  {
+    "id": 142,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-064390dd-d45c-40b4-8276-806a9ae5543f.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\frame\\frame3.png"
+  },
+  {
+    "id": 143,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-713ec3f1-a7cd-4644-8c81-231163ff82b2.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\frame\\frame4.png"
+  },
+  {
+    "id": 144,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-785d0308-de54-4b25-aa77-257f7a6b6e60.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\frame\\frame5.png"
+  },
+  {
+    "id": 145,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-efba9d83-a0fb-4a47-b540-e623993b767c.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\frame\\frame6.png"
+  },
+  {
+    "id": 146,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-47d4e7d3-3dd3-46eb-b406-5cdcbe408693.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\frame\\frame7.png"
+  },
+  {
+    "id": 147,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-6339f96f-ac25-4403-b5ec-e048caab90bf.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\frame\\frame8.png"
+  },
+  {
+    "id": 148,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-21902455-9ed2-4a51-a403-05221e2ec242.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\hi-end\\bb-203.png"
+  },
+  {
+    "id": 149,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-10524ffc-f06e-4903-86c0-f39e83c2edba.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\hi-end\\hi-end1.png"
+  },
+  {
+    "id": 150,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ce4ce915-2016-470c-968d-e8d1c4afc9cd.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\hi-end\\hi-end2.png"
+  },
+  {
+    "id": 151,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ad5d1d1c-9aa7-4a54-ae94-a5f6ad64fd6d.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 550:500 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\hi-end\\hi-end3.png"
+  },
+  {
+    "id": 152,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-2cfe7120-eb26-453a-849a-e1f762424739.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kick-scooty-parts\\kick-scooty-frame1.png"
+  },
+  {
+    "id": 153,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-e544f752-d2db-4a62-be12-b026fcba66a4.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kick-scooty-parts\\kick-scooty-frame2.png"
+  },
+  {
+    "id": 154,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-70dfd2d0-30e3-4a83-b90f-9891f0e6f6ab.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kids\\amaze.png"
+  },
+  {
+    "id": 155,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-1a9941af-3ab4-48db-80dd-70a2a22bf772.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kids\\cibot.png"
+  },
+  {
+    "id": 156,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-8365f0d4-80e3-416e-a4f8-7ca37a0ed94c.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kids\\kidds.png"
+  },
+  {
+    "id": 157,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-04360c1e-8346-4b83-aade-b97cf183b33b.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kids\\ninja.png"
+  },
+  {
+    "id": 158,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-49a24b72-ebd3-45ec-82d6-1bef888d403f.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kids\\ninja2.png"
+  },
+  {
+    "id": 159,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5c1f5ca6-e885-4b5d-8b23-8d5032c0abc6.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kids\\sundancer-champ.png"
+  },
+  {
+    "id": 160,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-3e2abac7-caea-4f10-a813-2270512bd15a.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kids\\sundancer.png"
+  },
+  {
+    "id": 161,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-1af7c153-b77c-441d-8019-7a15467d143d.png",
+    "prompt": "Create a clean studio product photograph of only the black steel bicycle luggage rack in the reference. Retain its top platform and long rear support rods. Show just this mechanical component on a transparent background. Remove decorative stickers, cartoon pictures, text and inset diagrams. Square catalogue composition.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kids\\tiddy.png"
+  },
+  {
+    "id": 162,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-437e5320-d251-4f97-8571-84e6f9a9f395.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\kids\\toonz.png"
+  },
+  {
+    "id": 163,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5a1b31bb-ac97-49e8-afea-23d58e01219d.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\ladies\\beauty.png"
+  },
+  {
+    "id": 164,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-659b1b46-a5ec-4f4a-aa7a-40e164ddaa9f.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\ladies\\dina-classic.png"
+  },
+  {
+    "id": 165,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5bae3047-5484-4a34-809a-67e1ec1e685c.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\ladies\\jumbo-fiza.png"
+  },
+  {
+    "id": 166,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b10b60e9-ad6a-4aff-9c8a-cdda9df8fd09.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\ladies\\lady-neon-dx.png"
+  },
+  {
+    "id": 167,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-dfbfae99-8432-4e20-b48a-b8f4f57595f2.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\ladies\\queen-miss-india.png"
+  },
+  {
+    "id": 168,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5d382a09-024c-437b-a0aa-80e88d39dd8c.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\ladies\\slr-gold.png"
+  },
+  {
+    "id": 169,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-6d25fd93-008e-44ec-8a23-89ce9216c08e.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\akash-buzz.png"
+  },
+  {
+    "id": 170,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-2c28e2ae-768b-45dc-a3e6-5f18cbbc40ae.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\alton.png"
+  },
+  {
+    "id": 171,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-31a8bd6e-d31b-4cf8-8130-3f9a2efbc11c.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\bsa-diana.png"
+  },
+  {
+    "id": 172,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-00ddb865-bf39-4938-bb3b-d75d877b0355.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\bsa-lady-bird.png"
+  },
+  {
+    "id": 173,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-d29d41c8-4b54-4c0f-8fd9-33b65d356571.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\bsa-wind.png"
+  },
+  {
+    "id": 174,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-6e1a0951-dc38-431d-b942-c8a7f1c326fe.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\captain-surya.png"
+  },
+  {
+    "id": 175,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-d21e7b36-de5a-45ed-8132-f768485bc2c2.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\dreamz.png"
+  },
+  {
+    "id": 176,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-d23821ed-563b-47e3-8bca-908952568615.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\max-dx.png"
+  },
+  {
+    "id": 177,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-8cdef82e-e555-4ce4-a764-28f5116534ba.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\mtb-bsa.png"
+  },
+  {
+    "id": 178,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b51e3b43-7ef5-4f39-bc85-c9a542f8e6a8.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\mtb-taiwan-type.png"
+  },
+  {
+    "id": 179,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b70ef893-b0c3-41ce-a5f4-fe48175ac9d3.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\swift-zx.png"
+  },
+  {
+    "id": 180,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-77f5bd51-3e1a-4e1f-b217-efb670fd690c.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\terrain.png"
+  },
+  {
+    "id": 181,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-83fb1abd-6127-442b-8e7c-94e9ffeba40a.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\mtb\\wild-fire.png"
+  },
+  {
+    "id": 182,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-301576e1-3903-48b1-aa42-b7ac720f7166.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\roadstar-carrier\\channel-patti.png"
+  },
+  {
+    "id": 183,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-fc08d9c9-89be-4c0a-a2e5-9c78a7155fd2.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\roadstar-carrier\\french.png"
+  },
+  {
+    "id": 184,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-49f0e2b0-aacb-4a9a-94d0-1399e793c0e7.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\roadstar-carrier\\slr-hansa.png"
+  },
+  {
+    "id": 185,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-0a2272f1-179e-4622-a3f2-9e67d686b646.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\roadstar-carrier\\slr-japnese.png"
+  },
+  {
+    "id": 186,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-50d974d8-b02c-43a2-83b6-a303f085c53c.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\roadstar-carrier\\uganda.png"
+  },
+  {
+    "id": 187,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-07dcb58d-fdbc-4714-ae58-e4259d7b1436.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\bb-193a.png"
+  },
+  {
+    "id": 188,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-2f68fbf8-a1a6-4183-93a4-480e6ae9cc45.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\bb-193b.png"
+  },
+  {
+    "id": 189,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-1b965f0d-c86d-438b-acc6-9b257599b416.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\bb-207.png"
+  },
+  {
+    "id": 190,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-31f2a009-ca1a-416e-84e7-7178b7968f2f.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\bb-209.png"
+  },
+  {
+    "id": 191,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b9b4fd5b-e2fb-4bad-9b09-3900f85d42b2.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\r-stand2.png"
+  },
+  {
+    "id": 192,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-a9a16ace-40ae-4b05-a2c8-ab7eff2fc284.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\s-stand4.png"
+  },
+  {
+    "id": 193,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-c3b43f22-4543-4a8a-979d-3db229aaf233.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\s-stand5.png"
+  },
+  {
+    "id": 194,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-aa8f67b2-b794-4b57-a2b9-1bf5fabbf757.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\s-stand6.png"
+  },
+  {
+    "id": 195,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-79421508-5bbe-4cdb-a044-d3d9c1d59efa.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\s-stand7.png"
+  },
+  {
+    "id": 196,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-c8c08aa2-dd80-4858-b53c-ecb0ecff657a.png",
+    "prompt": "Recreate the referenced black metal bicycle kickstand as a clean studio product image. Keep the same mounting bracket, rod, rubber foot, reflective details and viewing angle. Square composition and transparent background. No extra text or components.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\s-stand8.png"
+  },
+  {
+    "id": 197,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5216267e-8374-4356-ab8e-41ddd781c30c.png",
+    "prompt": "Recreate the referenced black metal bicycle kickstand as a clean studio product image. Keep the same mounting bracket, rod, rubber foot, reflective details and viewing angle. Square composition and transparent background. No extra text or components.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\stands\\s-stand9.png"
+  },
+  {
+    "id": 198,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-07971622-58f6-4343-8cee-ae2a6abf4f2d.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\welded\\bull-power.png"
+  },
+  {
+    "id": 199,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-77bbdae8-6def-4d6d-86d1-fd577280d409.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\welded\\carrier-dominator.png"
+  },
+  {
+    "id": 200,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-94a27334-336c-400b-9330-6d6ed26d5ede.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\welded\\contendor.png"
+  },
+  {
+    "id": 201,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-e4266b45-1214-4184-b5ac-5c5dae36e688.png",
+    "prompt": "Recreate this product reference as a fresh crisp studio catalogue image. Preserve exact metal geometry, mounting details, finish, angle and composition. Same 600:600 aspect ratio. No invented parts or new text.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\products\\welded\\new.png"
+  },
+  {
+    "id": 202,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-dca1a3a8-8b47-4683-a8a7-a1d5dbf23a11.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 691:583. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\qual-p.png"
+  },
+  {
+    "id": 203,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-e5ef93ba-e7e6-486a-8d65-719f03b238dc.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\roadstar.png"
+  },
+  {
+    "id": 204,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b820bc52-6edd-4d17-9e23-c8bd52498e15.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1450:385. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\side-hook-bnr.png"
+  },
+  {
+    "id": 205,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ba5d5c34-960d-403f-9182-209d9827bc3d.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\side-hook-p.png"
+  },
+  {
+    "id": 206,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-88a7fccf-b3dc-449e-931c-2c1deb6c9d60.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\side-stand-p.png"
+  },
+  {
+    "id": 207,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-3ed30576-0aad-4ce1-a02d-3ae60029adb2.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 289:94. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable. This is a typography/logo asset. Readable text must include: \"HARISONS, BICYCLE FRAME & FORKS\". Faithfully reproduce the reference lettering, colors and symbol; do not output an empty canvas. Keep typography prominent, crisp, fully visible and centered.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\slide-lo-1.png"
+  },
+  {
+    "id": 208,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-605f6ad6-c712-48e2-b878-9bac11c1064c.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 289:94. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable. This is a typography/logo asset. Readable text must include: \"bahadur, Carriers & Stand for Cycles, BICYCLE PARTS AND ACCESSORIES\". Faithfully reproduce the reference lettering, colors and symbol; do not output an empty canvas. Keep typography prominent, crisp, fully visible and centered.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\slide-lo-2.png"
+  },
+  {
+    "id": 209,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-bd190bc0-0e8b-4b75-88f3-3ae4082b4c01.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 289:94. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable. This is a typography/logo asset. Readable text must include: \"bahadur, TWO WHEELER SIDE, CENTRE STANDS AND FOOTRESTS\". Faithfully reproduce the reference lettering, colors and symbol; do not output an empty canvas. Keep typography prominent, crisp, fully visible and centered.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\slide-lo-3.png"
+  },
+  {
+    "id": 210,
+    "path": "C:/Users/vansh/Downloads/work18/output/image-recreation/hero-01.png",
+    "prompt": "Use case: photorealistic-natural. Recreate this reference as a fresh high quality website hero photograph. Keep the same subject and composition: low viewpoint looking up at blue sky, leafy branch hanging from upper left, lush green grass along bottom, cropped black mountain bicycle front wheel and handlebars on far right, wide uncluttered sky across left and center for existing website overlay. Natural afternoon sunlight, crisp realistic photography, landscape 1600x836 aspect ratio. No text, logos or watermark. Generate a new original photograph rather than retaining the source pixels.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\slide1.png"
+  },
+  {
+    "id": 211,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ac829e33-6e6a-4344-ac7f-d9b815ebedad.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1600:836. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\slide2.png"
+  },
+  {
+    "id": 212,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-ab1d609b-6046-46fc-9e97-69780d2016d3.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1600:836. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\slide3.png"
+  },
+  {
+    "id": 213,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-7f94e771-c0cd-4ee9-a6cb-6b0591a6bc54.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1600:836. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\slide4.png"
+  },
+  {
+    "id": 214,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-6ba94a18-ca5c-4578-a097-baa02251461e.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 1450:385. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\stand-bnr.png"
+  },
+  {
+    "id": 215,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-22f922b5-c736-4667-b026-3a7b12710811.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\stand-p.png"
+  },
+  {
+    "id": 216,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-4dce4feb-da22-47c4-8464-ff1a8fd25b69.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 495:65. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable. This is a typography/logo asset. Readable text must include: \"TOWARDS\". Faithfully reproduce the reference lettering, colors and symbol; do not output an empty canvas. Keep typography prominent, crisp, fully visible and centered.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\towards.png"
+  },
+  {
+    "id": 217,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-5d7b59b9-2137-4451-b94c-05c38b90788b.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 650:280. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\vision.png"
+  },
+  {
+    "id": 218,
+    "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-027d3d27-c7dc-46a8-b9fb-a1f51094bed7.png",
+    "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for the same website. Retain the exact subject, geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 450:450. Avoid new watermarks, invented claims or extra text. Keep content and object placement recognizable.",
+    "method": "built-in image_gen",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\welded.png"
+  },
+  {
+    "id": 219,
+    "path": "C:/Users/vansh/Downloads/work18/output/image-recreation/step.svg",
+    "prompt": "Recreate original white italic uppercase text as SVG typography: STEP.",
+    "method": "native SVG typography/icon",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\step.png"
+  },
+  {
+    "id": 220,
+    "path": "C:/Users/vansh/Downloads/work18/output/image-recreation/perfect.svg",
+    "prompt": "Recreate original white italic uppercase text as SVG typography: PERFECTION.",
+    "method": "native SVG typography/icon",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\perfect.png"
+  },
+  {
+    "id": 221,
+    "path": "C:/Users/vansh/Downloads/work18/output/image-recreation/favicon.svg",
+    "prompt": "Recreate brand H emblem in a yellow circle on charcoal background as a crisp native vector favicon.",
+    "method": "native SVG typography/icon",
+    "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\favicon.png"
+  }
+]

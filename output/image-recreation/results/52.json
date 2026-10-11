@@ -1,0 +1,7 @@
+{
+  "id": 52,
+  "path": "C:\\Users\\vansh\\.codex\\generated_images\\01a1260f-50d8-7f20-a145-6505ad216992\\exec-b23d8136-e64a-451f-859b-b31d1f3baed0.png",
+  "prompt": "Use case: precise-object-edit. Recreate the supplied reference image from scratch with new pixels and sharper clean detail for a manufacturer website. Retain the exact subject, object geometry, colors, layout, crop, framing and meaningful brand text. Match original aspect ratio 564:75. Avoid new watermarks or invented text. Preserve all product parts and their connections accurately. This is one image, not a sheet. This is a brand or typography graphic; reproduce existing lettering and brand marks faithfully, with the same colors and transparent/opaque background as the reference, keep edges clean.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\est.png"
+}

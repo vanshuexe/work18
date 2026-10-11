@@ -1,0 +1,7 @@
+{
+  "id": 31,
+  "path": "C:/Users/vansh/.codex/generated_images/01a1260f-50d8-7f20-a145-6505ad216992/exec-5fb1c7dc-800e-48a8-8d40-928bb221c7ae.png",
+  "prompt": "Use case: precise-object-edit. Asset type: recreated website image. Input image 1 is the reference to recreate from scratch with new pixels. Recreate this award trophy photograph faithfully, same black rectangular frame and gold star trophy with plaque. Preserve visible plaque wording as accurately as possible; do not invent additional award claims. Sharper photo, same portrait composition. Match original aspect ratio 1024:1220. Do not add new text or watermarks. Preserve existing brand identity, meaningful content, object geometry and composition.",
+  "method": "built-in image_gen",
+  "final_path": "C:\\Users\\vansh\\Downloads\\work18\\public\\images\\recreated\\award1.png"
+}
