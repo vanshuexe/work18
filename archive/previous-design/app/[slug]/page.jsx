@@ -1,0 +1,47 @@
+import { notFound } from 'next/navigation';
+import titles from '../../data/routes.json';
+import Page0 from '../../components/pages/about-us';
+import Page1 from '../../components/pages/news-events';
+import Page2 from '../../components/pages/bicycle-parts';
+import Page3 from '../../components/pages/carriers';
+import Page4 from '../../components/pages/stands';
+import Page5 from '../../components/pages/frame';
+import Page6 from '../../components/pages/forks';
+import Page7 from '../../components/pages/accessories';
+import Page8 from '../../components/pages/two-wheeler-parts';
+import Page9 from '../../components/pages/side-stands';
+import Page10 from '../../components/pages/center-stands';
+import Page11 from '../../components/pages/side-hooks';
+import Page12 from '../../components/pages/footrest';
+import Page13 from '../../components/pages/cargo-bike-parts';
+import Page14 from '../../components/pages/kick-scooty-parts';
+import Page15 from '../../components/pages/infrastructure';
+import Page16 from '../../components/pages/quality';
+import Page17 from '../../components/pages/contact-us';
+import Page18 from '../../components/pages/enquiry';
+import Page19 from '../../components/pages/kids-carriers';
+import Page20 from '../../components/pages/ladies-carriers';
+import Page21 from '../../components/pages/mtb-carriers';
+import Page22 from '../../components/pages/welded';
+import Page23 from '../../components/pages/roadstar-carriers';
+import Page24 from '../../components/pages/european-carriers';
+import Page25 from '../../components/pages/hi-end-carriers';
+import Page26 from '../../components/pages/e-bike-carriers';
+import Page27 from '../../components/pages/stands2';
+import Page28 from '../../components/pages/stands3';
+import Page29 from '../../components/pages/frame-2';
+import Page30 from '../../components/pages/side-stands2';
+import Page31 from '../../components/pages/side-stands3';
+import Page32 from '../../components/pages/side-stands4';
+import Page33 from '../../components/pages/center-stands2';
+import Page34 from '../../components/pages/infrastructure2';
+import Page35 from '../../components/pages/kids-carriers2';
+import Page36 from '../../components/pages/ladies-carriers2';
+import Page37 from '../../components/pages/mtb-carriers2';
+import Page38 from '../../components/pages/mtb-carriers3';
+import Page39 from '../../components/pages/european-carriers2';
+import Page40 from '../../components/pages/european-carriers3';
+const pages={"about-us":Page0,"news-events":Page1,"bicycle-parts":Page2,"carriers":Page3,"stands":Page4,"frame":Page5,"forks":Page6,"accessories":Page7,"two-wheeler-parts":Page8,"side-stands":Page9,"center-stands":Page10,"side-hooks":Page11,"footrest":Page12,"cargo-bike-parts":Page13,"kick-scooty-parts":Page14,"infrastructure":Page15,"quality":Page16,"contact-us":Page17,"enquiry":Page18,"kids-carriers":Page19,"ladies-carriers":Page20,"mtb-carriers":Page21,"welded":Page22,"roadstar-carriers":Page23,"european-carriers":Page24,"hi-end-carriers":Page25,"e-bike-carriers":Page26,"stands2":Page27,"stands3":Page28,"frame-2":Page29,"side-stands2":Page30,"side-stands3":Page31,"side-stands4":Page32,"center-stands2":Page33,"infrastructure2":Page34,"kids-carriers2":Page35,"ladies-carriers2":Page36,"mtb-carriers2":Page37,"mtb-carriers3":Page38,"european-carriers2":Page39,"european-carriers3":Page40};
+export function generateStaticParams(){return Object.keys(pages).map(slug=>({slug}));}
+export async function generateMetadata({params}){const {slug}=await params; return {title:titles[slug] ? titles[slug]+' | Harison Cycle Industries' : 'Page not found'};}
+export default async function Page({params}){const {slug}=await params; const Content=pages[slug]; if(!Content) notFound(); return <Content/>;}

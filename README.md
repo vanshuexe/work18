@@ -1,40 +1,58 @@
-# Harison International — Next.js
+# Harison Cycle Industries — website
 
-Complete migration of the supplied homepage and all linked public content pages from https://harison.in into Next.js App Router and React components. The original design and catalog content are preserved. Images and icon fonts are stored in `public/`.
-
-## Run
+Next.js (App Router) site for Harison Cycle Industries, Ludhiana: bicycle and two-wheeler component manufacturer, engineering goods since 1964.
 
 ```sh
 npm install
-npm run dev
+npm run dev        # http://localhost:3000
+npm run build && npm start
+npm run check      # static check: routes, internal links, image references
+CHECK_URL=http://localhost:3000 npm run check   # also requests every live page
 ```
 
-Open http://localhost:3000. Production: `npm run build`, then `npm start`.
+## Structure
 
-## Pages and components
+```
+app/
+  layout.jsx            fonts, metadata, header/footer, Organization JSON-LD
+  globals.css           the whole design system (tokens at the top)
+  page.jsx              home
+  products/             hub: the two product ranges
+  bicycle-parts/        family page → carriers/, stands/, accessories/, baskets/
+  agriculture-parts/    combine, reaper & baler parts (Harison India) — quoted on request
+  services/             manufacturing services, process, FAQ
+  about-us/, infrastructure/, quality/, news-events/
+  contact-us/, enquiry/
+  api/enquiry/          SMTP enquiry endpoint
+  sitemap.js, robots.js, not-found.jsx
+components/
+  brand/Logo.jsx        vector monogram + wordmark
+  layout/               Header (client), Footer
+  ui/                   PageHero, SectionHead, CtaBand, Faq (blocks.jsx), Dialog, Gallery
+  catalog/              CollectionPage, ProductBrowser (search, filters, quick view), FamilyPage, FamilyTiles
+  enquiry/EnquiryForm.jsx
+lib/
+  site.js               contact details, navigation, customers, recognition
+  catalog.js            normalises data/*.json into categories and product lists
+data/                   bicycle-catalog.json, site-collections.json (product data)
+archive/previous-design earlier components, CSS and migration scripts, kept for reference only
+```
 
-All 42 pages, including product catalog pagination, are listed in `data/routes.json`. `app/[slug]/page.jsx` statically generates those routes. Shared header and footer are in `components/`. Page JSX is in `components/pages/`. Legacy PHP URLs redirect to the new routes. `index.html` and `styles.css` remain as reference source files.
+Edit contact details and navigation in `lib/site.js`. Add or change products in `data/` .
 
-React interactions include mobile navigation, dropdowns, slideshow controls, product image previews and a validated enquiry form. A missing kick scooter image on the source site uses an explicit fallback illustration. Removed legacy analytics and jQuery scripts are not required by the converted site. Google Maps and Google font files still require an internet connection.
+Products are two ranges: **bicycle parts** and **agriculture parts**. Earlier two-wheeler, cargo-bike and kick-scooter pages redirect to `/products` (cargo-bike baskets moved to `/baskets`); their data stays in `data/site-collections.json` if a range is ever restored. Old URLs (`*.php`, numbered pages such as `/mtb-carriers2`) redirect too — see `next.config.mjs`.
 
-## Recreated images
+## Design
 
-All 222 content and brand assets now use fresh recreations in `public/images/recreated/`: 218 assets created with the built-in ImageGen tool from the original references, plus four native typography/icon assets. Banners, category imagery, factory photographs, client logos and every catalogue model are covered. Original display dimensions are preserved. The unavailable-product graphic was recreated; one factory shot uses an equipment-only scene, and one kids carrier uses a clean undecorated metal render.
+Warm paper and deep ink with one orange accent from the logo, hairline rules, square corners, no shadows or gradients. Barlow Condensed for headings, Barlow for text, IBM Plex Mono for product codes (self-hosted through `next/font`). Product photos sit on a flat tile with `mix-blend-mode: multiply`, so the off-white backgrounds in the catalogue crops blend in.
 
-The complete asset inventory and prompts are in `output/image-recreation/inventory.json` and `output/image-recreation/generated.json`. Review sheets are in `output/image-recreation/previews/`. `node scripts/check-recreated-images.mjs` verifies full coverage, original dimensions, nonempty pixels and replacement references; with `CHECK_URL` set it also checks each image over HTTP. The migration utility reapplies recreated assets when run again.
+## Enquiry email
 
-## Current design
+Copy `.env.example` to `.env.local` and set `SMTP_HOST`, `SMTP_PORT`, `SMTP_FROM` and, if needed, `SMTP_USER` / `SMTP_PASSWORD`. `ENQUIRY_TO` defaults to `dsm@harison.in`. Without SMTP the form tells visitors to email or call; it never claims delivery that did not happen. Set `NEXT_PUBLIC_SITE_URL` to the live domain for correct sitemap and canonical URLs.
 
-The current homepage is an original responsive layout with a navy and orange visual system based on the user-supplied Harison Cycle Industries logo. Product cards, forms, the footer and inner-page banners share the refreshed design. The hero is a newly generated unbranded ImageGen scene; banner artwork is native CSS. Client-logo strips, copied slider graphics and generated exhibition-photo replicas are no longer displayed. Product-category cards use component renders instead of decorative cycling photos. Image provenance and the hero prompt are documented in `output/image-recreation/design-assets.md`.
+## Content to confirm before launch
 
-The migration utility is a historical importer and can overwrite redesigned components. Do not rerun it on this design unless intentionally restoring the imported layout. Use `npm run check` and `npm run build` for validation.
-
-## Enquiry email setup
-
-Copy `.env.example` to `.env.local` and configure your SMTP service. Set `SMTP_HOST`, `SMTP_PORT`, `SMTP_FROM` and any required `SMTP_USER` / `SMTP_PASSWORD`. `ENQUIRY_TO` defaults to the original business email. Without SMTP, the form explains that email delivery is unavailable and offers direct contact. No successful delivery is claimed unless SMTP accepts the message.
-
-## Verification
-
-`npm run check` checks local routes, internal links and image files. With a running app, set `CHECK_URL=http://localhost:3000` to also check all HTTP routes, redirects, missing pages and form validation. `npm run build` verifies compilation and static generation.
-
-`scripts/migrate.mjs` is a migration utility using the preserved source snapshots in `data/*.source.html`, fetching new pages when needed. `data/asset-report.json` records missing files from the original site; these include obsolete plugin assets. Generated JSX and CSS can be edited directly.
+- **Agriculture parts**: there is no agriculture product data or photos in the project, so the page is built from the AGRI EXPO 2026 stall photo (combine, reaper and baler parts under the Harison India name). Add real product photos and part lists when available.
+- **ISO 9001**, customer names (Hero Cycles, T.I. Cycles, Avon, Atlas), the MSME / UCPMA awards and the "60+ models" figure come from the company’s previous website. Confirm they are current.
+- **Photography**: factory, equipment and product images in `public/images/recreated/` are AI recreations, and the catalogue crops are low resolution (some under 300 px). Replace them with real photographs when available.
+- Services copy describes processes visible in the plant photographs and the original site; nothing about lead times, minimum quantities or pricing is stated.

@@ -1,0 +1,456 @@
+[
+  {
+    "code": "HCI-120",
+    "name": "Max DX",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      58,
+      105,
+      355,
+      441
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-120.webp"
+  },
+  {
+    "code": "HCI-140",
+    "name": "MTB Double Decker",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      402,
+      82,
+      750,
+      414
+    ],
+    "finish": "Black powder coated",
+    "size": "24 / 26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-140.webp"
+  },
+  {
+    "code": "HCI-145",
+    "name": "SLR Type",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      608,
+      247,
+      752,
+      380
+    ],
+    "finish": null,
+    "size": null,
+    "info": "SLR type detail shown in the catalogue.",
+    "captionMasks": [
+      [
+        608,
+        352,
+        625,
+        380
+      ]
+    ],
+    "image": "/images/catalog/bicycle/hci-145.webp"
+  },
+  {
+    "code": "HCI-102",
+    "name": "MTB",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      797,
+      84,
+      1107,
+      390
+    ],
+    "finish": "BCP / black",
+    "size": "20 / 24 / 26-inch wheel",
+    "info": "Also available in heavy duty with sticker.",
+    "image": "/images/catalog/bicycle/hci-102.webp"
+  },
+  {
+    "code": "HCI-122",
+    "name": "Queen",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      53,
+      535,
+      430,
+      875
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-122.webp"
+  },
+  {
+    "code": "HCI-106",
+    "name": "Gold",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      446,
+      525,
+      766,
+      872
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-106.webp"
+  },
+  {
+    "code": "HCI-148",
+    "name": "SLR Japanese Type",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      790,
+      516,
+      1117,
+      851
+    ],
+    "finish": "BCP / black powder coated",
+    "size": "16 to 20 inches",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-148.webp"
+  },
+  {
+    "code": "HCI-143",
+    "name": "Wild Fire",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      53,
+      996,
+      327,
+      1345
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-143.webp"
+  },
+  {
+    "code": "DX-HCI-101",
+    "name": "Devil",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      397,
+      995,
+      717,
+      1347
+    ],
+    "finish": "Black powder coated",
+    "size": "24 / 26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/dx-hci-101.webp"
+  },
+  {
+    "code": "HCI-142",
+    "name": "Alton",
+    "category": "carrier",
+    "page": 2,
+    "crop": [
+      771,
+      991,
+      1124,
+      1350
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-142.webp"
+  },
+  {
+    "code": "HCI-154",
+    "name": "Viking",
+    "category": "carrier",
+    "page": 3,
+    "crop": [
+      50,
+      148,
+      477,
+      590
+    ],
+    "finish": "Powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "captionMasks": [
+      [
+        370,
+        395,
+        477,
+        501
+      ]
+    ],
+    "image": "/images/catalog/bicycle/hci-154.webp"
+  },
+  {
+    "code": "HCI-151",
+    "name": "Razor Back",
+    "category": "carrier",
+    "page": 3,
+    "crop": [
+      312,
+      552,
+      794,
+      955
+    ],
+    "finish": null,
+    "size": null,
+    "info": "Frame welded tube carrier.",
+    "captionMasks": [
+      [
+        312,
+        552,
+        384,
+        587
+      ],
+      [
+        500,
+        820,
+        794,
+        900
+      ]
+    ],
+    "image": "/images/catalog/bicycle/hci-151.webp"
+  },
+  {
+    "code": "HCI-113",
+    "name": "French",
+    "category": "carrier",
+    "page": 3,
+    "crop": [
+      90,
+      1015,
+      511,
+      1430
+    ],
+    "finish": "Blue powder coated",
+    "size": null,
+    "info": null,
+    "captionMasks": [
+      [
+        425,
+        1233,
+        511,
+        1334
+      ]
+    ],
+    "image": "/images/catalog/bicycle/hci-113.webp"
+  },
+  {
+    "code": "HCI-149",
+    "name": "Swift",
+    "category": "carrier",
+    "page": 5,
+    "crop": [
+      794,
+      92,
+      983,
+      316
+    ],
+    "finish": "Black powder coated",
+    "size": "24 / 26-inch wheel",
+    "info": "Moveable design.",
+    "image": "/images/catalog/bicycle/hci-149.webp"
+  },
+  {
+    "code": "HCI-137",
+    "name": "Lady Neon DX",
+    "category": "carrier",
+    "page": 5,
+    "crop": [
+      1002,
+      80,
+      1233,
+      310
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-137.webp"
+  },
+  {
+    "code": "HCI-103",
+    "name": "LE",
+    "category": "carrier",
+    "page": 5,
+    "crop": [
+      1248,
+      60,
+      1490,
+      309
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-103.webp"
+  },
+  {
+    "code": "HCI-123",
+    "name": "Buzz",
+    "category": "carrier",
+    "page": 5,
+    "crop": [
+      777,
+      379,
+      1003,
+      601
+    ],
+    "finish": "Black powder coated",
+    "size": "24 / 26 inches",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-123.webp"
+  },
+  {
+    "code": "HCI-153",
+    "name": "Fusion",
+    "category": "carrier",
+    "page": 5,
+    "crop": [
+      1001,
+      374,
+      1235,
+      597
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-153.webp"
+  },
+  {
+    "code": "HCI-121",
+    "name": "Extreme",
+    "category": "carrier",
+    "page": 5,
+    "crop": [
+      1248,
+      361,
+      1484,
+      585
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-121.webp"
+  },
+  {
+    "code": "HCI-141",
+    "name": "Sundancer",
+    "category": "carrier",
+    "page": 5,
+    "crop": [
+      755,
+      680,
+      1008,
+      898
+    ],
+    "finish": "Black powder coated",
+    "size": "18 / 20-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-141.webp"
+  },
+  {
+    "code": "HCI-108",
+    "name": "Kidds",
+    "category": "carrier",
+    "page": 5,
+    "crop": [
+      1008,
+      677,
+      1233,
+      907
+    ],
+    "finish": "Black powder coated",
+    "size": "16 / 18 / 20-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-108.webp"
+  },
+  {
+    "code": "HCI-155",
+    "name": "Tubler Type",
+    "category": "carrier",
+    "page": 5,
+    "crop": [
+      1218,
+      657,
+      1480,
+      903
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-155.webp"
+  },
+  {
+    "code": "HCI-147",
+    "name": "Tube Stand Empress",
+    "category": "stand",
+    "page": 5,
+    "crop": [
+      296,
+      195,
+      427,
+      416
+    ],
+    "finish": "Black powder coated",
+    "size": "26-inch wheel",
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-147.webp"
+  },
+  {
+    "code": "HCI-133",
+    "name": "Tool Box",
+    "category": "accessories",
+    "page": 4,
+    "crop": [
+      822,
+      1004,
+      1004,
+      1098
+    ],
+    "finish": null,
+    "size": null,
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-133.webp"
+  },
+  {
+    "code": "HCI-131",
+    "name": "Bottle Stand",
+    "category": "accessories",
+    "page": 4,
+    "crop": [
+      1090,
+      919,
+      1184,
+      1095
+    ],
+    "finish": null,
+    "size": null,
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-131.webp"
+  },
+  {
+    "code": "HCI-132",
+    "name": "Derailleur Guard",
+    "category": "accessories",
+    "page": 4,
+    "crop": [
+      1280,
+      905,
+      1371,
+      1095
+    ],
+    "finish": null,
+    "size": null,
+    "info": null,
+    "image": "/images/catalog/bicycle/hci-132.webp"
+  }
+]

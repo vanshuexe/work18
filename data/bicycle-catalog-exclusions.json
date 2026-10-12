@@ -1,0 +1,33 @@
+{
+  "source": "C:\\Users\\vansh\\Downloads\\HARISON.pdf",
+  "excludedCodes": [
+    "HCI-111",
+    "HCI-107",
+    "HCI-112",
+    "HCI-111A",
+    "HCI-150",
+    "HCI-144A",
+    "HCI-152",
+    "HCI-146",
+    "HCI-129",
+    "HCI-128",
+    "HCI-127",
+    "HCI-126",
+    "HCI-125",
+    "HCI-119",
+    "HCI-117",
+    "HCI-110",
+    "HCI-138",
+    "HCI-118",
+    "HCI-114"
+  ],
+  "categories": [
+    "carrier",
+    "stand",
+    "accessories"
+  ],
+  "addedCarriers": [
+    "HCI-154",
+    "HCI-151"
+  ]
+}

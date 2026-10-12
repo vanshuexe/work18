@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <section className="section container missing-page"><span className="eyebrow">404 / A DIFFERENT DIRECTION</span><h1>Let’s get you<br/>back on track.</h1><p>We couldn’t find that page. Explore our collections or return home.</p><div className="home-hero-actions"><Link className="action" href="/">Return home ↗</Link><Link className="inline-link" href="/bicycle-parts">Explore bicycle parts ↗</Link></div></section>;}

@@ -1,0 +1,370 @@
+{
+  "side-stands": [
+    {
+      "name": "Side Stand",
+      "description": "SIDE STAND FOR STAR CITY",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-1.png"
+    },
+    {
+      "name": "Side Stand",
+      "description": "SIDE STAND FOR SPLENDER",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-2.png"
+    },
+    {
+      "name": "Side Stand",
+      "description": "SIDE STAND FOR VICTOR GLX",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-3.png"
+    },
+    {
+      "name": "Side Stand",
+      "description": "SIDE STAND FOR BSA E-BIKE",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-4.png"
+    },
+    {
+      "name": "Side Stand",
+      "description": "SIDE STAND FOR SUPER XL",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-5.png"
+    },
+    {
+      "name": "Side Stand",
+      "description": "SIDE STAND FOR ACTIVA OLD AND NEW MODEL",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-6.png"
+    },
+    {
+      "name": "Side Stand",
+      "description": "SIDE STAND FOR PLATINA",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-7.png"
+    },
+    {
+      "name": "Side Stand",
+      "description": "SIDE STAND FOR VICTOR",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-8.png"
+    },
+    {
+      "name": "Side Stand For Super XL",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-9.png"
+    },
+    {
+      "name": "Side Stand For Discover",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-10.png"
+    },
+    {
+      "name": "Side Stand For Scooty",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-11.png"
+    },
+    {
+      "name": "Side Stand For Shine",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-12.png"
+    },
+    {
+      "name": "Side Stand Pulsar",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-13.png"
+    },
+    {
+      "name": "Side Stand For FZR",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-14.png"
+    },
+    {
+      "name": "Side Stand For PEP+ Scooty",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-15.png"
+    },
+    {
+      "name": "Side Stand For Stunner/CBZ",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-16.png"
+    },
+    {
+      "name": "Side Stand For Jupiter",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-stand/side-stand-17.png"
+    }
+  ],
+  "center-stands": [
+    {
+      "name": "Center Stand",
+      "description": "CENTRE STAND FOR STAR CITY",
+      "code": "",
+      "image": "/images/recreated/autopart/center-stand/center-stand-1.png"
+    },
+    {
+      "name": "Center Stand",
+      "description": "CENTRE STAND FOR PULSAR DTS",
+      "code": "",
+      "image": "/images/recreated/autopart/center-stand/center-stand-2.png"
+    },
+    {
+      "name": "Center Stand",
+      "description": "CENTRE STAND FOR SPLENDER",
+      "code": "",
+      "image": "/images/recreated/autopart/center-stand/center-stand-3.png"
+    },
+    {
+      "name": "Center Stand",
+      "description": "Center Stand For Shine",
+      "code": "",
+      "image": "/images/recreated/autopart/center-stand/center-stand-4.png"
+    },
+    {
+      "name": "Center Stand Pep+ Scooty",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/center-stand/center-stand-5.png"
+    },
+    {
+      "name": "Center Stand For Jupiter",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/center-stand/center-stand-6.png"
+    },
+    {
+      "name": "Center Stand For Super XL",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/center-stand/center-stand-7.png"
+    }
+  ],
+  "side-hooks": [
+    {
+      "name": "Side Hook",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-hook/side-hook1.png"
+    },
+    {
+      "name": "Side Hook",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-hook/side-hook2.png"
+    },
+    {
+      "name": "Side Hook",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-hook/side-hook3.png"
+    },
+    {
+      "name": "Side Hook",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/autopart/side-hook/side-hook4.png"
+    }
+  ],
+  "footrest": [
+    {
+      "name": "Footrest for Aviator",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/products/footrest1.png"
+    },
+    {
+      "name": "Footrest For Activa",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/products/footrest2.png"
+    }
+  ],
+  "cargo-bike-parts": [
+    {
+      "name": "Basket-01",
+      "description": "Basket for E-Bike/Cargo Bikes · Finish : Black Powder Coated",
+      "code": "",
+      "image": "/images/recreated/products/ebike-cargo/basket1.png"
+    },
+    {
+      "name": "Basket-02",
+      "description": "Basket for E-Bike/Cargo Bikes · Finish : Black Powder Coated",
+      "code": "",
+      "image": "/images/recreated/products/ebike-cargo/basket2.png"
+    },
+    {
+      "name": "Basket-03",
+      "description": "Basket for E-Bike/Cargo Bikes · Finish : Black Powder Coated",
+      "code": "",
+      "image": "/images/recreated/products/ebike-cargo/basket3.png"
+    }
+  ],
+  "kick-scooty-parts": [
+    {
+      "name": "Kick Scooty Frame-01",
+      "description": "Set of 3 Frame, Fork & Brake · Finish : Self",
+      "code": "",
+      "image": "/images/recreated/products/kick-scooty-parts/kick-scooty-frame1.png"
+    },
+    {
+      "name": "Kick Scooty Frame-02",
+      "description": "Set of 3 Frame, Fork & Brake · Finish : Self",
+      "code": "",
+      "image": "/images/recreated/products/kick-scooty-parts/kick-scooty-frame2.png"
+    },
+    {
+      "name": "Scooter Side Stand",
+      "description": "Size : ·",
+      "code": "BB-201",
+      "image": "/images/recreated/products/stands/s-stand6.png"
+    }
+  ],
+  "infrastructure": [
+    {
+      "name": "Factory View",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/new1.png"
+    },
+    {
+      "name": "Inside View",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/new2.png"
+    },
+    {
+      "name": "Inside View",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/new3.png"
+    },
+    {
+      "name": "Press Shop",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/press-shop.png"
+    },
+    {
+      "name": "Press Shop",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/press-shop2.png"
+    },
+    {
+      "name": "Wire Straightening",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/wire-straightening.png"
+    },
+    {
+      "name": "Projection Welding",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/projection-welding.png"
+    },
+    {
+      "name": "Butt Welding",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/butt-welding.png"
+    },
+    {
+      "name": "Hydraulic Press",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/hydraulic-press.png"
+    },
+    {
+      "name": "CNC Wire Forming",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/cnc-wire-forming.png"
+    },
+    {
+      "name": "Welding Section",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/welding-section.png"
+    },
+    {
+      "name": "Welding Section",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/welding-section2.png"
+    },
+    {
+      "name": "Black Coating",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/black-coating.png"
+    },
+    {
+      "name": "Electric Furace",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/electric-furace.png"
+    },
+    {
+      "name": "Short Blasting",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/short-blasting.png"
+    },
+    {
+      "name": "Power Coating",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/power-coating.png"
+    },
+    {
+      "name": "Power Coating",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/power-coating2.png"
+    },
+    {
+      "name": "Tool Room",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/tool-room.png"
+    },
+    {
+      "name": "Packing",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/packing.png"
+    },
+    {
+      "name": "Display Rack",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/display-rack.png"
+    },
+    {
+      "name": "Bubble Packing",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/bubble-packing2.png"
+    },
+    {
+      "name": "Bubble Packing",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/bubble-packing.png"
+    },
+    {
+      "name": "High Quality Auto Parts Cartoon Packing",
+      "description": "",
+      "code": "",
+      "image": "/images/recreated/infrastructure/high-quality-auto-parts-cartoon-packing.png"
+    }
+  ]
+}
