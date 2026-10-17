@@ -1,0 +1,5221 @@
+[
+  {
+    "_id": "69311df6d3fb51a5527e1c9c",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311dedd3fb51a5527e1bcf",
+      "subcategoryEn": "Emulsions",
+      "subcategoryAr": "مستحلبات"
+    },
+    "productNameEn": "Aeropolish Premium Interior Paint",
+    "productNameAr": "دهان داخلي ممتاز أيروبولش",
+    "bioEn": "Smooth finish engineered for beautiful living spaces. Low VOC, eco-friendly, washable with excellent coverage and long-lasting beauty.",
+    "subcategoryEn": "Emulsions",
+    "imageTitle": "aeropolish-interior-premium.jpg",
+    "imageLink": "/new-images/aeropolish-interior-premium.jpg",
+    "productCode": "AP-INT-20",
+    "isActive": true,
+    "sortOrder": 1,
+    "tags": [
+      "Smooth Finish",
+      "Low VOC",
+      "Washable",
+      "Excellent Coverage",
+      "Long Lasting"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1c9d",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311dedd3fb51a5527e1bcf",
+      "subcategoryEn": "Emulsions",
+      "subcategoryAr": "مستحلبات"
+    },
+    "productNameEn": "Aeropolish Water Based Home Paint",
+    "productNameAr": "دهان منزلي مائي أيروبولش",
+    "bioEn": "Premium water-based formulation for interior and exterior spaces. Low odour, high durability, easy to apply with vibrant colours.",
+    "subcategoryEn": "Emulsions",
+    "imageTitle": "aeropolish-home-paint.jpg",
+    "imageLink": "/new-images/aeropolish-home-paint.jpg",
+    "productCode": "AP-WB-20",
+    "isActive": true,
+    "sortOrder": 2,
+    "tags": [
+      "Low VOC",
+      "Long Lasting Finish",
+      "Smooth Finish",
+      "Excellent Coverage",
+      "Low Odour"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1c9e",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df3d3fb51a5527e1c56",
+      "subcategoryEn": "Shiny",
+      "subcategoryAr": "لامع"
+    },
+    "productNameEn": "Aeropolish Premium Exterior Paint",
+    "productNameAr": "دهان خارجي ممتاز أيروبولش",
+    "bioEn": "Long-lasting protection for dream homes. Weather resistant against rain, sun, and humidity with UV protection and brilliant coverage.",
+    "subcategoryEn": "Shiny",
+    "imageTitle": "aeropolish-exterior-premium.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-premium.jpg",
+    "productCode": "AP-EXT-20",
+    "isActive": true,
+    "sortOrder": 3,
+    "tags": [
+      "Weather Resistant",
+      "Excellent Coverage",
+      "UV Protection",
+      "Long Lasting Finish"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1c9f",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df1d3fb51a5527e1c22",
+      "subcategoryEn": "Special Effects (Smart  )",
+      "subcategoryAr": "تأثيرات خاصة"
+    },
+    "productNameEn": "Aeropolish Premium Exterior Emulsion",
+    "productNameAr": "مستحلب خارجي ممتاز أيروبولش",
+    "bioEn": "Weather-proof exterior paint for lasting beauty. Anti-fungal and anti-algal with rich elegant finish and all-weather resistance.",
+    "subcategoryEn": "Special Effects (Smart  )",
+    "imageTitle": "aeropolish-exterior-emulsion.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-emulsion.jpg",
+    "productCode": "AP-EMUL-20",
+    "isActive": true,
+    "sortOrder": 4,
+    "tags": [
+      "UV & Weather Resistant",
+      "Anti Fungal",
+      "Smooth Finish",
+      "All Weather",
+      "Eco Friendly"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1ca0",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311dead3fb51a5527e1b94",
+      "subcategoryEn": "Synthetics",
+      "subcategoryAr": "صناعي"
+    },
+    "productNameEn": "Aeropolish Industrial Quick Drying Paint",
+    "productNameAr": "دهان صناعي سريع الجفاف أيروبولش",
+    "bioEn": "Fast drying industrial enamel for metal, steel, structures, and machinery with strong adhesion, high gloss, and durable finish.",
+    "subcategoryEn": "Synthetics",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "productCode": "APQD-20",
+    "isActive": true,
+    "sortOrder": 5,
+    "tags": [
+      "Fast Drying",
+      "Strong Adhesion",
+      "Durable Finish",
+      "High Gloss",
+      "Weather Resistant"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1ca1",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df1d3fb51a5527e1c22",
+      "subcategoryEn": "Special Effects (Smart  )",
+      "subcategoryAr": "تأثيرات خاصة"
+    },
+    "productNameEn": "Aeropolish Royal Velvet Interior Emulsion",
+    "productNameAr": "مستحلب مخملي ملكي داخلي أيروبولش",
+    "bioEn": "Luxury silk emulsion engineered for grand living spaces with rich sheen, stain resistance, and washable finish in royal violet accents.",
+    "subcategoryEn": "Special Effects (Smart  )",
+    "imageTitle": "aeropolish-royal-velvet-purple.jpg",
+    "imageLink": "/new-images/aeropolish-royal-velvet-purple.jpg",
+    "productCode": "AP-RV-20",
+    "isActive": true,
+    "sortOrder": 6,
+    "tags": [
+      "Luxury Silk",
+      "Anti-Stain",
+      "Washable",
+      "Rich Sheen",
+      "Low VOC"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1ca2",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311defd3fb51a5527e1bfc",
+      "subcategoryEn": "Surface Preperation",
+      "subcategoryAr": "تحضير السطح"
+    },
+    "productNameEn": "Aeropolish Weather Shield Acrylic Paint",
+    "productNameAr": "دهان أكريليك واقي من العوامل الجوية",
+    "bioEn": "Extreme weather defense acrylic coating with 10-year protection, anti-cracking barrier, and deep UV resistance in bold ruby red accents.",
+    "subcategoryEn": "Surface Preperation",
+    "imageTitle": "aeropolish-weathershield-ruby.jpg",
+    "imageLink": "/new-images/aeropolish-weathershield-ruby.jpg",
+    "productCode": "AP-WS-20",
+    "isActive": true,
+    "sortOrder": 7,
+    "tags": [
+      "Weather Shield",
+      "UV Resistant",
+      "Waterproof",
+      "Anti-Cracking",
+      "10Y Protection"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1ca3",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311dedd3fb51a5527e1bcf",
+      "subcategoryEn": "Emulsions",
+      "subcategoryAr": "مستحلبات"
+    },
+    "productNameEn": "Aeropolish Easy Clean Washable Paint",
+    "productNameAr": "دهان قابل للغسل سهل التنظيف",
+    "bioEn": "100% washable stain-resistant formulation with odourless application, anti-bacterial shield, and warm golden yellow finish.",
+    "subcategoryEn": "Emulsions",
+    "imageTitle": "aeropolish-easyclean-golden.jpg",
+    "imageLink": "/new-images/aeropolish-easyclean-golden.jpg",
+    "productCode": "AP-EC-20",
+    "isActive": true,
+    "sortOrder": 8,
+    "tags": [
+      "Easy Clean",
+      "Stain Resistant",
+      "100% Washable",
+      "Odourless",
+      "Anti-Bacterial"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1ca4",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df1d3fb51a5527e1c22",
+      "subcategoryEn": "Special Effects (Smart  )",
+      "subcategoryAr": "تأثيرات خاصة"
+    },
+    "productNameEn": "Aeropolish Aqua Shield Advanced Emulsion",
+    "productNameAr": "مستحلب متقدم واقي من الرطوبة",
+    "bioEn": "Advanced anti-damp and anti-fungal barrier paint providing deep substrate bonding and serene ocean teal vibrant finish.",
+    "subcategoryEn": "Special Effects (Smart  )",
+    "imageTitle": "aeropolish-aquashield-teal.jpg",
+    "imageLink": "/new-images/aeropolish-aquashield-teal.jpg",
+    "productCode": "AP-AQ-20",
+    "isActive": true,
+    "sortOrder": 9,
+    "tags": [
+      "Aqua Shield",
+      "Anti-Damp",
+      "Anti-Fungal",
+      "Deep Bonding",
+      "Waterproof"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1ca5",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df3d3fb51a5527e1c56",
+      "subcategoryEn": "Shiny",
+      "subcategoryAr": "لامع"
+    },
+    "productNameEn": "Aeropolish Designer Sheen Silk Paint",
+    "productNameAr": "دهان حريري لامع مصمم أيروبولش",
+    "bioEn": "Architectural luxury finish with warm rose gold and copper sheen, ultra-smooth touch, and premium washability for statement walls.",
+    "subcategoryEn": "Shiny",
+    "imageTitle": "aeropolish-designersheen-rose.jpg",
+    "imageLink": "/new-images/aeropolish-designersheen-rose.jpg",
+    "productCode": "AP-DS-20",
+    "isActive": true,
+    "sortOrder": 10,
+    "tags": [
+      "Designer Sheen",
+      "Rose Sheen",
+      "Ultra Smooth",
+      "Washable",
+      "Low VOC"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "69311df6d3fb51a5527e1ca6",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategory": {
+      "_id": "69311dead3fb51a5527e1b94",
+      "subcategoryEn": "Synthetics",
+      "subcategoryAr": "صناعي"
+    },
+    "productNameEn": "Aeropolish Heavy Duty Epoxy Floor Coating",
+    "productNameAr": "طلاء أرضيات إيبوكسي عالي التحمل",
+    "bioEn": "High-mileage industrial epoxy coating in cobalt blue drum formulated for metal, steel structures, industrial floors, and heavy machinery.",
+    "subcategoryEn": "Synthetics",
+    "imageTitle": "aeropolish-epoxy-metal-blue.jpg",
+    "imageLink": "/new-images/aeropolish-epoxy-metal-blue.jpg",
+    "productCode": "AP-EPX-20",
+    "isActive": true,
+    "sortOrder": 11,
+    "tags": [
+      "Epoxy Coating",
+      "Heavy Duty",
+      "High Mileage",
+      "Strong Adhesion",
+      "Abrasion Resistant"
+    ],
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf"
+  },
+  {
+    "_id": "6a399d1337714133b6a62f3d",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e28d3fb51a5527e20f0",
+      "subcategoryEn": "Urethane Alkyds",
+      "subcategoryAr": "ألكيد يوريثان"
+    },
+    "productNameEn": "20627/2",
+    "bioEn": "",
+    "subcategoryEn": "Urethane Alkyds",
+    "imageTitle": "oil_barrel_3 copy.webp",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282704571-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20627/2",
+    "bioAr": "",
+    "subcategoryAr": "ألكيد يوريثان",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Fast Drying",
+      "Good Hardness",
+      "Yellowing Resistance"
+    ]
+  },
+  {
+    "_id": "6a399ce937714133b6a62f26",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e26d3fb51a5527e20ca",
+      "subcategoryEn": "Short Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد قصير"
+    },
+    "productNameEn": "20640",
+    "bioEn": "",
+    "subcategoryEn": "Short Alkyd Resin",
+    "imageTitle": "oil_barrel_3 copy.webp",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20640",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد قصير",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Light Resin Color"
+    ]
+  },
+  {
+    "_id": "6a399cb237714133b6a62f03",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e26d3fb51a5527e20ca",
+      "subcategoryEn": "Short Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد قصير"
+    },
+    "productNameEn": "20342",
+    "bioEn": "",
+    "subcategoryEn": "Short Alkyd Resin",
+    "imageTitle": "INDUS.webp",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20342",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد قصير",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Good Adhesion"
+    ]
+  },
+  {
+    "_id": "6a3967a9ab4282f7d4ded76a",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "20715/2B",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "INDUS.webp",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20715/2B",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Good Color Appearance",
+      "Yellowing Resistance"
+    ]
+  },
+  {
+    "_id": "6a396711ab4282f7d4ded745",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "20616HV",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "INDUS.webp",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20616HV",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Alkali Resistant",
+      "Good Color Appearance",
+      "Yellowing Resistance"
+    ]
+  },
+  {
+    "_id": "6a3966dbab4282f7d4ded72e",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10925/2B",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "INDUS.webp",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10925/2B",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "High Viscosity"
+    ]
+  },
+  {
+    "_id": "6a39669bab4282f7d4ded702",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10925/1B",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "INDUS.webp",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10925/1B",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "High Viscosity"
+    ]
+  },
+  {
+    "_id": "6a396654ab4282f7d4ded6da",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10922/1",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "INDUS.webp",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10922/1",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "6a39662dab4282f7d4ded6af",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10893",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "INDUS.webp",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10893",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Good Color Appearance",
+      "Yellowing Resistance"
+    ]
+  },
+  {
+    "_id": "6a3965b0ab4282f7d4ded684",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e0bd3fb51a5527e1e7a",
+      "subcategoryEn": "Eco Epoxy",
+      "subcategoryAr": "دهانات الاستخدام العام"
+    },
+    "productNameEn": "Aeropolish Guard Prime S.B 4700",
+    "bioEn": "",
+    "subcategoryEn": "Eco Epoxy",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي جارد برايمر رقم 4700",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الاستخدام العام",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1782162785282-PACHI_GUARD_PRIME_S.B_4700.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Extra Coverage",
+      "Eco",
+      "Very Good Adhesion",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "6a396581ab4282f7d4ded65f",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e0bd3fb51a5527e1e7a",
+      "subcategoryEn": "Eco Epoxy",
+      "subcategoryAr": "دهانات الاستخدام العام"
+    },
+    "productNameEn": "Aeropolish Guard Top S.F 5800",
+    "bioEn": "",
+    "subcategoryEn": "Eco Epoxy",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي جارد توب S.F رقم 5800",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الاستخدام العام",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1782161983376-PACHI_GUARD_C.R__NO.5900.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Extra Coverage",
+      "Eco",
+      "Very Good Adhesion",
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "6a39653aab4282f7d4ded63a",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e0bd3fb51a5527e1e7a",
+      "subcategoryEn": "Eco Epoxy",
+      "subcategoryAr": "دهانات الاستخدام العام"
+    },
+    "productNameEn": "Aeropolish Guard Top S.B 4900",
+    "bioEn": "",
+    "subcategoryEn": "Eco Epoxy",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي جارد نهائى لامع رقم 4900",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الاستخدام العام",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1782161881043-PACHI_GUARD_TOP_S.B_4900.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Extra Coverage",
+      "Easy Flow",
+      "Very Good Adhesion",
+      "Eco",
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "6a396502ab4282f7d4ded609",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e0bd3fb51a5527e1e7a",
+      "subcategoryEn": "Eco Epoxy",
+      "subcategoryAr": "دهانات الاستخدام العام"
+    },
+    "productNameEn": "Aeropolish Guard Putty 5600",
+    "bioEn": "",
+    "subcategoryEn": "Eco Epoxy",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي جارد معجون ايبوكسى رقم 5600",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الاستخدام العام",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1782161637176-PACHI_GUARD_PUTTY_5600.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Easy Flow",
+      "Eco",
+      "High Spreading Rate",
+      "Extra Coverage"
+    ]
+  },
+  {
+    "_id": "6a396446ab4282f7d4ded5b3",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e0bd3fb51a5527e1e7a",
+      "subcategoryEn": "Eco Epoxy",
+      "subcategoryAr": "دهانات الاستخدام العام"
+    },
+    "productNameEn": "Aeropolish Guard C.R No. 5900",
+    "bioEn": "",
+    "subcategoryEn": "Eco Epoxy",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي جارد C.R رقم 5900",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الاستخدام العام",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1782160782006-PACHI_GUARD_C.R__NO.5900.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Eco",
+      "Glossy",
+      "Very Good Adhesion",
+      "High Spreading Rate",
+      "Extra Coverage",
+      "Easy Flow",
+      "Alkali Resistant"
+    ]
+  },
+  {
+    "_id": "6a396391ab4282f7d4ded548",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e0bd3fb51a5527e1e7a",
+      "subcategoryEn": "Eco Epoxy",
+      "subcategoryAr": "دهانات الاستخدام العام"
+    },
+    "productNameEn": "Aeropolish Guard M.S.B No. 5500",
+    "bioEn": "",
+    "subcategoryEn": "Eco Epoxy",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي جارد نهائى مط رقم 5500",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الاستخدام العام",
+    "tdsPdfFileNameAr": "",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1782160868521-PACHI_GURD_M.S.B_NO._5500.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Eco",
+      "Glossy",
+      "Good Hardness"
+    ]
+  },
+  {
+    "_id": "69311e28d3fb51a5527e20f4",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e28d3fb51a5527e20f0",
+      "subcategoryEn": "Urethane Alkyds",
+      "subcategoryAr": "ألكيد يوريثان"
+    },
+    "productNameEn": "20621/2",
+    "bioEn": "",
+    "subcategoryEn": "Urethane Alkyds",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20621/2",
+    "bioAr": "",
+    "subcategoryAr": "ألكيد يوريثان",
+    "tdsPdfFileNameAr": "20621/2-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Fast Drying",
+      "Good Hardness"
+    ]
+  },
+  {
+    "_id": "69311e27d3fb51a5527e20ea",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e26d3fb51a5527e20ca",
+      "subcategoryEn": "Short Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد قصير"
+    },
+    "productNameEn": "20957",
+    "bioEn": "",
+    "subcategoryEn": "Short Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20957",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد قصير",
+    "tdsPdfFileNameAr": "20957-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Fast Drying"
+    ]
+  },
+  {
+    "_id": "69311e27d3fb51a5527e20e3",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e26d3fb51a5527e20ca",
+      "subcategoryEn": "Short Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد قصير"
+    },
+    "productNameEn": "20386",
+    "bioEn": "",
+    "subcategoryEn": "Short Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20386",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد قصير",
+    "tdsPdfFileNameAr": "20386-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Fast Drying"
+    ]
+  },
+  {
+    "_id": "69311e27d3fb51a5527e20dc",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e26d3fb51a5527e20ca",
+      "subcategoryEn": "Short Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد قصير"
+    },
+    "productNameEn": "20357",
+    "bioEn": "",
+    "subcategoryEn": "Short Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20357",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد قصير",
+    "tdsPdfFileNameAr": "20357-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Fast Drying",
+      "Good Adhesion"
+    ]
+  },
+  {
+    "_id": "69311e26d3fb51a5527e20d5",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e26d3fb51a5527e20ca",
+      "subcategoryEn": "Short Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد قصير"
+    },
+    "productNameEn": "20358",
+    "bioEn": "",
+    "subcategoryEn": "Short Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20358",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد قصير",
+    "tdsPdfFileNameAr": "20358-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Light Resin Color",
+      "Yellowing Resistance"
+    ]
+  },
+  {
+    "_id": "69311e26d3fb51a5527e20ce",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e26d3fb51a5527e20ca",
+      "subcategoryEn": "Short Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد قصير"
+    },
+    "productNameEn": "20356",
+    "bioEn": "",
+    "subcategoryEn": "Short Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20356",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد قصير",
+    "tdsPdfFileNameAr": "20356-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Fast Drying",
+      "Good Hardness"
+    ]
+  },
+  {
+    "_id": "69311e26d3fb51a5527e20c4",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e25d3fb51a5527e20b2",
+      "subcategoryEn": "Medium Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد متوسط"
+    },
+    "productNameEn": "20586",
+    "bioEn": "",
+    "subcategoryEn": "Medium Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20586",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد متوسط",
+    "tdsPdfFileNameAr": "20586-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Fast Drying"
+    ]
+  },
+  {
+    "_id": "69311e25d3fb51a5527e20bd",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e25d3fb51a5527e20b2",
+      "subcategoryEn": "Medium Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد متوسط"
+    },
+    "productNameEn": "20565/2",
+    "bioEn": "",
+    "subcategoryEn": "Medium Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20565/2",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد متوسط",
+    "tdsPdfFileNameAr": "20565/2-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Good Drying Performance",
+      "High Viscosity",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e25d3fb51a5527e20b6",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e25d3fb51a5527e20b2",
+      "subcategoryEn": "Medium Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد متوسط"
+    },
+    "productNameEn": "20563",
+    "bioEn": "",
+    "subcategoryEn": "Medium Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20563",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد متوسط",
+    "tdsPdfFileNameAr": "20563-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Low Viscosity",
+      "Good Drying Performance",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e25d3fb51a5527e20ac",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10895",
+    "bioEn": "Long Alkyd Resin",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10895",
+    "bioAr": "راتنج ألكيد طويل المحتوى الزيتى",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "10895-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1783332982918-10895.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Good Color Appearance",
+      "Yellowing Resistance"
+    ]
+  },
+  {
+    "_id": "69311e24d3fb51a5527e20a5",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10891",
+    "bioEn": "Long Alkyd Resin",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10891",
+    "bioAr": "راتنج ألكيد طويل المحتوى الزيتى",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "10891-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Yellowing Resistance"
+    ]
+  },
+  {
+    "_id": "69311e24d3fb51a5527e209e",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10920",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10920",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "10920-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1780393820014-10920.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Low Viscosity",
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311e24d3fb51a5527e2097",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10819",
+    "bioEn": "Long Alkyd Resin",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10819",
+    "bioAr": "راتنج ألكيد طويل المحتوى الزيتى",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "10819-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1782166149204-10819.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311e23d3fb51a5527e2090",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "20530 HV",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20530 HV",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "20530-HV-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311e23d3fb51a5527e2089",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "20715/1",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20715/1",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "20715/1-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1783332905357-20715.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Good Color Appearance",
+      "Glossy",
+      "Yellowing Resistance"
+    ]
+  },
+  {
+    "_id": "69311e22d3fb51a5527e207b",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10928",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10928",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "10928-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311e22d3fb51a5527e2074",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "20526",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "20526",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "20526-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Low Viscosity"
+    ]
+  },
+  {
+    "_id": "69311e22d3fb51a5527e206d",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10929/2",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10929/2",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "10929/2-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311e21d3fb51a5527e2066",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10925/2",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10925/2",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "10925/2-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311e21d3fb51a5527e2058",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategory": {
+      "_id": "69311e21d3fb51a5527e2054",
+      "subcategoryEn": "Long Alkyd Resin",
+      "subcategoryAr": "راتنج ألكيد طويل"
+    },
+    "productNameEn": "10927",
+    "bioEn": "",
+    "subcategoryEn": "Long Alkyd Resin",
+    "imageTitle": "interior-primer.jpg",
+    "imageLink": "https://storage.googleapis.com/pachin/uploads/products/1782282749977-oil_barrel_3_copy.webp",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "10927",
+    "bioAr": "",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "tdsPdfFileNameAr": "10927-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311e1fd3fb51a5527e203c",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e1dd3fb51a5527e2007",
+      "subcategoryEn": "Offset Inks",
+      "subcategoryAr": "أحبار الأوفست"
+    },
+    "productNameEn": "Oil Base over print Varnish",
+    "bioEn": "",
+    "subcategoryEn": "Offset Inks",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-offset-cyan.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش زيتي فوق الطباعة",
+    "bioAr": "",
+    "subcategoryAr": "أحبار الأوفست",
+    "tdsPdfFileNameAr": "ورنيش-أساس-زيتي-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Excellent Gloss",
+      "Superior Rub Resistance",
+      "High Speed Stability",
+      "Fast Drying"
+    ]
+  },
+  {
+    "_id": "69311e1fd3fb51a5527e2035",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e1dd3fb51a5527e2007",
+      "subcategoryEn": "Offset Inks",
+      "subcategoryAr": "أحبار الأوفست"
+    },
+    "productNameEn": "Heat Set web offset Ink",
+    "bioEn": "",
+    "subcategoryEn": "Offset Inks",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-offset-cyan.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "أحبار الويب أوفست الحرارية",
+    "bioAr": "",
+    "subcategoryAr": "أحبار الأوفست",
+    "tdsPdfFileNameAr": "هيت-سيت-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "High Density",
+      "Excellent Gloss",
+      "Stable Water Balance",
+      "High Speed Stability",
+      "Clean Solvent Release",
+      "Web Stability"
+    ]
+  },
+  {
+    "_id": "69311e1fd3fb51a5527e202e",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e1dd3fb51a5527e2007",
+      "subcategoryEn": "Offset Inks",
+      "subcategoryAr": "أحبار الأوفست"
+    },
+    "productNameEn": "Cold Set web offset Ink",
+    "bioEn": "",
+    "subcategoryEn": "Offset Inks",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-offset-cyan.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "أحبار الويب أوفست على البارد",
+    "bioAr": "",
+    "subcategoryAr": "أحبار الأوفست",
+    "tdsPdfFileNameAr": "كولد-سيت-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "High Density",
+      "High Speed Stability",
+      "Web Stability",
+      "Low Tack",
+      "Reduced Pilling",
+      "Fast Drying"
+    ]
+  },
+  {
+    "_id": "69311e1ed3fb51a5527e2020",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e1dd3fb51a5527e2007",
+      "subcategoryEn": "Offset Inks",
+      "subcategoryAr": "أحبار الأوفست"
+    },
+    "productNameEn": "Metallic offset Inks",
+    "bioEn": "",
+    "subcategoryEn": "Offset Inks",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-liquid-ruby.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "أحبار أوفست ميتاليك",
+    "bioAr": "",
+    "subcategoryAr": "أحبار الأوفست",
+    "tdsPdfFileNameAr": "أحبار-ميتاليك-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "High Density",
+      "Fast Drying",
+      "Excellent Gloss",
+      "Stable Water Balance"
+    ]
+  },
+  {
+    "_id": "69311e1ed3fb51a5527e2019",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e1dd3fb51a5527e2007",
+      "subcategoryEn": "Offset Inks",
+      "subcategoryAr": "أحبار الأوفست"
+    },
+    "productNameEn": "Aeropolish Spot Colors",
+    "bioEn": "",
+    "subcategoryEn": "Offset Inks",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-liquid-ruby.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ألوان أيروبولش الخاصة",
+    "bioAr": "",
+    "subcategoryAr": "أحبار الأوفست",
+    "tdsPdfFileNameAr": "ألوان-سبوت-باكين-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "High Density",
+      "Fast Drying",
+      "Excellent Gloss",
+      "Stable Water Balance",
+      "Superior Rub Resistance",
+      "High Speed Stability"
+    ]
+  },
+  {
+    "_id": "69311e1ed3fb51a5527e2012",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e1dd3fb51a5527e2007",
+      "subcategoryEn": "Offset Inks",
+      "subcategoryAr": "أحبار الأوفست"
+    },
+    "productNameEn": "Pantone Colors",
+    "bioEn": "",
+    "subcategoryEn": "Offset Inks",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-liquid-ruby.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ألوان البانتون",
+    "bioAr": "",
+    "subcategoryAr": "أحبار الأوفست",
+    "tdsPdfFileNameAr": "ألوان-بانتون-سبوت-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "High Density",
+      "Fast Drying",
+      "Excellent Gloss",
+      "Stable Water Balance",
+      "Superior Rub Resistance",
+      "High Speed Stability"
+    ]
+  },
+  {
+    "_id": "69311e1dd3fb51a5527e200b",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e1dd3fb51a5527e2007",
+      "subcategoryEn": "Offset Inks",
+      "subcategoryAr": "أحبار الأوفست"
+    },
+    "productNameEn": "Sheet Fed Process Inks",
+    "bioEn": "",
+    "subcategoryEn": "Offset Inks",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-offset-cyan.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "أحبار الأوفست لطباعة الصور",
+    "bioAr": "",
+    "subcategoryAr": "أحبار الأوفست",
+    "tdsPdfFileNameAr": "أحبار-شيت-فيد-بروسس-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "High Density",
+      "Fast Drying",
+      "Excellent Gloss",
+      "Stable Water Balance",
+      "Superior Rub Resistance",
+      "High Speed Stability",
+      "Low Tack"
+    ]
+  },
+  {
+    "_id": "69311e1dd3fb51a5527e2001",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "White Nitrocellulose Ink GF 26 series",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-flexo-magenta.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر نيتروسليلوز أبيض GF 26 series",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "حبر-نيتروسليلوز-أبيض-GF26-–-W/F-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1784011351062-White_Nitrocellulose_Ink_GF_26_series.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1dd3fb51a5527e1ffa",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Flexo Polyamide Ink GF 59 Series",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-flexo-magenta.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر بولي أميد فلكسو GF 59 series",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "حبر-بولي-أميد-فلكسو-GF59-سلسلة-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1cd3fb51a5527e1ff3",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Over print and reducing varnish for PVC OV70",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-flexo-magenta.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش شفاف فوق الطباعه بى فى سى  OV70",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "ورنيش-للطباعة-الفوقية-والتخفيف-/-OV70-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1cd3fb51a5527e1fec",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Flexo & Rotogravure Ink .for PVC GF 70 Series",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-rotogravure-emerald.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر فلكسو وروتوغرافيور لطباعه بى فى سى GF70",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "حبر-فلكسو-وروتوغرافيور-GF70-سلسلة-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1cd3fb51a5527e1fe5",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Flexo & Rotogravure Ink . GF22 /2 Series",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-rotogravure-emerald.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر فلكسو وروتوغرافيور  حرارى GF22 /2",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "حبر-فلكسو-وروتوغرافيور-GF22-/2-سلسلة-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1bd3fb51a5527e1fde",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Flexo & Rotogravure Gold ink GF22 GP / GF22 GM",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-rotogravure-emerald.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر فلكسو وروتوغرافيور دهبى GF22 GP / GF22 GM",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "حبر-فلكسو-وروتوغرافيور-GF22-GP-/-GF22-GM-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1bd3fb51a5527e1fd7",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Mono Solvent (Ethyl Acetate) Nitrocellulose Base Ink",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-flexo-magenta.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر نيتروسليلوز  أحادي المذيب (مونو) إيثيل أسيتات",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "حبر-نيتروسليلوز-قاعدة-مذيب-أحادي-(إيثيل-أسيتات)-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1bd3fb51a5527e1fd0",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Transparent N/C Inks  GF 27 series",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-flexo-magenta.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "أحبار نيتروسليلوز ذات شفافيه عاليه GF 27 series",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "أحبار-شفافة-N/C-قائمة-على-شرائح-N/C-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1ad3fb51a5527e1fc9",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Acrylic Water Based Flexo Ink FX430 series",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-rotogravure-emerald.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر فلكسو أكريليك مائي FX430 series",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "حبر-فلكسو-أكريليك-مائي-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1ad3fb51a5527e1fc2",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Nitrocellulose Varnishes GF 22040",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-flexo-magenta.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش نيتروسليلوز GF 22040",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "ورنيش-نيتروسليلوز-GF-22040-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e1ad3fb51a5527e1fbb",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Nitrocellulose Varnishes GF 22 045 (Methanol)",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-flexo-magenta.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش نيتروسليلوز GF 22 045 (ميثانول)",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "ورنيش-نيتروسليلوز-GF-22-045-(ميثانول)-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e19d3fb51a5527e1fa6",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Flexo and Rotogravure nitrocellulose ink for cigarette paper",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-rotogravure-emerald.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "على ورق السجائر احبار  نيتروسليلوز للطباعة بالحفر الغائر (روتوغرافور)",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "قاعدة-مذيبية-N/C-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e18d3fb51a5527e1f9f",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e18d3fb51a5527e1f9b",
+      "subcategoryEn": "Flexo & Rotogravure",
+      "subcategoryAr": "فلكسو وروتوغرافيور"
+    },
+    "productNameEn": "Transparent N/C Inks based on N/C chips.",
+    "bioEn": "",
+    "subcategoryEn": "Flexo & Rotogravure",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-flexo-magenta.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "احبار نيتروسيليلوز عالى الشفافية لطباعه  الصورة",
+    "bioAr": "",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "tdsPdfFileNameAr": "أحبار-شفافة-N.C-قائمة-على-شرائح-N/C-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e18d3fb51a5527e1f95",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Toned White Enamel M 2464",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "اينامل ابيض داخلى غذائى GL40",
+    "bioAr": "0",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ابنامل-بيضاء-مميزة-M-2464-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e18d3fb51a5527e1f8e",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "White Internal Enamel Gl 40",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ابنامل داخلية بيضاء GL40",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ابنامل-داخلية-بيضاء-GL40-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e17d3fb51a5527e1f87",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Ink For Tin-plated - Tn 300 Series",
+    "bioEn": "Tin-free Steel And Aluminum Tubes",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر للصفائح Tn 300 سلسلة",
+    "bioAr": "حبر للصفائح المعلبة والصفائح غير المعلبة وأنابيب الألومنيوم",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "حبر-للصفائح-المعلبة-والصفائح-غير-المعلبة-وأنابيب-الألومنيوم-/-Tn-300-سلسلة-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e17d3fb51a5527e1f80",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Toned White Enamel GL 70",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ابنامل ابيض خارجى GL70",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "اينامل-بيضاء-مميزة-GL70-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e17d3fb51a5527e1f79",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Toned White Enamel M 2460 polyester based",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ابنامل ابيض خارجى M 2460",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "اينامل-بيضاء-مميزة-M-2460-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e17d3fb51a5527e1f72",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Transparent Over Print GL60",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش شفاف فوق الطباعه  GL60",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "طباعة-فوقية-شفافة-GL60-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents/Ink/Can%20coatings/Transparent%20Over%20Print%20GL%2060.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e16d3fb51a5527e1f6b",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Toned White Enamel M 2461",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ابنامل ابيض خارجى M 2461",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "مينا-بيضاء-مميزة-M-2461-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e16d3fb51a5527e1f64",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Reducer  for enamel and varnishes AD1408",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "مخفف اينامل وورنيشات AD1408",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "مخفف-AD1408-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e16d3fb51a5527e1f5d",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Over Print Varnish M 5746, M5760",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش شفاف فوق الطباعه M 5746, M5760",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-للطباعة-الفوقية-M-5746-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e15d3fb51a5527e1f56",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "White Toned Enamel M5557 series",
+    "bioEn": "For Monobloc, Aerosol And Tubes",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "اينامل ابيض خارجى  M5557 series",
+    "bioAr": "للمونو بلوك والإيروسول والأنابيب",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "مينا-بيضاء-مميزة-للمونو-بلوك-والإيروسول-والأنابيب-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents/Ink/Can%20coatings/White%20Toned%20Enamel%20For%20Monobloc%2C%20Aerosol%20and%20Tubes.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e15d3fb51a5527e1f4f",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Internal Red Spray Lacquer M6001",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش رش أحمر داخلي للبراميل M6001",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-رش-أحمر-داخلي-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e15d3fb51a5527e1f48",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Size Varnish M 815091",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش بطانه  M 815091",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "سايز-ورنيش-M-815091-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e14d3fb51a5527e1f41",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "White Internal Enamel M 14146",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ابنامل ابيض داخلى غذائى M 14146",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "مينا-داخلية-بيضاء-M-14146-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e14d3fb51a5527e1f3a",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Internal Bieg Lacquer M 6099",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش بيج داخلي M 6099",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-بيج-داخلي-M-6099-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e14d3fb51a5527e1f33",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Transparent Over Print Varnish MO 632/1",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش شفاف فوق الطباعه MO 632/1",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-شفاف-للطباعة-فوقية-MO-632/1-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e13d3fb51a5527e1f2c",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Transperant Side Stripe Spray or DRC  M 815093",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش لحام جانبى M 815093",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-سايد-سترايب-M-815093-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e13d3fb51a5527e1f25",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Aluminized Lacquer for recoate M 815091/S",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش فضى لاعادة الطباعه M 815091/S",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-ألومينوم-M-815091/S-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e13d3fb51a5527e1f1e",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Internal/external  Deep Gold Lacquer MP 6820",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش دهبى غامق داخلي/خارجي MP 6820",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-جولد-عميق-داخلي/خارجي-MP-6820-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e12d3fb51a5527e1f17",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Gold Side Stripe Spray or DRC MP 6821",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش لحام جانبى دهبى   MP 6821",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "رش-سايد-سترايب-جولد-أو-DRC-MP-6821-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e12d3fb51a5527e1f10",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Reducer AD 1440",
+    "bioEn": "For Spray Varnishes And Enamels Of Metal Coating",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "مخفف طلاءات  معادن للرش  AD1440",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "مخفف-لورنيشات-ومينا-رش-معادن-/-AD1440-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e12d3fb51a5527e1f09",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Internal Spray Gold Lacquer MP 7080 - MP7973",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش دهبى للرش الداخلي MP 7080 - MP7973",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-جولد-للرش-الداخلي-MP-7080-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e12d3fb51a5527e1f02",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Aluminized Lacquer For Deep Drawing M 2064/S",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-can-coating-cobalt.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش فضى للسحب العميق M2064/S",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-ألومينوم-للسحب-العميق-M2064/S-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e11d3fb51a5527e1efb",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e11d3fb51a5527e1ef7",
+      "subcategoryEn": "Can Coating",
+      "subcategoryAr": "طلاء العلب"
+    },
+    "productNameEn": "Internal/external Pale Gold Lacquer Mp 6816/4",
+    "bioEn": "",
+    "subcategoryEn": "Can Coating",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش دهبى داخلي/خارجي MP 6816/4",
+    "bioAr": "",
+    "subcategoryAr": "طلاء العلب",
+    "tdsPdfFileNameAr": "ورنيش-بايل-جولد-داخلي/خارجي-MP-6816/4-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e11d3fb51a5527e1ef1",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Reducer & Washing For Silk Screen Ink / S 37 – 900",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "مخفف وغسيل لأحبار السيلك سكرين / S37 – 900",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "مخفف-وغسيل-لأحبار-السيلك-سكرين-/-S37-–-900-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e10d3fb51a5527e1eea",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Silk Screen Ink For Actetate & Poly Ester / LS 73",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-textile-violet.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر سيلك سكرين للأسيتات والبولي إستر / LS73",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "حبر-سيلك-سكرين-للأسيتات-والبولي-إستر-/-LS73-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e10d3fb51a5527e1ee3",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Silk Screen Ink For Poly Styrene / LS 72",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-textile-violet.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر سيلك سكرين للبولي ستايرين / LS72",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "حبر-سيلك-سكرين-للبولي-ستايرين-/-LS72-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e10d3fb51a5527e1edc",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Silk Screen Ink For Metal, Glass & Melamine / S67",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-textile-violet.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر سيلك سكرين للمعادن والزجاج والميلامين / S67",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "حبر-سيلك-سكرين-للمعادن-والزجاج-والميلامين-/-S67-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e10d3fb51a5527e1ed5",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Reducer & Washing For Silk Screen Ink / S 53 – 910",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "مخفف وغسيل لأحبار السيلك سكرين / S53 – 910",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "مخفف-وغسيل-لأحبار-السيلك-سكرين-/-S53-–-910-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e0fd3fb51a5527e1ece",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Silk Screen Ink For Treated Polyethylene Bottles / S 53",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-textile-violet.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر سيلك سكرين لزجاجات البولي إيثيلين المعالجة / S53",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "حبر-سيلك-سكرين-لزجاجات-البولي-إيثيلين-المعالجة-/-S53-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e0fd3fb51a5527e1ec7",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Toucan Catalyst For Metals / S67 – 910",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-textile-violet.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "مصلب لحبر المعادن / S67 – 910",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "كاتاليست-توكان-للمعادن-/-S67-–-910-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e0fd3fb51a5527e1ec0",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Reducer & Washing For Silk Screen Ink / S 47 – 910",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "مخفف وغسيل لأحبار السيلك سكرين / S47 – 910",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "مخفف-وغسيل-لأحبار-السيلك-سكرين-/-S47-–-910-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e0ed3fb51a5527e1eb9",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "P.v.c Silk Screen Ink S47 – Series",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-textile-violet.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر PVC سيلك سكرين  S47 – Series",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "حبر-سيلك-سكرين-PVC-رقم-S47-–-سلسلة-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e0ed3fb51a5527e1eb2",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "P.v.c Silk Screen Ink S 46 – Series",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-textile-violet.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبرPVC سيلك سكرين  S46 – Series",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "حبر-سيلك-سكرين-PVC-رقم-S46-–-سلسلة-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e0ed3fb51a5527e1eab",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Acrylic Silk Screen Ink S37 – Series",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر سيلك سكرين أكريليك  S37 – Series",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "حبر-سيلك-سكرين-أكريليك-S37-–-سلسلة-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e0dd3fb51a5527e1ea4",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategory": {
+      "_id": "69311e0dd3fb51a5527e1ea0",
+      "subcategoryEn": "Silk Screen",
+      "subcategoryAr": "طباعة سيلك سكرين"
+    },
+    "productNameEn": "Silk Screen Ink for paper S 15 – Series",
+    "bioEn": "",
+    "subcategoryEn": "Silk Screen",
+    "imageTitle": "ink.jpg",
+    "imageLink": "/new-images/aeropolish-ink-silkscreen-gold.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "حبر سيلك اسكرين لطباعة الورق S15 series",
+    "bioAr": "",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "tdsPdfFileNameAr": "حبر-سيلك-سكرين-فينولي-S15-–-سلسلة-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": []
+  },
+  {
+    "_id": "69311e0cd3fb51a5527e1e85",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Wash Primer No. 10178",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر رابط رقم 10178",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "برايمر-غسيل-رقم-10178-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e0bd3fb51a5527e1e74",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e0bd3fb51a5527e1e70",
+      "subcategoryEn": "Marine Paints",
+      "subcategoryAr": "دهانات بحرية"
+    },
+    "productNameEn": "Aeropolish Anti Fouling No. 10435/s",
+    "bioEn": "",
+    "subcategoryEn": "Marine Paints",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "انتى فاولنج رقم 10435/s",
+    "bioAr": "",
+    "subcategoryAr": "دهانات بحرية",
+    "tdsPdfFileNameAr": "انتى-فاولنج-رقم-10435/s-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents/Industrial/Industrial/ANTI%20FOULING%20NO.%2010435.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e0bd3fb51a5527e1e6a",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e09d3fb51a5527e1e4a",
+      "subcategoryEn": "Polyurethane Paints",
+      "subcategoryAr": "دهانات البولي يوريثين"
+    },
+    "productNameEn": "Aeropolish Stoving Paint No. 14497",
+    "bioEn": "",
+    "subcategoryEn": "Polyurethane Paints",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "بويات افران رقم 14497",
+    "bioAr": "",
+    "subcategoryAr": "دهانات البولي يوريثين",
+    "tdsPdfFileNameAr": "دهان-افران-رقم-14497-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Non Yellowing",
+      "High Spreading Rate",
+      "Extra Coverage",
+      "Very Good Adhesion"
+    ]
+  },
+  {
+    "_id": "69311e0ad3fb51a5527e1e63",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e09d3fb51a5527e1e4a",
+      "subcategoryEn": "Polyurethane Paints",
+      "subcategoryAr": "دهانات البولي يوريثين"
+    },
+    "productNameEn": "Aeropolish High - Gloss Acrylic / Urethane Finish No. 10655",
+    "bioEn": "",
+    "subcategoryEn": "Polyurethane Paints",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "بولى يوريثان أكريليك  فائق اللمعة رقم 10655",
+    "bioAr": "",
+    "subcategoryAr": "دهانات البولي يوريثين",
+    "tdsPdfFileNameAr": "تشطيب-أكريليك/يوريثين-فائق-اللمعة-رقم-10655-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Quick Dry",
+      "Easy Flow",
+      "High Spreading Rate",
+      "Extra White",
+      "Extra Coverage",
+      "Non Yellowing",
+      "Ready Color",
+      "UV Resistant",
+      "Very Good Adhesion",
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311e0ad3fb51a5527e1e5c",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e09d3fb51a5527e1e4a",
+      "subcategoryEn": "Polyurethane Paints",
+      "subcategoryAr": "دهانات البولي يوريثين"
+    },
+    "productNameEn": "Aeropolish Polyurethane Acrylic No.10735",
+    "bioEn": "",
+    "subcategoryEn": "Polyurethane Paints",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "بولي يوريثين اكريليك رقم 10735",
+    "bioAr": "",
+    "subcategoryAr": "دهانات البولي يوريثين",
+    "tdsPdfFileNameAr": "مينا-بولي-يوريثين-رقم-10735-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Quick Dry",
+      "Easy Flow",
+      "High Spreading Rate",
+      "Eco",
+      "Extra Coverage",
+      "Ready Color",
+      "Non Yellowing",
+      "UV Resistant",
+      "Glossy",
+      "Extra White"
+    ]
+  },
+  {
+    "_id": "69311e0ad3fb51a5527e1e55",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e09d3fb51a5527e1e4a",
+      "subcategoryEn": "Polyurethane Paints",
+      "subcategoryAr": "دهانات البولي يوريثين"
+    },
+    "productNameEn": "Aeropolish Polyurethane Surface Primer 10758",
+    "bioEn": "",
+    "subcategoryEn": "Polyurethane Paints",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر سطح بولي يوريثين 10758",
+    "bioAr": "",
+    "subcategoryAr": "دهانات البولي يوريثين",
+    "tdsPdfFileNameAr": "برايمر-سطح-بولي-يوريثين-10758-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Non Yellowing",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e09d3fb51a5527e1e4e",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e09d3fb51a5527e1e4a",
+      "subcategoryEn": "Polyurethane Paints",
+      "subcategoryAr": "دهانات البولي يوريثين"
+    },
+    "productNameEn": "Aeropolish Polyurethane Filler No. 11172",
+    "bioEn": "",
+    "subcategoryEn": "Polyurethane Paints",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "فيلر بولي يوريثان رقم 11172",
+    "bioAr": "",
+    "subcategoryAr": "دهانات البولي يوريثين",
+    "tdsPdfFileNameAr": "معجون-بولي-يوريثين-رقم-11172-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Non Yellowing",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e09d3fb51a5527e1e44",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Pavement Paint No. 11132",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان بردورة رقم 11132",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "دهان-بلدورة-رقم-11132-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311e09d3fb51a5527e1e3d",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Pavement Paint No. 15132",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان بلدورة رقم 15132",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "دهان-بلدورة-رقم-15132-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Quick Dry"
+    ]
+  },
+  {
+    "_id": "69311e08d3fb51a5527e1e36",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Traffic Paint 11024",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "بويات مرور 11024",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "دهان-مروري-11024-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311e08d3fb51a5527e1e2f",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish ACRYLIC Traffic Paint No 16273",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "بويات مرور اكرليك رقم 16273",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "دهان-مروري-رقم-16273-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e08d3fb51a5527e1e28",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Fast Dry Enamel 11214",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "اينامل سريع الجفاف 11214",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "اينامل-سريع-الجفاف-11214-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "Extra White",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311e07d3fb51a5527e1e21",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Dyrosol Enamel No. 3622",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "اينامل دايروسول رقم 3622",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "اينامل-دايروسول-رقم-3622-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Glossy",
+      "Extra Coverage",
+      "Extra White",
+      "Good Adhesion"
+    ]
+  },
+  {
+    "_id": "69311e07d3fb51a5527e1e1a",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Synthetic Primer 11213",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر سريع الجفاف رقم 11213",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "برايمر-صناعي-رقم-11213-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311e07d3fb51a5527e1e13",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Synthetic Fast Drying Primer No. 10581",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر سريع  الجفاف رقم 10581",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "برايمر-صناعي-سريع-الجفاف-رقم-10581-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311e06d3fb51a5527e1e0c",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Alkyd Enamel 11300k",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "لاكيه لامع  k11300",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "مينا-ألكيد-11300k-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e06d3fb51a5527e1e05",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Synthetic Primer 48",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر باكين 48",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "برايمر-صناعي-باكين-48-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e06d3fb51a5527e1dfe",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Synthetic Anti Corrosive Primer No. 10844",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر مضاد للتآكل رقم 10844",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "برايمر-صناعي-مضاد-للتآكل-رقم-10844-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e06d3fb51a5527e1df7",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Aluminite Paint No. 11404",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان ألومينايت رقم 11404",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "دهان-ألومينايت-رقم-11404-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Speed Stability",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e05d3fb51a5527e1df0",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e05d3fb51a5527e1dec",
+      "subcategoryEn": "Synthetic Primers And Laquers",
+      "subcategoryAr": "البرايمرات واللكرات الصناعية"
+    },
+    "productNameEn": "Aeropolish Alkyd Enamel 11000",
+    "bioEn": "",
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "Kألكيد لامع  11000",
+    "bioAr": "",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "tdsPdfFileNameAr": "مينا-ألكيد-11000-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e05d3fb51a5527e1de6",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e04d3fb51a5527e1dcd",
+      "subcategoryEn": "Wood Products",
+      "subcategoryAr": "دهانات الخشب"
+    },
+    "productNameEn": "Aeropolish Nitrocellulose Sealer No. 500 L",
+    "bioEn": "",
+    "subcategoryEn": "Wood Products",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "سيلر نيتروسليلوز رقم  L500",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الخشب",
+    "tdsPdfFileNameAr": "سيلر-نيتروسليلوز-رقم-500-L-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e05d3fb51a5527e1ddf",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e04d3fb51a5527e1dcd",
+      "subcategoryEn": "Wood Products",
+      "subcategoryAr": "دهانات الخشب"
+    },
+    "productNameEn": "Aeropolish N.c Duco Matt Paint Top Coat No.320m",
+    "bioEn": "",
+    "subcategoryEn": "Wood Products",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان دوكو مط رقم  M320",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الخشب",
+    "tdsPdfFileNameAr": "دهان-دوكو-مطفي-N.C-طبقة-نهائية-رقم-320m-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Glossy",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e04d3fb51a5527e1dd8",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e04d3fb51a5527e1dcd",
+      "subcategoryEn": "Wood Products",
+      "subcategoryAr": "دهانات الخشب"
+    },
+    "productNameEn": "Aeropolish Filler 1k No.301",
+    "bioEn": "",
+    "subcategoryEn": "Wood Products",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "فيلرنترو سيليلوز رقم 301",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الخشب",
+    "tdsPdfFileNameAr": "معجون-1K-رقم-301-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e04d3fb51a5527e1dd1",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e04d3fb51a5527e1dcd",
+      "subcategoryEn": "Wood Products",
+      "subcategoryAr": "دهانات الخشب"
+    },
+    "productNameEn": "Aeropolish Duflex N.c. Paint No. 320",
+    "bioEn": "",
+    "subcategoryEn": "Wood Products",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان نيتروسليلوز لامع رقم 320",
+    "bioAr": "",
+    "subcategoryAr": "دهانات الخشب",
+    "tdsPdfFileNameAr": "دو-فليكس-دهان-N.C-رقم-320-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e03d3fb51a5527e1dc0",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e03d3fb51a5527e1db5",
+      "subcategoryEn": "Bituminous Paint",
+      "subcategoryAr": "دهانات بيتومينية"
+    },
+    "productNameEn": "Aeropolish Bituminous Paint No. 10905",
+    "bioEn": "",
+    "subcategoryEn": "Bituminous Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان بيتوميني رقم 10905",
+    "bioAr": "",
+    "subcategoryAr": "دهانات بيتومينية",
+    "tdsPdfFileNameAr": "دهان-بيتوميني-رقم-10905-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "High Spreading Rate",
+      "Easy Flow",
+      "Extra Coverage"
+    ]
+  },
+  {
+    "_id": "69311e03d3fb51a5527e1db9",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e03d3fb51a5527e1db5",
+      "subcategoryEn": "Bituminous Paint",
+      "subcategoryAr": "دهانات بيتومينية"
+    },
+    "productNameEn": "Aeropolish Bituminous Paint 11540/m",
+    "bioEn": "",
+    "subcategoryEn": "Bituminous Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان بيتوميني  M11540",
+    "bioAr": "",
+    "subcategoryAr": "دهانات بيتومينية",
+    "tdsPdfFileNameAr": "دهان-بيتوميني-11540/m-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311e02d3fb51a5527e1da8",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e02d3fb51a5527e1d9d",
+      "subcategoryEn": "Heat Resistant Paint",
+      "subcategoryAr": "دهانات مقاومة للحرارة"
+    },
+    "productNameEn": "Aeropolish Heat Resistance Paint 10710",
+    "bioEn": "",
+    "subcategoryEn": "Heat Resistant Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان مقاوم للحرارة رقم 10710",
+    "bioAr": "",
+    "subcategoryAr": "دهانات مقاومة للحرارة",
+    "tdsPdfFileNameAr": "دهان-مقاوم-للحرارة-رقم-10710-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "Easy Flow",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311e01d3fb51a5527e1d97",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e01d3fb51a5527e1d8c",
+      "subcategoryEn": "Fire Retardant Paint",
+      "subcategoryAr": "دهانات مقاومة للحريق"
+    },
+    "productNameEn": "Aeropolish Fire Retardant Paint 226",
+    "bioEn": "",
+    "subcategoryEn": "Fire Retardant Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان مؤخر للحريق باكين 226",
+    "bioAr": "",
+    "subcategoryAr": "دهانات مقاومة للحريق",
+    "tdsPdfFileNameAr": "باكين-226-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow",
+      "Washable"
+    ]
+  },
+  {
+    "_id": "69311e01d3fb51a5527e1d90",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311e01d3fb51a5527e1d8c",
+      "subcategoryEn": "Fire Retardant Paint",
+      "subcategoryAr": "دهانات مقاومة للحريق"
+    },
+    "productNameEn": "Aeropolish Retardant Paint Primer 225",
+    "bioEn": "",
+    "subcategoryEn": "Fire Retardant Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "بادئ مؤخر للحريق باكين 225",
+    "bioAr": "",
+    "subcategoryAr": "دهانات مقاومة للحريق",
+    "tdsPdfFileNameAr": "باكين-225-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Washable",
+      "Easy Flow",
+      "High Spreading Rate",
+      "Extra Coverage"
+    ]
+  },
+  {
+    "_id": "69311e01d3fb51a5527e1d86",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Self Leveling Flooring Paint No. 10603",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان أرضيات ذاتى التسوية رقم 10603",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "دهان-أرضيات-سيلف-ليفلينج-رقم-10603-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "Easy Flow",
+      "Extra Coverage",
+      "Alkali Resistant",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311e00d3fb51a5527e1d7f",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Anti-chemical Industrial Flooring Varnish No. 10604",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش أرضيات صناعية مقاوم للكيماويات رقم 10604",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "ورنيش-أرضيات-صناعية-مقاوم-للكيماويات-رقم-10604-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow",
+      "Alkali Resistant"
+    ]
+  },
+  {
+    "_id": "69311e00d3fb51a5527e1d78",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Two Component Zinc Rich Epoxy Primer No. 10883/m",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر إيبوكسي غني بالزنك ثنائي المكون رقم  M 10883/",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "برايمر-إيبوكسي-غني-بالزنك-ثنائي-المكون-رقم-10883/m-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "Easy Flow",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311e00d3fb51a5527e1d71",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish High Build Epoxy No. 11691",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "إيبوكسي هاي بيلد رقم 11691",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "إيبوكسي-هاي-بيلد-رقم-11691-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "High Spreading Rate",
+      "Easy Flow",
+      "Extra Coverage"
+    ]
+  },
+  {
+    "_id": "69311dffd3fb51a5527e1d6a",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Epoxy Phenolic No. 11707",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "إيبوكسي فينوليك رقم 11707",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "إيبوكسي-فينولي-رقم-11707-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Alkali Resistant",
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311dffd3fb51a5527e1d63",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Mega Mastic Paint No. 11714",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان ميجا ماستيك رقم 11714",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "دهان-ميجا-ماستيك-رقم-11714-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311dffd3fb51a5527e1d5c",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Mega Mastic Paint No. 11723",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان ميجا ماستيك رقم 11723",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "دهان-ميجا-ماستيك-رقم-11723-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311dfed3fb51a5527e1d4e",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Two Component Zinc Rich Epoxy Primer 10883",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر إيبوكسي غني بالزنك ثنائي المكون 10883",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "برايمر-إيبوكسي-غني-بالزنك-ثنائي-المكون-10883-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "Easy Flow",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311dfed3fb51a5527e1d47",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Solvent Free Epoxy Varnish No. 10248",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش إيبوكسي خالٍ من المذيبات رقم 10248",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "ورنيش-إيبوكسي-خالٍ-من-المذيبات-رقم-10248-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311dfdd3fb51a5527e1d39",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Mega Tar Epoxy Paint No. 11585",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان إيبوكسي ميجا تار رقم 11585",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "دهان-إيبوكسي-ميجا-تار-رقم-11585-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Easy Flow",
+      "Extra Coverage",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311dfdd3fb51a5527e1d32",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Epoxy Primer No. 10000",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر إيبوكسي رقم 10000",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "برايمر-إيبوكسي-رقم-10000-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Extra Coverage",
+      "Very Good Adhesion",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311dfdd3fb51a5527e1d2b",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Coal Tar Epoxy Paint No. 10170",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "دهان إيبوكسي كول تار رقم 10170",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "دهان-إيبوكسي-قطراني-رقم-10170-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311dfcd3fb51a5527e1d24",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Ajour Varnish No.460",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "ورنيش أجور رقم 460",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "ورنيش-أجور-رقم-460-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Glossy"
+    ]
+  },
+  {
+    "_id": "69311dfcd3fb51a5527e1d1d",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Air Dry Zinc Rich Epoxy Primer 10715",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر إيبوكسي غني بالزنك رقم  10715",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "برايمر-إيبوكسي-غني-بالزنك-يجف-بالهواء-10715-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Extra Coverage",
+      "Very Good Adhesion",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311dfcd3fb51a5527e1d16",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Ajour Enamel Paint No. 3452 + Hardener No. 461",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "metal-aeropolish.png",
+    "imageLink": "/new-images/metal-aeropolish.png",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "مينا أجور رقم 3452 + مجفف رقم 461",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "مينا-أجور-رقم-3452-+-مجفف-رقم-461-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Glossy",
+      "High Spreading Rate",
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "Easy Flow"
+    ]
+  },
+  {
+    "_id": "69311dfbd3fb51a5527e1d0f",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategory": {
+      "_id": "69311dfbd3fb51a5527e1d0b",
+      "subcategoryEn": "Epoxy Paint",
+      "subcategoryAr": "دهان إيبوكسي"
+    },
+    "productNameEn": "Aeropolish Ajour Primer No. 3451 + Hardener No. 461",
+    "bioEn": "",
+    "subcategoryEn": "Epoxy Paint",
+    "imageTitle": "aeropolish-industrial-quick-dry.jpg",
+    "imageLink": "/new-images/aeropolish-industrial-quick-dry.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "برايمر أجور رقم 3451 + مجفف رقم 461",
+    "bioAr": "",
+    "subcategoryAr": "دهان إيبوكسي",
+    "tdsPdfFileNameAr": "برايمر-أجور-رقم-3451-+-مجفف-رقم-461-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Very Good Adhesion",
+      "Extra Coverage",
+      "Easy Flow",
+      "Alkali Resistant",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311dfbd3fb51a5527e1cfe",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df8d3fb51a5527e1cc2",
+      "subcategoryEn": "Exterior Emulsions",
+      "subcategoryAr": "دهانات خارجية"
+    },
+    "productNameEn": "Aeropolish Texosand 6060",
+    "bioEn": "A decorative medium texture based on an acrylic copolymer to be used for facades",
+    "subcategoryEn": "Exterior Emulsions",
+    "imageTitle": "aeropolish-exterior-premium.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-premium.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "تكسوساند 6060",
+    "bioAr": "دهان زخرفي ذو حبيبات رملية خشنة وأساس أكريليك كوبوليمر جاهز للاستعمال الخارجي يعطي حبة ذات خشونة متوسطة",
+    "subcategoryAr": "دهانات خارجية",
+    "tdsPdfFileNameAr": "تكسوساند-6060-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Extra Coverage",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311dfad3fb51a5527e1cf7",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df8d3fb51a5527e1cc2",
+      "subcategoryEn": "Exterior Emulsions",
+      "subcategoryAr": "دهانات خارجية"
+    },
+    "productNameEn": "Aeropolish Shield - WeatherTex 6070",
+    "bioEn": "",
+    "subcategoryEn": "Exterior Emulsions",
+    "imageTitle": "aeropolish-exterior-emulsion.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-emulsion.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد - ويذر تكـس 6070",
+    "bioAr": "",
+    "subcategoryAr": "دهانات خارجية",
+    "tdsPdfFileNameAr": "باكي-شيلد---ويذر-تكـس-6070-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1779278024141-Pachishield-_WEATHER_TEX_6071.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Extra Coverage",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311dfad3fb51a5527e1cf0",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df8d3fb51a5527e1cc2",
+      "subcategoryEn": "Exterior Emulsions",
+      "subcategoryAr": "دهانات خارجية"
+    },
+    "productNameEn": "Aeropolish Shield - Anti Carbonation 895",
+    "bioEn": "",
+    "subcategoryEn": "Exterior Emulsions",
+    "imageTitle": "aeropolish-home-paint.jpg",
+    "imageLink": "/new-images/aeropolish-home-paint.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد - مضاد كربنة 895",
+    "bioAr": "",
+    "subcategoryAr": "دهانات خارجية",
+    "tdsPdfFileNameAr": "باكي-شيلد---مضاد-كربنة-895-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Washable",
+      "Easy Flow",
+      "Alkali Resistant",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Non Yellowing",
+      "CO2 Resistant"
+    ]
+  },
+  {
+    "_id": "69311dfad3fb51a5527e1ce9",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df8d3fb51a5527e1cc2",
+      "subcategoryEn": "Exterior Emulsions",
+      "subcategoryAr": "دهانات خارجية"
+    },
+    "productNameEn": "Aeropolish Shield - High Build Fine 8585",
+    "bioEn": "",
+    "subcategoryEn": "Exterior Emulsions",
+    "imageTitle": "aeropolish-exterior-premium.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-premium.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد - هاي بيلد فاين 8585",
+    "bioAr": "",
+    "subcategoryAr": "دهانات خارجية",
+    "tdsPdfFileNameAr": "باكي-شيلد---هاي-بيلد-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1779279354931-Pachishield-__High_Build_-__fine.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Alkali Resistant",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Non Yellowing",
+      "Washable"
+    ]
+  },
+  {
+    "_id": "69311df9d3fb51a5527e1ce2",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df8d3fb51a5527e1cc2",
+      "subcategoryEn": "Exterior Emulsions",
+      "subcategoryAr": "دهانات خارجية"
+    },
+    "productNameEn": "Aeropolish Shield - High Build Traditional 8080",
+    "bioEn": "",
+    "subcategoryEn": "Exterior Emulsions",
+    "imageTitle": "aeropolish-exterior-emulsion.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-emulsion.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد - هاي بيلد ترديشنال 8080",
+    "bioAr": "",
+    "subcategoryAr": "دهانات خارجية",
+    "tdsPdfFileNameAr": "باكي-شيلد---هاي-بيلد-ترديشنال-تكـس-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1779279163621-Pachishield-__High_Build_Traditional.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Alkali Resistant",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Non Yellowing",
+      "Washable"
+    ]
+  },
+  {
+    "_id": "69311df9d3fb51a5527e1cdb",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df8d3fb51a5527e1cc2",
+      "subcategoryEn": "Exterior Emulsions",
+      "subcategoryAr": "دهانات خارجية"
+    },
+    "productNameEn": "Aeropolish Shield - Exterior 880",
+    "bioEn": "",
+    "subcategoryEn": "Exterior Emulsions",
+    "imageTitle": "aeropolish-home-paint.jpg",
+    "imageLink": "/new-images/aeropolish-home-paint.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد - خارجي 880",
+    "bioAr": "",
+    "subcategoryAr": "دهانات خارجية",
+    "tdsPdfFileNameAr": "باكي-شيلد---خارجي-880-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Washable",
+      "Easy Flow",
+      "Alkali Resistant",
+      "High Spreading Rate",
+      "Non Yellowing",
+      "Extra Coverage",
+      "Extra White",
+      "UV Resistant",
+      "Base"
+    ]
+  },
+  {
+    "_id": "69311df9d3fb51a5527e1cd4",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df8d3fb51a5527e1cc2",
+      "subcategoryEn": "Exterior Emulsions",
+      "subcategoryAr": "دهانات خارجية"
+    },
+    "productNameEn": "Aeropolish Shield - Weather Tough 6080",
+    "bioEn": "",
+    "subcategoryEn": "Exterior Emulsions",
+    "imageTitle": "aeropolish-exterior-premium.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-premium.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد - ويزر تف 6080",
+    "bioAr": "",
+    "subcategoryAr": "دهانات خارجية",
+    "tdsPdfFileNameAr": "باكي-شيلد---ويذر-تاف-6080-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Alkali Resistant",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Non Yellowing"
+    ]
+  },
+  {
+    "_id": "69311df8d3fb51a5527e1ccd",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df8d3fb51a5527e1cc2",
+      "subcategoryEn": "Exterior Emulsions",
+      "subcategoryAr": "دهانات خارجية"
+    },
+    "productNameEn": "Aeropolish Shield - Weather Shield 1174",
+    "bioEn": "",
+    "subcategoryEn": "Exterior Emulsions",
+    "imageTitle": "aeropolish-exterior-emulsion.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-emulsion.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد - ويزر شيلد 1174",
+    "bioAr": "",
+    "subcategoryAr": "دهانات خارجية",
+    "tdsPdfFileNameAr": "باكي-شيلد---ويذر-شيلد-1174-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Alkali Resistant",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Non Yellowing",
+      "Washable",
+      "UV Resistant",
+      "Base"
+    ]
+  },
+  {
+    "_id": "69311df8d3fb51a5527e1cc6",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df8d3fb51a5527e1cc2",
+      "subcategoryEn": "Exterior Emulsions",
+      "subcategoryAr": "دهانات خارجية"
+    },
+    "productNameEn": "Aeropolish Shield - High Build Medium 9090",
+    "bioEn": "",
+    "subcategoryEn": "Exterior Emulsions",
+    "imageTitle": "aeropolish-home-paint.jpg",
+    "imageLink": "/new-images/aeropolish-home-paint.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد هاى بيلد ميديم 9090",
+    "bioAr": "",
+    "subcategoryAr": "دهانات خارجية",
+    "tdsPdfFileNameAr": "باكي-شيلد---ميديام-6071-tds-ar.pdf",
+    "pdfLinkAr": "https://storage.googleapis.com/pachin/uploads/documents-ar/1779279828920-Pachishield-__High_Build_-__medium.pdf",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Alkali Resistant",
+      "Extra Coverage",
+      "High Spreading Rate",
+      "Non Yellowing",
+      "Washable"
+    ]
+  },
+  {
+    "_id": "69311df8d3fb51a5527e1cbc",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df7d3fb51a5527e1cb1",
+      "subcategoryEn": "Sealer",
+      "subcategoryAr": "سيـلر"
+    },
+    "productNameEn": "Aeropolish Shield - Penetrating Sealer 4600",
+    "bioEn": "",
+    "subcategoryEn": "Sealer",
+    "imageTitle": "aeropolish-exterior-premium.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-premium.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد - بنيتريتنج سيلر 4600",
+    "bioAr": "",
+    "subcategoryAr": "سيـلر",
+    "tdsPdfFileNameAr": "بنيتريتنج سيلر 4600",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Quick Dry",
+      "Easy Flow",
+      "Alkali Resistant",
+      "High Spreading Rate"
+    ]
+  },
+  {
+    "_id": "69311df7d3fb51a5527e1cb5",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategory": {
+      "_id": "69311df7d3fb51a5527e1cb1",
+      "subcategoryEn": "Sealer",
+      "subcategoryAr": "سيـلر"
+    },
+    "productNameEn": "Aeropolish Shield - Exterior Sealer 4500",
+    "bioEn": "",
+    "subcategoryEn": "Sealer",
+    "imageTitle": "aeropolish-exterior-emulsion.jpg",
+    "imageLink": "/new-images/aeropolish-exterior-emulsion.jpg",
+    "tdsPdfFileNameEn": "interior-primer-tds-en.pdf",
+    "pdfLinkEn": "/tds/fast-dry-enamel-11214.pdf",
+    "productNameAr": "باكي شيلد  -  سيـلر خارجي 4500",
+    "bioAr": "",
+    "subcategoryAr": "سيـلر",
+    "tdsPdfFileNameAr": "سيـلر-خارجي-4500---باكي-شيلد-tds-ar.pdf",
+    "pdfLinkAr": "",
+    "productCode": "",
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": [
+      "Easy Flow",
+      "Alkali Resistant",
+      "High Spreading Rate"
+    ]
+  }
+]

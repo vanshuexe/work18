@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 1600 470" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3edf8"/><stop offset="1" stop-color="#d9c9ea"/></linearGradient>
+    <radialGradient id="light" cx="0.18" cy="0.2" r="0.9"><stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="0.6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.22"/></radialGradient>
+    <linearGradient id="fresh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3d1760"/><stop offset="0.3" stop-color="#7a3fa8"/><stop offset="0.7" stop-color="#7a3fa8"/><stop offset="1" stop-color="#3d1760"/></linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.2"/><stop offset="0.45" stop-color="#fff" stop-opacity="0.28"/><stop offset="1" stop-color="#000" stop-opacity="0.05"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c08d5d"/><stop offset="1" stop-color="#5a4838"/></linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.38"/><stop offset="0.5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa5b4"/><stop offset="0.3" stop-color="#fbfdff"/><stop offset="0.7" stop-color="#cdd5df"/><stop offset="1" stop-color="#7d8998"/></linearGradient>
+    <linearGradient id="rung" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfdff"/><stop offset="0.5" stop-color="#d4dbe4"/><stop offset="1" stop-color="#8f9aa9"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7f8a99"/><stop offset="0.25" stop-color="#f7f9fb"/><stop offset="0.55" stop-color="#c9d1db"/><stop offset="1" stop-color="#6f7b8a"/></linearGradient>
+    <linearGradient id="cyl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="0.25" stop-color="#fff" stop-opacity="0.08"/><stop offset="0.7" stop-color="#000" stop-opacity="0.12"/><stop offset="1" stop-color="#000" stop-opacity="0.45"/></linearGradient>
+    <linearGradient id="barrel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.22" stop-color="#fff" stop-opacity="0.28"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.5"/></linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1c58f"/><stop offset="0.45" stop-color="#d79a5b"/><stop offset="1" stop-color="#8e5a2b"/></linearGradient>
+    <radialGradient id="pool" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="#fff" stop-opacity="0.65"/><stop offset="0.5" stop-color="#7a3fa8" stop-opacity="0"/><stop offset="1" stop-color="#3d1760" stop-opacity="0.5"/></radialGradient>
+    <radialGradient id="shadow"><stop offset="0" stop-color="#000" stop-opacity="0.5"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="4"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.45"/></feComponentTransfer></filter>
+    <filter id="nap" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="1.6 0.9" numOctaves="2" seed="9"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.8"/></feComponentTransfer></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="soft2" x="-10%" y="-100%" width="120%" height="300%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="drop" x="-30%" y="-30%" width="170%" height="170%"><feDropShadow dx="7" dy="12" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/></filter>
+    <clipPath id="paintClip"><path d="M860 0 C815 70 905 120 862 200 S815 320 868 392 S838 446 856 470 L1600 470 L1600 0 Z"/></clipPath>
+    <clipPath id="rollerClip"><rect x="640" y="190" width="190" height="52" rx="26"/></clipPath>
+  </defs>
+
+  <!-- wall: gradient, window light and plaster grain -->
+  <rect width="1600" height="470" fill="url(#wall)"/>
+  <rect width="1600" height="470" filter="url(#grain)" opacity="0.14" style="mix-blend-mode:multiply"/>
+  
+  <rect width="1600" height="470" fill="url(#light)"/>
+  <rect y="452" width="1600" height="18" fill="#fbfbfb"/>
+  <rect y="452" width="1600" height="4" fill="#000" opacity="0.1"/>
+
+  <!-- floor: wood planks with a gloss -->
+  <rect y="470" width="1600" height="90" fill="url(#floor)"/>
+  <line x1="0" y1="476" x2="1600" y2="476" stroke="#000" stroke-opacity="0.22" stroke-width="1.5"/><line x1="0" y1="486" x2="1600" y2="486" stroke="#000" stroke-opacity="0.22" stroke-width="1.5"/><line x1="0" y1="496" x2="1600" y2="496" stroke="#000" stroke-opacity="0.22" stroke-width="1.5"/><line x1="0" y1="506" x2="1600" y2="506" stroke="#000" stroke-opacity="0.22" stroke-width="1.5"/><line x1="0" y1="516" x2="1600" y2="516" stroke="#000" stroke-opacity="0.22" stroke-width="1.5"/><line x1="0" y1="526" x2="1600" y2="526" stroke="#000" stroke-opacity="0.22" stroke-width="1.5"/><line x1="0" y1="536" x2="1600" y2="536" stroke="#000" stroke-opacity="0.22" stroke-width="1.5"/><line x1="0" y1="546" x2="1600" y2="546" stroke="#000" stroke-opacity="0.22" stroke-width="1.5"/><line x1="0" y1="556" x2="1600" y2="556" stroke="#000" stroke-opacity="0.22" stroke-width="1.5"/><line x1="60" y1="476" x2="60" y2="486" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="155" y1="486" x2="155" y2="496" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="250" y1="496" x2="250" y2="506" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="282" y1="506" x2="282" y2="516" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="377" y1="516" x2="377" y2="526" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="472" y1="526" x2="472" y2="536" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="504" y1="536" x2="504" y2="546" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="599" y1="546" x2="599" y2="556" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="694" y1="476" x2="694" y2="486" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="726" y1="486" x2="726" y2="496" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="821" y1="496" x2="821" y2="506" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="916" y1="506" x2="916" y2="516" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="948" y1="516" x2="948" y2="526" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="1043" y1="526" x2="1043" y2="536" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="1138" y1="536" x2="1138" y2="546" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="1170" y1="546" x2="1170" y2="556" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="1265" y1="476" x2="1265" y2="486" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="1360" y1="486" x2="1360" y2="496" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="1392" y1="496" x2="1392" y2="506" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="1487" y1="506" x2="1487" y2="516" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="1582" y1="516" x2="1582" y2="526" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/><line x1="1614" y1="526" x2="1614" y2="536" stroke="#000" stroke-opacity="0.2" stroke-width="1.5"/>
+  <rect y="470" width="1600" height="90" fill="url(#gloss)"/>
+
+  <!-- freshly painted area: glossy, with a thick wet edge -->
+  <path d="M860 0 C815 70 905 120 862 200 S815 320 868 392 S838 446 856 470 L1600 470 L1600 0 Z" fill="url(#fresh)"/>
+  <g clip-path="url(#paintClip)">
+    <rect x="800" width="800" height="470" fill="url(#sheen)"/>
+    <path d="M1030 0 C1000 90 1060 170 1028 260 S1010 380 1040 470 L1100 470 C1075 380 1095 250 1070 170 S1085 60 1075 0 Z" fill="#fff" opacity="0.1" filter="url(#soft2)"/>
+    <path d="M860 0 C815 70 905 120 862 200 S815 320 868 392 S838 446 856 470" fill="none" stroke="#000" stroke-opacity="0.28" stroke-width="14" filter="url(#soft2)"/>
+  </g>
+  <path d="M860 0 C815 70 905 120 862 200 S815 320 868 392 S838 446 856 470" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="3"/>
+  <path d="M868 6 C826 74 912 124 872 202 S826 322 878 394" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="6" filter="url(#soft2)"/>
+  <circle cx="905" cy="118" r="7" fill="#7a3fa8"/><circle cx="902.9" cy="115.9" r="2.4499999999999997" fill="#fff" opacity="0.55"/><circle cx="885" cy="96" r="4" fill="#7a3fa8"/><circle cx="883.8" cy="94.8" r="1.4" fill="#fff" opacity="0.55"/><circle cx="930" cy="150" r="5" fill="#7a3fa8"/><circle cx="928.5" cy="148.5" r="1.75" fill="#fff" opacity="0.55"/><circle cx="872" cy="330" r="6" fill="#7a3fa8"/><circle cx="870.2" cy="328.2" r="2.0999999999999996" fill="#fff" opacity="0.55"/><circle cx="902" cy="352" r="3.5" fill="#7a3fa8"/><circle cx="900.95" cy="350.95" r="1.2249999999999999" fill="#fff" opacity="0.55"/><circle cx="1480" cy="220" r="6" fill="#7a3fa8"/><circle cx="1478.2" cy="218.2" r="2.0999999999999996" fill="#fff" opacity="0.55"/><circle cx="1510" cy="250" r="4" fill="#7a3fa8"/><circle cx="1508.8" cy="248.8" r="1.4" fill="#fff" opacity="0.55"/><circle cx="1450" cy="190" r="3" fill="#7a3fa8"/><circle cx="1449.1" cy="189.1" r="1.0499999999999998" fill="#fff" opacity="0.55"/>
+
+  <!-- ladder cast shadow on the wall -->
+  <path d="M1200 470 L1280 110 L1400 110 L1460 470 Z" fill="#000" opacity="0.22" filter="url(#soft)"/>
+
+  <!-- ladder -->
+  <ellipse cx="1260" cy="488" rx="210" ry="20" fill="url(#shadow)"/>
+  <g filter="url(#drop)">
+    <path d="M1140 470 L1210 90 L1236 90 L1168 470 Z" fill="#6c7786"/>
+    <path d="M1400 470 L1330 90 L1308 90 L1376 470 Z" fill="#6c7786"/>
+    <path d="M1130 470 L1200 90 L1224 90 L1158 470 Z" fill="url(#rail)" stroke="#8793a3" stroke-width="1.5"/>
+    <path d="M1390 470 L1320 90 L1298 90 L1364 470 Z" fill="url(#rail)" stroke="#8793a3" stroke-width="1.5"/>
+    <rect x="1187.1052631578948" y="152" width="145.7894736842104" height="16" rx="5" fill="url(#rung)" stroke="#8793a3" stroke-width="1.5"/><rect x="1191.1052631578948" y="154" width="137.7894736842104" height="3" rx="1.5" fill="#fff" opacity="0.8"/><rect x="1187.1052631578948" y="168" width="145.7894736842104" height="7" fill="#000" opacity="0.12" filter="url(#soft2)"/><rect x="1172.3684210526317" y="232" width="175.26315789473665" height="16" rx="5" fill="url(#rung)" stroke="#8793a3" stroke-width="1.5"/><rect x="1176.3684210526317" y="234" width="167.26315789473665" height="3" rx="1.5" fill="#fff" opacity="0.8"/><rect x="1172.3684210526317" y="248" width="175.26315789473665" height="7" fill="#000" opacity="0.12" filter="url(#soft2)"/><rect x="1157.6315789473683" y="312" width="204.73684210526335" height="16" rx="5" fill="url(#rung)" stroke="#8793a3" stroke-width="1.5"/><rect x="1161.6315789473683" y="314" width="196.73684210526335" height="3" rx="1.5" fill="#fff" opacity="0.8"/><rect x="1157.6315789473683" y="328" width="204.73684210526335" height="7" fill="#000" opacity="0.12" filter="url(#soft2)"/><rect x="1142.8947368421052" y="392" width="234.2105263157896" height="16" rx="5" fill="url(#rung)" stroke="#8793a3" stroke-width="1.5"/><rect x="1146.8947368421052" y="394" width="226.2105263157896" height="3" rx="1.5" fill="#fff" opacity="0.8"/><rect x="1142.8947368421052" y="408" width="234.2105263157896" height="7" fill="#000" opacity="0.12" filter="url(#soft2)"/>
+    <rect x="1190" y="72" width="140" height="22" rx="7" fill="url(#rung)" stroke="#8793a3" stroke-width="1.5"/>
+    <rect x="1196" y="74" width="128" height="4" rx="2" fill="#fff" opacity="0.85"/>
+  </g>
+  <rect x="1124" y="461" width="40" height="14" rx="5" fill="#1f242d"/>
+  <rect x="1356" y="461" width="40" height="14" rx="5" fill="#1f242d"/>
+  <!-- paint pot on the ladder top -->
+  <g filter="url(#drop)">
+    <rect x="1224" y="30" width="48" height="42" rx="6" fill="url(#metal)" stroke="#7f8a99" stroke-width="1.5"/>
+    <rect x="1224" y="46" width="48" height="16" fill="#7a3fa8"/>
+    <rect x="1224" y="46" width="48" height="16" fill="url(#barrel)"/>
+  </g>
+
+  <!-- paint can -->
+  <ellipse cx="1020" cy="484" rx="96" ry="14" fill="url(#shadow)"/>
+  <g filter="url(#drop)">
+    <rect x="962" y="372" width="116" height="100" rx="8" fill="url(#metal)" stroke="#7f8a99" stroke-width="1.5"/>
+    <rect x="962" y="404" width="116" height="38" fill="#7a3fa8"/>
+    <rect x="962" y="404" width="116" height="38" fill="url(#barrel)"/>
+    <text x="1020" y="430" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="16" letter-spacing="0.5" fill="#fff">AEROPOLISH</text>
+    <rect x="962" y="372" width="116" height="100" rx="8" fill="url(#barrel)" opacity="0.5"/>
+    <ellipse cx="1020" cy="372" rx="58" ry="12" fill="url(#metal)" stroke="#7f8a99" stroke-width="1.5"/>
+    <ellipse cx="1020" cy="373" rx="48" ry="8.5" fill="#7a3fa8"/>
+    <ellipse cx="1020" cy="373" rx="48" ry="8.5" fill="url(#pool)"/>
+    <path d="M986 380 C984 398 994 406 990 424 C988 434 1001 434 999 416 C997 402 1005 392 1003 381 Z" fill="#7a3fa8"/>
+    <path d="M990 386 C989 398 994 404 992 414" fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1048 380 C1046 392 1054 398 1050 412 C1048 419 1058 419 1058 410 C1058 396 1063 390 1061 381 Z" fill="#7a3fa8"/>
+  </g>
+
+  
+
+  <!-- brush resting across the can -->
+  <g transform="translate(70 -8) rotate(-24 1030 352)" filter="url(#drop)">
+    <rect x="990" y="336" width="160" height="18" rx="9" fill="url(#wood)"/>
+    <rect x="994" y="339" width="150" height="3.5" rx="1.75" fill="#fff" opacity="0.55"/>
+    <rect x="936" y="331" width="62" height="28" rx="5" fill="url(#metal)" stroke="#7f8a99" stroke-width="1.5"/>
+    <path d="M944 331 V359 M954 331 V359" stroke="#5f6b7a" stroke-opacity="0.55" stroke-width="1.5"/>
+    <path d="M936 333 L888 337 C876 344 876 346 888 354 L936 358 Z" fill="#7a3fa8"/>
+    <path d="M936 335 L890 341 M936 341 L886 345 M936 347 L886 349 M936 353 L890 354" stroke="#fff" stroke-opacity="0.35" stroke-width="1.4"/>
+    <path d="M936 333 L888 337 C876 344 876 346 888 354 L936 358 Z" fill="url(#cyl)"/>
+  </g>
+
+  <!-- roller painting the wall edge -->
+  <g transform="translate(70 14) rotate(-24 735 216)" filter="url(#drop)">
+    <rect x="727" y="278" width="16" height="150" rx="8" fill="url(#wood)"/>
+    <rect x="727" y="300" width="16" height="9" fill="#2a2f3a" opacity="0.85"/>
+    <rect x="727" y="318" width="16" height="9" fill="#2a2f3a" opacity="0.85"/>
+    <rect x="729" y="282" width="3" height="140" rx="1.5" fill="#fff" opacity="0.45"/>
+    <path d="M830 216 H856 V282 H735" fill="none" stroke="#5d6877" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M830 214 H854 V280 H735" fill="none" stroke="#dfe5ec" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+    <rect x="640" y="190" width="190" height="52" rx="26" fill="#7a3fa8"/>
+    <g clip-path="url(#rollerClip)">
+      <rect x="640" y="190" width="190" height="52" filter="url(#nap)" opacity="0.5" style="mix-blend-mode:multiply"/>
+      <rect x="640" y="190" width="190" height="52" fill="url(#barrel)"/>
+      <rect x="640" y="190" width="190" height="52" fill="url(#cyl)"/>
+    </g>
+    <ellipse cx="826" cy="216" rx="9" ry="22" fill="#3d1760" opacity="0.65"/>
+    <ellipse cx="644" cy="216" rx="6" ry="22" fill="#fff" opacity="0.18"/>
+    <rect x="652" y="194" width="150" height="5" rx="2.5" fill="#fff" opacity="0.4"/>
+  </g>
+</svg>

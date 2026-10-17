@@ -1,0 +1,63 @@
+<%
+  const mobileLink = 'text-[#4e2683] text-[10px] sm:text-xs font-medium hover:text-[#f47422] transition-colors';
+  const mobileHeading = 'sm:text-base lg:text-xl font-manrope text-[#f47422] text-[13px] md:text-xs font-extrabold mb-2';
+  const desktopHeading = 'sm:text-base lg:text-xl font-manrope text-[#f47422] text-[13px] md:text-base xl:text-lg font-extrabold mb-3';
+  const desktopLink = 'text-[#4e2683] text-sm xl:text-base font-medium hover:text-[#f47422] transition-colors';
+  const columns = [
+    { title: 'Products', links: site.footerLinks.products, mobileAlign: 'items-start text-left rtl:text-right', desktopAlign: 'text-left rtl:text-right', wrap: '' },
+    { title: 'Colors', links: site.footerLinks.colors, mobileAlign: 'items-center text-center', desktopAlign: 'text-center', wrap: 'items-center' },
+    { title: 'Support', links: site.footerLinks.support, mobileAlign: 'items-end text-right rtl:text-left', desktopAlign: 'text-right rtl:text-left', wrap: 'items-end' },
+  ];
+%>
+<footer class="w-full bg-white py-8 md:py-12 lg:py-16">
+  <div class="w-full mx-[1%]">
+    <div class="relative w-[96%] sm:w-[98%] bg-[#f6eaff] rounded-xl p-6 md:p-8 lg:py-10 lg:px-0 xl:py-12 xl:px-0 mb-6 md:mb-8">
+      <div class="flex flex-col lg:flex-row lg:items-start gap- lg:gap-0">
+        <div class="flex justify-center lg:justify-start lg:w-2/5 w-full lg:pl-10 lg:pr-16">
+          <div class="w-[150px] sm:w-[200px] md:w-[250px] lg:w-[300px] xl:w-full h-[45px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[115px]">
+            <img alt="Pachin Logo" width="438" height="115" class="w-full h-full object-contain" src="/Logo.png" />
+          </div>
+        </div>
+        <div class="lg:w-3/5 w-full lg:pr-10">
+          <div class="block lg:hidden">
+            <div class="grid grid-cols-3 gap-2 sm:gap-4">
+              <% columns.forEach(function (col) { %>
+              <div class="flex flex-col <%= col.mobileAlign %>">
+                <p class="<%= mobileHeading %>"><%= col.title %></p>
+                <div class="flex flex-col gap-1">
+                  <% col.links.forEach(function (link) { %>
+                  <a class="<%= mobileLink %>" href="<%= link.href %>"><%= link.label %></a>
+                  <% }) %>
+                </div>
+              </div>
+              <% }) %>
+            </div>
+          </div>
+          <div class="hidden lg:flex w-full justify-between" style="margin-left: 13vw">
+            <% columns.forEach(function (col) { %>
+            <div class="flex flex-col flex-1 <%= col.wrap %>">
+              <p class="<%= desktopHeading %> <%= col.desktopAlign %>"><%= col.title %></p>
+              <div class="flex flex-col gap-2 <%= col.wrap %>">
+                <% col.links.forEach(function (link) { %>
+                <a class="<%= desktopLink %> <%= col.desktopAlign %>" href="<%= link.href %>"><%= link.label %></a>
+                <% }) %>
+              </div>
+            </div>
+            <% }) %>
+          </div>
+        </div>
+        <div class="flex justify-center lg:justify-start">
+          <div class="w-[200px] sm:w-[250px] md:w-[300px] lg:w-[354px] h-[40px] sm:h-[50px] md:h-[55px] lg:h-[60px] flex items-center justify-center lg:justify-start"></div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 lg:gap-8 px-4">
+      <div class="flex items-center justify-center">
+        <p class="md:text-lg font-manrope text-black text-[13px] sm:text-base lg:text-lg font-extrabold text-center">Privacy Policy</p>
+      </div>
+      <div class="flex items-center justify-center">
+        <p class="md:text-lg font-manrope text-black text-[13px] sm:text-sm lg:text-base xl:text-lg font-medium text-center">Copyright © <%= new Date().getFullYear() %>, Pachin</p>
+      </div>
+    </div>
+  </div>
+</footer>

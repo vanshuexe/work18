@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "691b10e4a02fe546430871f8",
+    "nameEn": "Interior Paints",
+    "nameAr": "دهانات داخلية",
+    "slug": "interior-paints",
+    "sortOrder": 1,
+    "isActive": true
+  },
+  {
+    "_id": "691b10e5a02fe546430871fb",
+    "nameEn": "Exterior Paints",
+    "nameAr": "دهانات خارجية",
+    "slug": "exterior-paints",
+    "sortOrder": 2,
+    "isActive": true
+  },
+  {
+    "_id": "691b10e5a02fe546430871fe",
+    "nameEn": "Industrial Paints",
+    "nameAr": "دهانات صناعية",
+    "slug": "industrial-paints",
+    "sortOrder": 3,
+    "isActive": true
+  },
+  {
+    "_id": "691b10e5a02fe54643087201",
+    "nameEn": "Ink",
+    "nameAr": "حبر",
+    "slug": "ink",
+    "sortOrder": 4,
+    "isActive": true
+  },
+  {
+    "_id": "691b10e5a02fe54643087204",
+    "nameEn": "Alkyd",
+    "nameAr": "ألكيد",
+    "slug": "alkyd",
+    "sortOrder": 5,
+    "isActive": true
+  }
+]

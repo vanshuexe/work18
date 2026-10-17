@@ -1,0 +1,11 @@
+      </main>
+      <% if (typeof hideFooter === 'undefined' || !hideFooter) { %>
+      <div class="relative"><%- include('footer') %></div>
+      <% } %>
+    </div>
+    <script src="/js/main.js"></script>
+    <% (typeof scripts !== 'undefined' ? scripts : []).forEach(function (src) { %>
+    <script src="<%= src %>"></script>
+    <% }) %>
+  </body>
+</html>

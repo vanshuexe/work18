@@ -1,0 +1,52 @@
+<%- include('../partials/top') %>
+<%
+  const userIcon = '<svg class="w-3 h-3 md:w-4 md:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>';
+  const calendarIcon = '<svg class="w-3 h-3 md:w-4 md:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>';
+%>
+<div class="min-h-screen bg-gray-50">
+  <div class="relative text-center mb-12 h-[40vh] md:h-[50vh] flex items-center justify-center rounded-xl overflow-hidden w-[96%] sm:w-[98%] mx-[1%]"
+    style="padding-top: calc(60px + 2vh); margin-top: 2vh">
+    <div class="absolute inset-0">
+      <img alt="" class="object-cover absolute inset-0 w-full h-full" src="https://storage.googleapis.com/pachin/about-us/hero/about-us-pachin.webp" />
+    </div>
+    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+    <div class="relative z-10 text-white px-4">
+      <h1 class="font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">Latest News &amp; Updates</h1>
+      <p class="font-manrope text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl max-w-3xl mx-auto mb-4 md:mb-6 px-2">Stay informed with the latest news, updates, and insights from Pachin</p>
+    </div>
+  </div>
+
+  <div class="py-12">
+    <div class="space-y-0 w-full px-4 lg:px-0">
+      <% if (!posts.length) { %>
+      <p class="text-center font-manrope text-gray-500 py-12">No news available at the moment.</p>
+      <% } %>
+      <% posts.forEach(function (post, i) { const reversed = i % 2 === 1; %>
+      <article class="relative shadow-lg hover:shadow-xl transition-shadow duration-200 overflow-hidden rounded-2xl lg:rounded-none my-4 lg:my-0 flex flex-col <%= reversed ? 'lg:flex-row-reverse' : 'lg:flex-row' %> w-full">
+        <div class="lg:w-1/2 relative h-80 lg:h-96">
+          <img alt="<%= post.title %>" loading="lazy" class="object-cover absolute inset-0 w-full h-full" src="<%= post.mainImage %>" />
+          <div class="absolute inset-0" style="background: linear-gradient(to <%= reversed ? 'right' : 'left' %>, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0) 100%)"></div>
+        </div>
+        <div class="lg:w-1/2 p-4 md:p-6 lg:p-8 flex flex-col justify-center bg-black text-white">
+          <% if (post.tags && post.tags.length) { %>
+          <div class="flex flex-wrap gap-1.5 md:gap-2 mb-3 md:mb-4">
+            <% post.tags.forEach(function (tag) { %><span class="px-2.5 md:px-3 py-1 bg-white/90 text-gray-800 text-xs md:text-sm font-medium rounded-full shadow-sm"><%= tag %></span><% }) %>
+          </div>
+          <% } %>
+          <h2 class="font-poppins text-xl sm:text-2xl md:text-2xl lg:text-3xl font-bold text-white mb-3 md:mb-4"><%= post.title %></h2>
+          <div class="flex items-center gap-2 md:gap-4 text-xs md:text-sm text-white text-opacity-90 mb-4 md:mb-6 flex-wrap">
+            <span class="flex items-center gap-1"><%- userIcon %><%= post.author %></span>
+            <span class="flex items-center gap-1"><%- calendarIcon %><%= formatDate(post.datePublished) %></span>
+          </div>
+          <p class="font-manrope text-xs sm:text-sm md:text-base lg:text-lg text-white text-opacity-90 mb-4 md:mb-6 leading-relaxed"><%= post.briefText %></p>
+          <div class="flex items-center gap-2 md:gap-3 flex-wrap">
+            <a class="inline-flex items-center gap-1.5 md:gap-2 px-4 md:px-6 lg:px-8 py-2 md:py-3 lg:py-4 border-2 border-white text-white rounded-full hover:bg-white hover:text-gray-900 transition-colors duration-200 text-sm md:text-base lg:text-lg font-semibold"
+              href="/news/<%= post._id %>">Read More<svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
+          </div>
+        </div>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</div>
+<%- include('../partials/bottom') %>

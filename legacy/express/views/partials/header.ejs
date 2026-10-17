@@ -1,0 +1,111 @@
+<%
+  const dark = typeof headerTheme !== 'undefined' && headerTheme === 'dark';
+  const textColor = dark ? 'text-gray-800' : 'text-white';
+  const barColor = dark ? 'bg-gray-800' : 'bg-white';
+  const activeKey = typeof active !== 'undefined' ? active : '';
+  const underline = '<div class="absolute bottom-0 h-0.5 md:h-1 bg-orange-500 rounded-full" style="margin-left: 1px; margin-right: 3px; width: calc(100% - 4px); transform: translateY(100%)"></div>';
+  const chevron = (size) => `<svg class="${size} transition-transform duration-200" data-chevron fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>`;
+%>
+<header class="fixed left-0 right-0 z-50 transition-all duration-300 ease-in-out" style="position: fixed; top: 8px; left: 0; right: 0; width: 100%; z-index: 9999">
+  <div class="absolute inset-0 transition-all duration-300 ease-in-out bg-transparent"></div>
+  <div class="relative z-10 transition-all duration-300 ease-in-out" style="padding-top: 8px; margin-top: 0px">
+    <div class="w-[97%] mx-auto px-2 sm:px-3 md:px-4 lg:px-6 xl:px-4">
+      <div class="relative flex items-center justify-between h-12 sm:h-14 md:h-14 lg:h-14 xl:h-16">
+        <nav class="hidden md:flex items-center" style="gap: clamp(0.8rem, 1.2vw, 1.5rem)">
+          <% site.navigation.forEach(function (item) { %>
+            <% if (!item.children) { %>
+            <div class="relative flex flex-col items-center">
+              <a class="font-medium transition-colors duration-200 text-sm md:text-sm lg:text-base xl:text-base hover:text-orange-500 <%= textColor %>" href="<%= item.href %>"><%= item.label %></a>
+              <% if (activeKey === item.key) { %><%- underline %><% } %>
+            </div>
+            <% } else { %>
+            <div class="relative <%= item.key %>-dropdown" data-dropdown>
+              <div class="relative flex flex-col items-center">
+                <button type="button" data-dropdown-toggle aria-expanded="false" class="font-medium transition-colors duration-200 flex items-center gap-1 text-sm md:text-sm lg:text-base xl:text-base hover:text-orange-500 <%= textColor %>">
+                  <%= item.label %><%- chevron('w-4 h-4') %>
+                </button>
+                <% if (activeKey === item.key) { %><%- underline %><% } %>
+              </div>
+              <div data-dropdown-menu class="hidden absolute top-full left-0 mt-2 w-56 md:w-60 lg:w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-1.5 md:py-2 z-50">
+                <% item.children.forEach(function (child) { %>
+                <a class="block px-3 md:px-4 py-2 md:py-2.5 text-xs md:text-sm text-gray-700 hover:bg-gray-100 hover:text-orange-500 transition-colors duration-200 relative" href="<%= child.href %>"><%= child.label %></a>
+                <% }) %>
+              </div>
+            </div>
+            <% } %>
+          <% }) %>
+        </nav>
+
+        <div class="md:hidden">
+          <button type="button" data-mobile-menu-open aria-label="Open menu" class="w-12 h-12 flex flex-col items-center justify-center gap-1.5 rounded-lg transition-colors duration-200 bg-transparent">
+            <span class="w-6 h-0.5 transition-colors duration-200 <%= barColor %>"></span>
+            <span class="w-6 h-0.5 transition-colors duration-200 <%= barColor %>"></span>
+            <span class="w-6 h-0.5 transition-colors duration-200 <%= barColor %>"></span>
+          </button>
+        </div>
+
+        <div class="absolute left-1/2 transform -translate-x-1/2">
+          <a class="flex items-center" href="/">
+            <img alt="Pachin Logo" width="240" height="80" class="h-8 sm:h-9 md:h-10 lg:h-11 xl:h-14 w-auto object-contain" src="/Logo.png" />
+          </a>
+        </div>
+
+        <div class="flex items-center" style="gap: clamp(0.5rem, 0.8vw, 1rem)">
+          <div class="relative" data-search>
+            <button type="button" data-search-toggle aria-label="Search" class="flex items-center justify-center p-2 rounded-full transition-colors duration-200 hover:bg-white hover:bg-opacity-20">
+              <svg class="w-6 h-6 transition-colors duration-200 <%= dark ? 'text-gray-600' : 'text-gray-800' %>" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              </svg>
+            </button>
+            <div data-search-panel class="hidden absolute -top-5 mt-1 w-[280px] sm:w-[320px] md:w-[380px] rounded-xl shadow-2xl overflow-hidden z-50 right-0 bg-white">
+              <div class="p-2 border-b border-gray-200 bg-white/95">
+                <div class="relative">
+                  <input data-search-input placeholder="Search for products, news, jobs..." class="w-full pl-9 pr-8 py-2 rounded-lg border border-gray-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all text-sm text-gray-800 placeholder-gray-400" type="text" autocomplete="off" />
+                  <svg class="absolute left-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                  </svg>
+                  <button type="button" data-search-close aria-label="Close search" class="absolute right-2 top-1/2 -translate-y-1/2 p-1 rounded-full hover:bg-gray-200/50 transition-colors text-gray-400 hover:text-gray-600">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                  </button>
+                </div>
+              </div>
+              <div data-search-results class="max-h-[60vh] overflow-y-auto"></div>
+            </div>
+          </div>
+          <div class="flex items-center gap-1">
+            <a href="https://pachinpaints.com/ar" lang="ar" title="العربية"
+              class="inline-flex items-center justify-center rounded-3xl font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 border hover:scale-105 active:scale-95 sm:h-10 sm:px-4 sm:py-2 sm:text-sm h-6 px-2 text-xs transition-all duration-200 bg-[#512178] text-white border-[#512178] hover:bg-[#512178] hover:text-white">ع</a>
+          </div>
+        </div>
+      </div>
+
+      <div data-mobile-menu class="md:hidden fixed top-0 left-0 w-screen h-screen min-h-screen bg-[#512178] py-4 z-50 overflow-y-auto transition-all duration-700 ease-out opacity-0 invisible" style="clip-path: circle(0% at 0% 0%)">
+        <button type="button" data-mobile-menu-close aria-label="Close menu" class="absolute top-6 left-6 w-16 h-16 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-20 rounded-lg transition-colors duration-200">
+          <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+        <nav class="flex flex-col items-center pt-16 px-4" style="gap: 12px">
+          <% site.navigation.forEach(function (item) { %>
+            <% if (!item.children) { %>
+            <div class="w-full max-w-sm flex flex-col items-center">
+              <a class="w-full flex items-center justify-center font-bold text-xl sm:text-2xl py-4 px-6 text-center text-white bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg transition-all duration-200" href="<%= item.href %>"><%= item.label %></a>
+            </div>
+            <% } else { %>
+            <div class="w-full max-w-sm" data-mobile-submenu>
+              <div class="flex flex-col items-center">
+                <button type="button" data-mobile-submenu-toggle aria-expanded="false" class="w-full flex items-center justify-center gap-3 font-bold text-xl sm:text-2xl py-4 px-6 text-white bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg transition-all duration-200">
+                  <%= item.label %><%- chevron('w-6 h-6') %>
+                </button>
+                <div data-mobile-submenu-items class="hidden w-full flex-col gap-2 mt-2">
+                  <% item.children.forEach(function (child) { %>
+                  <a class="w-full block text-center font-semibold text-lg py-3 px-6 text-white bg-white bg-opacity-10 hover:bg-opacity-20 rounded-lg transition-all duration-200" href="<%= child.href %>"><%= child.label %></a>
+                  <% }) %>
+                </div>
+              </div>
+            </div>
+            <% } %>
+          <% }) %>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>

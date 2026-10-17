@@ -1,0 +1,44 @@
+<%
+  const tags = product.tags || [];
+  const tagRows = [];
+  for (let i = 0; i < tags.length; i += 3) tagRows.push(tags.slice(i, i + 3));
+  const searchText = [product.productNameEn, product.productCode, product.subcategoryEn, ...tags].join(' ').toLowerCase();
+%>
+<div id="product-<%= product._id %>" data-product-card data-subcategory="<%= product.subcategory._id %>" data-search="<%= searchText %>"
+  class="product-card <%= typeof visible !== 'undefined' && visible === false ? 'hidden' : '' %> bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-200 overflow-hidden flex flex-col h-full"
+  style="border: 2px solid rgba(79, 39, 119, 0.3)">
+  <div class="h-40 md:h-56 bg-gray-100 flex items-center justify-center relative" style="background-color: rgba(79, 39, 119, 0.05)">
+    <img alt="<%= product.productNameEn %>" loading="lazy" class="object-contain absolute inset-0 w-full h-full" src="<%= product.imageLink %>" />
+  </div>
+  <div class="p-2 md:p-4 flex flex-col flex-grow">
+    <div class="relative mb-2">
+      <h3 class="text-center font-bold text-gray-900 mb-1 text-xs sm:text-base md:text-xl lg:text-2xl font-manrope"><%= product.productNameEn %></h3>
+    </div>
+    <% if (tagRows.length) { %>
+    <div class="mb-2 flex w-full flex-col items-center justify-center overflow-visible gap-3">
+      <% tagRows.forEach(function (row) { %>
+      <div class="flex w-full flex-nowrap items-start justify-center gap-x-3 overflow-visible">
+        <% row.forEach(function (tag) { %>
+        <div class="group/tag relative z-0 flex flex-col items-center gap-0.5 transition-transform duration-200 ease-out will-change-transform hover:z-10 hover:scale-[1.3]">
+          <div class="flex h-7 w-7 items-center justify-center rounded-full border-2 p-0.5" style="border-color: rgba(79, 39, 119, 0.3)">
+            <img src="<%= site.tagIcon(tag) %>" alt="<%= tag %>" class="tag-icon h-5 w-5 object-contain" />
+          </div>
+          <span class="max-w-[4.5rem] text-center text-[8px] font-medium leading-tight" style="color: rgb(79, 39, 119)"><%= tag %></span>
+        </div>
+        <% }) %>
+      </div>
+      <% }) %>
+    </div>
+    <% } %>
+    <div class="mt-auto pt-3 flex gap-2">
+      <% if (product.pdfLinkEn) { %>
+      <a href="<%= product.pdfLinkEn %>" target="_blank" rel="noopener noreferrer"
+        class="flex-1 text-center py-1.5 md:py-2 px-2 md:px-3 rounded-xl md:rounded-2xl text-xs md:text-sm transition-colors border-2 font-medium flex items-center justify-center gap-1"
+        style="border-color: rgb(244, 116, 34); color: rgb(244, 116, 34); background-color: transparent">TDS<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg></a>
+      <a href="/#contact"
+        class="flex-1 text-center py-1.5 md:py-2 px-2 md:px-3 rounded-xl md:rounded-2xl text-xs md:text-sm transition-colors border-2 font-medium"
+        style="border-color: rgb(0, 0, 0); color: rgb(0, 0, 0); background-color: rgb(255, 255, 255)">Interested?</a>
+      <% } %>
+    </div>
+  </div>
+</div>

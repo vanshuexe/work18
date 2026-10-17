@@ -1,0 +1,340 @@
+[
+  {
+    "_id": "6a3b8c3707beb8ead23e3529",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategoryEn": "Nondrying Short Alkyd Resin",
+    "subcategoryAr": "راتنج ألكيد قصير المحتوى الزيتى غير جفوف",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e28d3fb51a5527e20f0",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategoryEn": "Urethane Alkyds",
+    "subcategoryAr": "ألكيد يوريثان",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e26d3fb51a5527e20ca",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategoryEn": "Short Alkyd Resin",
+    "subcategoryAr": "راتنج ألكيد قصير",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e25d3fb51a5527e20b2",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategoryEn": "Medium Alkyd Resin",
+    "subcategoryAr": "راتنج ألكيد متوسط",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e21d3fb51a5527e2054",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087204",
+      "nameEn": "Alkyd",
+      "nameAr": "ألكيد",
+      "slug": "alkyd"
+    },
+    "subcategoryEn": "Long Alkyd Resin",
+    "subcategoryAr": "راتنج ألكيد طويل",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e1dd3fb51a5527e2007",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategoryEn": "Offset Inks",
+    "subcategoryAr": "أحبار الأوفست",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e18d3fb51a5527e1f9b",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategoryEn": "Flexo & Rotogravure",
+    "subcategoryAr": "فلكسو وروتوغرافيور",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e11d3fb51a5527e1ef7",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategoryEn": "Can Coating",
+    "subcategoryAr": "طلاء العلب",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e0dd3fb51a5527e1ea0",
+    "mainCategory": {
+      "_id": "691b10e5a02fe54643087201",
+      "nameEn": "Ink",
+      "nameAr": "حبر",
+      "slug": "ink"
+    },
+    "subcategoryEn": "Silk Screen",
+    "subcategoryAr": "طباعة سيلك سكرين",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e0bd3fb51a5527e1e7a",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategoryEn": "Eco Epoxy",
+    "subcategoryAr": "دهانات الاستخدام العام",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e0bd3fb51a5527e1e70",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategoryEn": "Marine Paints",
+    "subcategoryAr": "دهانات بحرية",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e09d3fb51a5527e1e4a",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategoryEn": "Polyurethane Paints",
+    "subcategoryAr": "دهانات البولي يوريثين",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e05d3fb51a5527e1dec",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategoryEn": "Synthetic Primers And Laquers",
+    "subcategoryAr": "البرايمرات واللكرات الصناعية",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e04d3fb51a5527e1dcd",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategoryEn": "Wood Products",
+    "subcategoryAr": "دهانات الخشب",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e03d3fb51a5527e1db5",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategoryEn": "Bituminous Paint",
+    "subcategoryAr": "دهانات بيتومينية",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e02d3fb51a5527e1d9d",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategoryEn": "Heat Resistant Paint",
+    "subcategoryAr": "دهانات مقاومة للحرارة",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311e01d3fb51a5527e1d8c",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategoryEn": "Fire Retardant Paint",
+    "subcategoryAr": "دهانات مقاومة للحريق",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311dfbd3fb51a5527e1d0b",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fe",
+      "nameEn": "Industrial Paints",
+      "nameAr": "دهانات صناعية",
+      "slug": "industrial-paints"
+    },
+    "subcategoryEn": "Epoxy Paint",
+    "subcategoryAr": "دهان إيبوكسي",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311df8d3fb51a5527e1cc2",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategoryEn": "Exterior Emulsions",
+    "subcategoryAr": "دهانات خارجية",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311df7d3fb51a5527e1cb1",
+    "mainCategory": {
+      "_id": "691b10e5a02fe546430871fb",
+      "nameEn": "Exterior Paints",
+      "nameAr": "دهانات خارجية",
+      "slug": "exterior-paints"
+    },
+    "subcategoryEn": "Sealer",
+    "subcategoryAr": "سيـلر",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311df5d3fb51a5527e1c7c",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategoryEn": "Wood",
+    "subcategoryAr": "الأخشاب",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311df3d3fb51a5527e1c56",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategoryEn": "Shiny",
+    "subcategoryAr": "شايني",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311df1d3fb51a5527e1c22",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategoryEn": "Special Effects (Smart  )",
+    "subcategoryAr": "التأثيرات الخاصة (سمارت  )",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311defd3fb51a5527e1bfc",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategoryEn": "Surface Preperation",
+    "subcategoryAr": "تحضير الأسطح",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311dedd3fb51a5527e1bcf",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategoryEn": "Emulsions",
+    "subcategoryAr": "الدهانات البلاستيك",
+    "sortOrder": 0,
+    "isActive": true
+  },
+  {
+    "_id": "69311dead3fb51a5527e1b94",
+    "mainCategory": {
+      "_id": "691b10e4a02fe546430871f8",
+      "nameEn": "Interior Paints",
+      "nameAr": "دهانات داخلية",
+      "slug": "interior-paints"
+    },
+    "subcategoryEn": "Synthetics",
+    "subcategoryAr": "السنثتيك",
+    "sortOrder": 0,
+    "isActive": true
+  }
+]

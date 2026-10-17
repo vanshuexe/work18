@@ -1,0 +1,35 @@
+<%- include('../partials/top') %>
+<div class="min-h-screen bg-gray-50">
+  <div class="w-[96%] md:w-[98%] h-[40vh] md:h-[50vh] rounded-md bg-cover bg-center bg-no-repeat flex items-center justify-center relative overflow-hidden ml-[2%] md:ml-[1%] mr-[2%] md:mr-[1%]"
+    style="background-image: url('/Rectangle%201%20(3).webp')">
+    <div class="absolute inset-0 bg-black bg-opacity-40 rounded-md"></div>
+    <div class="relative z-10 text-center text-white px-4 w-full">
+      <h1 class="font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">Catalogs</h1>
+      <p class="font-manrope text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl max-w-3xl mx-auto mb-4 md:mb-6 px-2">Browse our collection of product catalogs and resources</p>
+    </div>
+  </div>
+  <div class="py-12">
+    <div class="w-full mx-[1%]">
+      <div class="w-[98%]">
+        <% if (!catalogs.length) { %>
+        <p class="text-center font-manrope text-gray-500 py-12">No catalogs available at the moment.</p>
+        <% } %>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 justify-items-center max-w-6xl mx-auto">
+          <% catalogs.forEach(function (catalog) { %>
+          <div class="relative group">
+            <a target="_blank" rel="noopener noreferrer" class="block overflow-hidden flex flex-col mx-auto" href="<%= catalog.link %>" style="width: 300px; height: 400px">
+              <div class="relative w-full overflow-hidden rounded-3xl" style="height: 100%">
+                <img alt="<%= catalog.title %>" loading="lazy" class="object-cover group-hover:scale-105 transition-transform duration-300 rounded-3xl absolute inset-0 w-full h-full" src="<%= catalog.image %>" />
+                <div class="absolute bottom-0 left-0 right-0 p-2 sm:p-3 md:p-4 lg:p-6 bg-gradient-to-t from-black/70 to-transparent rounded-b-3xl">
+                  <h3 class="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-white text-center line-clamp-2"><%= catalog.title %></h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <% }) %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('../partials/bottom') %>
