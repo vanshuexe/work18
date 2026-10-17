@@ -853,9 +853,10 @@ export default function HomePage({ home, countries } = {}) {
                       }
                     >
                       <video
-                        className={"block w-full aspect-[9/16] object-cover"}
+                        className={"block w-full aspect-[9/16] object-cover gallery-video"}
                         src={video.src}
                         controls
+                        muted
                         playsInline
                         preload={"metadata"}
                         aria-label={video.title}

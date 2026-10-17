@@ -1,69 +1,63 @@
-import content from "../../config/company";
+import about from "../../config/about";
 import PageBanner from "../PageBanner";
 import SiteLink from "../SiteLink";
 
-const byTitle = (title) => content.company.find((section) => section.title === title);
+const Paragraphs = ({ items }) =>
+  items.map((text, index) => (
+    <p key={index} className="text-[15px] leading-[1.9] text-gray-700 sm:text-[17px]">
+      {text}
+    </p>
+  ));
 
-// Splits a section's paragraphs into plain paragraphs and bullet lists.
-// A paragraph ending in ":" introduces a list; short items end at the first full sentence,
-// long items end at the next ":" line.
-function parseBlocks(paragraphs) {
-  const blocks = [];
-  for (let i = 0; i < paragraphs.length; i++) {
-    const text = paragraphs[i];
-    blocks.push({ type: "p", text });
-    if (!text.endsWith(":")) continue;
-    const items = [];
-    const short = paragraphs[i + 1] && paragraphs[i + 1].length < 50;
-    while (i + 1 < paragraphs.length) {
-      const next = paragraphs[i + 1];
-      if (short ? next.length >= 50 : next.endsWith(":")) break;
-      items.push(next);
-      i++;
-    }
-    blocks.push({ type: "list", items, short });
-  }
-  return blocks;
+// Outline icons (24x24, currentColor strokes).
+const ICONS = {
+  building: (
+    <>
+      <path d="M4 21V7l8-4 8 4v14" />
+      <path d="M9 21v-5h6v5M8 10h.01M12 10h.01M16 10h.01M8 13.5h.01M12 13.5h.01M16 13.5h.01" />
+    </>
+  ),
+  target: (
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <circle cx="12" cy="12" r="5" />
+      <circle cx="12" cy="12" r="1.2" />
+      <path d="M12 3V1M12 23v-2M3 12H1M23 12h-2" />
+    </>
+  ),
+  shield: (
+    <>
+      <path d="M12 3 5 6v5.5c0 4.3 2.9 7.6 7 9.5 4.1-1.9 7-5.2 7-9.5V6l-7-3Z" />
+      <path d="m9 12 2 2 4-4.5" />
+    </>
+  ),
+  factory: (
+    <>
+      <path d="M3 21V10l6 3.5V10l6 3.5V6h3v15H3Z" />
+      <path d="M7 17h.01M11 17h.01M15 17h.01" />
+    </>
+  ),
+  rocket: (
+    <>
+      <path d="M12 2c3.5 2.2 5 5.8 5 9.5L14.5 15h-5L7 11.5C7 7.8 8.5 4.2 12 2Z" />
+      <circle cx="12" cy="9" r="1.6" />
+      <path d="m7 12-3 3 3 .5M17 12l3 3-3 .5M10 19c0 1.5.8 2.5 2 3 1.2-.5 2-1.5 2-3" />
+    </>
+  ),
+};
+
+function SectionIcon({ name }) {
+  if (!ICONS[name]) return null;
+  return (
+    <span className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#f6f1fa] text-[#512178]">
+      <svg className="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        {ICONS[name]}
+      </svg>
+    </span>
+  );
 }
-
-function Blocks({ paragraphs }) {
-  return parseBlocks(paragraphs).map((block, index) => {
-    if (block.type === "list") {
-      return (
-        <ul
-          key={index}
-          className={`grid gap-x-8 gap-y-2.5 ${block.short ? "sm:grid-cols-2" : ""}`}
-        >
-          {block.items.map((item) => (
-            <li key={item} className="flex gap-3 text-[15px] leading-relaxed text-gray-700">
-              <span className="mt-[9px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[#f47422]" />
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      );
-    }
-    return (
-      <p key={index} className="text-[15px] sm:text-base leading-[1.8] text-gray-700">
-        {block.text}
-      </p>
-    );
-  });
-}
-
-const stories = ["Our Approach", "Quality & Consistency", "Serving Multiple Industries"];
 
 export default function AboutPage() {
-  const about = byTitle("About Us");
-  const future = byTitle("Our Future");
-
-  const slogan = future.paragraphs.find((p) => p.startsWith("From Industrial Coatings"));
-  const categories = future.paragraphs
-    .find((p) => p.includes("|"))
-    .split("|")
-    .map((c) => c.trim());
-  const futureText = future.paragraphs.filter((p) => p !== slogan && !p.includes("|"));
-
   return (
     <div className="bg-white text-gray-900 font-manrope">
       {/* Banner */}
@@ -80,7 +74,7 @@ export default function AboutPage() {
       {/* Intro */}
       <section className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
         <div>
-          <p className="max-w-xl text-lg leading-relaxed text-gray-700">{about.paragraphs[0]}</p>
+          <p className="max-w-xl text-lg leading-relaxed text-gray-700">{about.intro}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <SiteLink
               href="/interior-paints"
@@ -122,60 +116,38 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Who we are */}
-      <section className="mx-auto max-w-7xl px-5 py-12 sm:px-8 sm:py-16 lg:py-20">
-        <div className="grid gap-6 lg:grid-cols-[320px_1fr] lg:gap-16">
-          <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl lg:sticky lg:top-28 lg:self-start">
-            Who we are
-          </h2>
-          <div className="space-y-5">
-            <Blocks paragraphs={about.paragraphs.slice(1)} />
-            <div className="pt-4">
-              <p className="text-sm font-bold uppercase tracking-wider text-gray-500">What we make</p>
-              <ul className="mt-3 flex flex-wrap gap-2">
-                {categories.map((name) => (
-                  <li
-                    key={name}
-                    className="rounded-lg border border-[#512178]/20 bg-[#f6f1fa] px-3.5 py-2 text-sm font-semibold text-[#512178]"
-                  >
-                    {name}
-                  </li>
-                ))}
-              </ul>
+      {/* Long-form sections */}
+      {about.sections.map((section, index) => (
+        <section key={section.title} className={index ? "border-t border-gray-200" : ""}>
+          <div className="mx-auto grid max-w-7xl gap-6 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[320px_1fr] lg:gap-16 lg:py-20">
+            <div className="lg:sticky lg:top-28 lg:self-start">
+              <SectionIcon name={section.icon} />
+              <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl">{section.title}</h2>
+            </div>
+            <div className="max-w-3xl space-y-6">
+              <Paragraphs items={section.paragraphs} />
+              {section.title === "Who we are" ? (
+                <div className="pt-2">
+                  <p className="text-sm font-bold uppercase tracking-wider text-gray-500">What we make</p>
+                  <ul className="mt-3 flex flex-wrap gap-2">
+                    {about.categories.map((name) => (
+                      <li
+                        key={name}
+                        className="rounded-lg border border-[#512178]/20 bg-[#f6f1fa] px-3.5 py-2 text-sm font-semibold text-[#512178]"
+                      >
+                        {name}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+              {section.slogan ? (
+                <p className="pt-2 font-poppins text-xl font-bold text-[#512178] sm:text-2xl">{section.slogan}</p>
+              ) : null}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* How we work */}
-      {stories.map((title) => {
-        const section = byTitle(title);
-        return (
-          <section key={title} className="border-t border-gray-200">
-            <div className="mx-auto grid max-w-7xl gap-6 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[320px_1fr] lg:gap-16">
-              <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl lg:sticky lg:top-28 lg:self-start">
-                {title}
-              </h2>
-              <div className="space-y-5">
-                <Blocks paragraphs={section.paragraphs} />
-              </div>
-            </div>
-          </section>
-        );
-      })}
-
-      {/* Future */}
-      <section>
-        <div className="mx-auto grid max-w-7xl gap-6 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[320px_1fr] lg:gap-16 lg:py-20">
-          <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl lg:sticky lg:top-28 lg:self-start">
-            Our future
-          </h2>
-          <div className="space-y-5">
-            <Blocks paragraphs={futureText} />
-            <p className="pt-2 font-poppins text-xl font-bold text-[#512178] sm:text-2xl">{slogan}</p>
-          </div>
-        </div>
-      </section>
+        </section>
+      ))}
     </div>
   );
 }

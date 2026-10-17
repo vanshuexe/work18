@@ -1,8 +1,9 @@
 import site from "../config/site";
 
 export const metadata = {
-  title: { default: site.siteName, template: `%s | ${site.siteName}` },
+  title: { default: site.seoTitle, template: `%s | ${site.siteName}` },
   description: site.description,
+  openGraph: { title: site.seoTitle, description: site.description, siteName: site.siteName, type: "website" },
   icons: { icon: "/aeropolish-logo.jpeg" },
 };
 

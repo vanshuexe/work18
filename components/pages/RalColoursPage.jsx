@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import PageBanner from "../PageBanner";
 
 const groups = [
   { key: "all", label: "All" },
@@ -44,15 +43,26 @@ export default function RalColoursPage({ colours }) {
   return (
     <div className="bg-white font-manrope text-gray-900">
       <div className="px-3 pt-4 sm:px-4">
-        <PageBanner
-          as="h1"
-          image="/new-images/interior-paints.svg"
-          title="RAL Colours"
-          tagline="RAL Classic colour reference. Tap a colour to copy its code."
-        />
+        <h1 className="sr-only">RAL Colours</h1>
+        <div className="relative mx-auto w-full max-w-[1500px]">
+          <img
+            src="/new-images/ral-banner.webp"
+            alt="Aeropolish RAL Color Code for perfect finishes: a wide range of RAL shades, accurate colour matching and long-lasting performance."
+            width="2000"
+            height="750"
+            className="block h-auto w-full rounded-xl"
+          />
+          <a
+            href="#ral-colour-list"
+            aria-label="Explore RAL Colors"
+            className="absolute rounded"
+            style={{ left: "6.8%", top: "77.8%", width: "11.4%", height: "7%" }}
+          />
+        </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10">
+      <div id="ral-colour-list" className="mx-auto max-w-7xl scroll-mt-20 px-4 py-8 sm:px-6 sm:py-10">
+        <p className="mb-5 text-sm text-gray-600 sm:text-base">RAL Classic colour reference. Tap a colour to copy its code.</p>
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <input
             type="search"
