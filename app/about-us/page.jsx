@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import FamilyTiles from '../../components/catalog/FamilyTiles';
 import { Arrow, CtaBand, PageHero, Photo, SectionHead } from '../../components/ui/blocks';
-import { plant } from '../../lib/plant';
-import { customers, recognition, site } from '../../lib/site';
+import { customers, site } from '../../lib/site';
 
 export const metadata = {
   title: 'About us — engineering goods manufacturer since 1964',
@@ -15,7 +14,7 @@ const timeline = [
   [String(site.founded), 'Light engineering begins', 'The company is founded by the late S. Bahadur Singh Matharoo, with the blessings of his father, the late S. Hari Singh Matharoo, and starts manufacturing engineering goods.'],
   ['Growth', 'Carriers, stands and accessories', 'Expertise in wire, tube and sheet metal grows into a broad range of bicycle carriers, stands and accessories under the Harisons and Bahadur brands, supplied to cycle manufacturers and assemblers.'],
   ['Wire', 'Formed-wire products', 'CNC wire forming opens the way to custom formed-wire products such as display racks and water-filter stands, made to the buyer’s requirement.'],
-  ['Today', 'Bicycle and agriculture parts', 'Our two product ranges are bicycle parts — carriers, stands, accessories and baskets — and agriculture parts for combines, reapers and balers, sold under the Harison India name.'],
+  ['Today', 'Bicycle and agriculture parts', 'Our two product ranges are bicycle parts — carriers, stands and accessories — and agriculture parts for combines, reapers and balers, sold under the Harison India name.'],
 ];
 
 export default function About() {
@@ -48,7 +47,7 @@ export default function About() {
             </p>
           </div>
           <div className="split-media">
-            <Photo src={plant.powerPress.src} alt={plant.powerPress.alt} ratio="4 / 4.2" sizes="(max-width: 900px) 100vw, 50vw" />
+            <Photo src="/images/recreated/infrastructure/new2.png" alt="Inside the Harison manufacturing plant" ratio="4 / 4.2" sizes="(max-width: 900px) 100vw, 50vw" />
           </div>
         </div>
       </section>
@@ -84,18 +83,16 @@ export default function About() {
       <section className="section section--ink">
         <div className="container split split--top">
           <div className="split-copy">
-            <p className="kicker"><span className="mono">03</span>Customers &amp; recognition</p>
+            <p className="kicker"><span className="mono">03</span>Customers</p>
             <h2>Trusted by cycle makers.</h2>
             <p>
               We supply major OEMs in India as well as other manufacturers, assemblers and traders in India and abroad.
               Customers include {customers.slice(0, -1).join(', ')} and {customers.at(-1)}.
             </p>
           </div>
-          <ul className="tick-list" style={{ maxWidth: 'none' }}>
-            {recognition.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
+          <div className="split-media">
+            <Photo src="/images/recreated/infrastructure/press-shop.png" alt="The press shop at Harison" ratio="4 / 3" sizes="(max-width: 900px) 100vw, 50vw" />
+          </div>
         </div>
       </section>
 

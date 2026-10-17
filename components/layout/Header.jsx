@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import Logo from '../brand/Logo';
+import Logo, { IndiaLogo } from '../brand/Logo';
 import { nav, site } from '../../lib/site';
 
 export default function Header() {
@@ -65,7 +65,7 @@ export default function Header() {
         </div>
       </div>
       <div className="container header-inner">
-        <Logo />
+        <Logo priority />
         <button
           type="button"
           className="menu-button"
@@ -115,6 +115,7 @@ export default function Header() {
           </ul>
           <Link href="/enquiry" className="btn btn--primary nav-cta">Request a quote</Link>
         </nav>
+        <IndiaLogo className="india-logo--header" />
       </div>
     </header>
   );

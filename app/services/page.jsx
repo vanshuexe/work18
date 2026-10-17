@@ -12,7 +12,7 @@ export const metadata = {
 const services = [
   {
     title: 'Wire forming',
-    text: 'Wire is straightened and formed on CNC wire-forming machines. It is how we make carriers, baskets, display racks, filter stands and other formed-wire products to a buyer’s shape.',
+    text: 'Wire is straightened and formed on CNC wire-forming machines. It is how we make carriers, display racks, filter stands and other formed-wire products to a buyer’s shape.',
     tags: ['Wire straightening', 'CNC wire forming', 'Display racks', 'Filter stands'],
     image: 'wireStraightening',
   },

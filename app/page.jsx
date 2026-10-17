@@ -3,7 +3,7 @@ import Link from 'next/link';
 import FamilyTiles from '../components/catalog/FamilyTiles';
 import { Arrow, CtaBand, Photo, ProductImage, SectionHead } from '../components/ui/blocks';
 import { featuredProducts } from '../lib/catalog';
-import { plant } from '../lib/plant';
+import HeroSlider from '../components/sections/HeroSlider';
 import { customers, site } from '../lib/site';
 
 export const metadata = {
@@ -16,6 +16,12 @@ const facts = [
   [site.area, 'Factory area in Ludhiana, Punjab'],
   ['60+', 'Models of carriers and stands'],
   ['India & export', 'Domestic and overseas customers'],
+];
+
+const slides = [
+  { src: '/images/brand/original-cycle-hero.webp', alt: 'Rear carrier fitted on a bicycle against a dark blue background', title: 'Bicycle parts', text: 'Carriers, stands and accessories' },
+  { src: '/images/events/agri-expo-2026.jpeg', alt: 'Harison India stall showing combine harvester, reaper and baler parts', title: 'Agriculture parts', text: 'Combine harvester, reaper and baler parts' },
+  { src: '/images/agriculture/tine-12.webp', alt: 'Yellow double torsion spring tine', title: 'Agriculture parts', text: 'Spring tines and wire-formed parts', contain: true },
 ];
 
 const process = [
@@ -45,9 +51,7 @@ export default function Home() {
               <Link href="/enquiry" className="btn btn--ghost-light">Request a quote</Link>
             </div>
           </div>
-          <div className="hero-media">
-            <Image src="/images/brand/original-cycle-hero.webp" alt="Rear carrier fitted on a bicycle, shown against a dark blue studio background" fill priority sizes="(max-width: 900px) 100vw, 48vw" />
-          </div>
+          <HeroSlider slides={slides} />
         </div>
         <div className="facts">
           <div className="container facts-grid">
@@ -130,7 +134,7 @@ export default function Home() {
             <Link href="/about-us" className="text-link">Read our story <Arrow /></Link>
           </div>
           <div className="split-media">
-            <Photo src={plant.welding.src} alt={plant.welding.alt} ratio="4 / 3.4" sizes="(max-width: 900px) 100vw, 50vw" />
+            <Photo src="/images/recreated/infrastructure/new1.png" alt="Harison factory building in the evening" ratio="4 / 3.4" sizes="(max-width: 900px) 100vw, 50vw" />
           </div>
         </div>
       </section>

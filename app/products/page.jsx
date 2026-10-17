@@ -5,7 +5,7 @@ import { categories } from '../../lib/catalog';
 
 export const metadata = {
   title: 'Products',
-  description: 'Bicycle carriers, stands, accessories and baskets, plus agriculture parts for combines, reapers and balers, from Harison Cycle Industries, Ludhiana.',
+  description: 'Bicycle carriers, stands and accessories, plus agriculture parts for combines, reapers and balers, from Harison Cycle Industries, Ludhiana.',
   alternates: { canonical: '/products' },
 };
 
@@ -16,7 +16,7 @@ const steps = [
 ];
 
 export default function Products() {
-  const total = ['carriers', 'stands', 'accessories', 'baskets'].reduce((sum, key) => sum + categories[key].items.length, 0);
+  const total = ['carriers', 'stands', 'accessories'].reduce((sum, key) => sum + categories[key].items.length, 0);
   return (
     <>
       <PageHero

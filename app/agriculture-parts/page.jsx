@@ -38,7 +38,7 @@ const send = [
 const faqs = [
   ['Do you have a part number for each item?', 'Each photo carries a reference such as PART 07. Quote it together with your machine model, or send a sample or drawing, and we will match it. The details shown — coils, bridge, legs and finish — are read from the photograph, so confirm dimensions with us before ordering.'],
   ['Do you make parts to a sample or drawing?', 'Yes. Customer-specific wire and sheet-metal parts are a core part of our work, and the same plant makes our agriculture parts.'],
-  ['What finishes are available?', 'Parts are shown in bright steel, zinc, gold-zinc, yellow, grey, brown and black finishes. Tell us the finish you need and we will confirm what we can supply.'],
+  ['What finishes are available?', 'Every agriculture part is available zinc plated or powder coated in any colour. Tell us the colour (an RAL shade or a sample works best) when you enquire.'],
   ['Who are these parts for?', 'Machine manufacturers, dealers and distributors of agricultural equipment. Tell us about your requirement when you enquire.'],
 ];
 

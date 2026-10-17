@@ -12,7 +12,7 @@ export const metadata = {
   metadataBase: new URL(site.url),
   title: { default: `${site.name} — Bicycle & agriculture parts manufacturer, Ludhiana`, template: `%s | ${site.name}` },
   description:
-    'Harison Cycle Industries manufactures bicycle carriers, stands, accessories and baskets, and agriculture parts for combines, reapers and balers, from wire, tube and sheet metal in Ludhiana, India. Engineering goods since 1964.',
+    'Harison Cycle Industries manufactures bicycle carriers, stands and accessories, and agriculture parts for combines, reapers and balers, from wire, tube and sheet metal in Ludhiana, India. Engineering goods since 1964.',
   openGraph: { type: 'website', siteName: site.name, locale: 'en_IN' },
   icons: { icon: '/images/brand/favicon.png', apple: '/images/brand/apple-touch-icon.png' },
 };

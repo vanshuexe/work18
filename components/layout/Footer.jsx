@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Logo from '../brand/Logo';
+import Logo, { IndiaLogo } from '../brand/Logo';
 import { site } from '../../lib/site';
 
 export default function Footer() {
@@ -12,7 +12,10 @@ export default function Footer() {
         </div>
         <div className="footer-grid">
           <div className="footer-about">
-            <Logo inverse />
+            <div className="footer-logos">
+              <Logo inverse />
+              <IndiaLogo className="india-logo--footer" />
+            </div>
             <p>
               Manufacturers of bicycle and agriculture parts from wire, tube and sheet metal. Engineering goods
               since {site.founded}, from Ludhiana, Punjab.
@@ -28,7 +31,6 @@ export default function Footer() {
               <li><Link href="/carriers">Carriers</Link></li>
               <li><Link href="/stands">Stands</Link></li>
               <li><Link href="/accessories">Accessories</Link></li>
-              <li><Link href="/baskets">Baskets</Link></li>
               <li><Link href="/agriculture-parts">Agriculture parts</Link></li>
             </ul>
           </nav>
@@ -57,7 +59,10 @@ export default function Footer() {
         </div>
         <div className="footer-legal">
           <span>© {new Date().getFullYear()} {site.name}. All rights reserved.</span>
-          <a href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+          <span className="footer-social">
+            {site.instagram && <a href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>}
+            {site.facebook && <a href={site.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>}
+          </span>
         </div>
       </div>
     </footer>

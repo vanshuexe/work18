@@ -27,10 +27,18 @@ export default function Contact() {
                 <h3>Second number</h3>
                 <a href={`tel:${site.phone2.href}`}>{site.phone2.label}</a>
               </div>
-              <div>
-                <h3>Instagram</h3>
-                <a href={site.instagram} target="_blank" rel="noopener noreferrer">@harisoninternational</a>
-              </div>
+              {site.instagram && (
+                <div>
+                  <h3>Instagram</h3>
+                  <a href={site.instagram} target="_blank" rel="noopener noreferrer">Harison Cycle Industries</a>
+                </div>
+              )}
+              {site.facebook && (
+                <div>
+                  <h3>Facebook</h3>
+                  <a href={site.facebook} target="_blank" rel="noopener noreferrer">Harison Cycle Industries</a>
+                </div>
+              )}
             </div>
           </div>
           <div className="split-copy">
