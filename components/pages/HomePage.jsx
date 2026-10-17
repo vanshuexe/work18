@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import SiteLink from "../SiteLink";
+import contact from "../../config/contact";
 import company from "../../config/company";
 import site from "../../config/site";
 import { cssStyle, formatDate } from "../../lib/presentation";
@@ -965,10 +966,17 @@ export default function HomePage({ home, countries } = {}) {
                             </div>
                             <div>
                               <div className={"text-[11px] text-gray-300 font-medium uppercase tracking-wider"}>
-                                Call Toll-Free
+                                Call Us
                               </div>
                               <div className={"text-sm sm:text-base font-bold font-poppins text-white"}>
-                                +91 1800 234 5678
+                                {contact.phones.map((phone, index) => (
+                                  <span key={phone.tel}>
+                                    {index ? " / " : ""}
+                                    <a href={`tel:${phone.tel}`} className={"hover:underline"}>
+                                      {phone.label}
+                                    </a>
+                                  </span>
+                                ))}
                               </div>
                             </div>
                           </div>
@@ -1004,7 +1012,9 @@ export default function HomePage({ home, countries } = {}) {
                                 Email Inquiries
                               </div>
                               <div className={"text-sm sm:text-base font-bold font-poppins text-white"}>
-                                contact@aeropolish.com
+                                <a href={`mailto:${contact.email}`} className={"hover:underline break-all"}>
+                                  {contact.email}
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -1042,10 +1052,15 @@ export default function HomePage({ home, countries } = {}) {
                             </div>
                             <div>
                               <div className={"text-[11px] text-gray-300 font-medium uppercase tracking-wider"}>
-                                Corporate Campus
+                                Our Units
                               </div>
-                              <div className={"text-xs sm:text-sm font-semibold font-manrope text-white"}>
-                                Aeropolish Complex, Phase 2, Industrial Hub
+                              <div className={"space-y-2 text-xs sm:text-sm font-semibold font-manrope text-white"}>
+                                {contact.units.map((unit) => (
+                                  <p key={unit.name} className={"leading-snug"}>
+                                    <span className={"font-bold"}>{unit.name}: </span>
+                                    {unit.address}
+                                  </p>
+                                ))}
                               </div>
                             </div>
                           </div>

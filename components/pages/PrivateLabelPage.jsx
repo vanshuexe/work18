@@ -40,17 +40,17 @@ export default function PrivateLabelPage() {
     <div className="bg-white font-manrope text-gray-900">
       <div className="px-3 pt-4 sm:px-4">
         <img
-          src="/new-images/private-label-banner.webp"
-          alt="Aeropolish private label paint manufacturing: your brand, our manufacturing expertise"
-          width="2000"
-          height="752"
+          src="/new-images/private-label-banner-2.jpg"
+          alt="Private label and white label paint manufacturing: quality, flexible custom formulations and scalable bulk manufacturing, with a five-step process from requirements to delivery"
+          width="1600"
+          height="639"
           className="mx-auto block h-auto w-full max-w-[1500px] rounded-xl"
         />
       </div>
 
       <section className="mx-auto max-w-4xl px-5 py-12 text-center sm:px-8 sm:py-16">
         <h1 className="font-poppins text-3xl font-bold text-[#0b2a6b] sm:text-4xl lg:text-5xl">
-          Private Label Paint <span className="text-[#f47422]">Manufacturing</span>
+          Private Label &amp; White Label Paint <span className="text-[#f47422]">Manufacturing</span>
         </h1>
         <p className="mt-3 font-poppins text-lg font-semibold text-[#2a1442] sm:text-xl">
           Your Brand. <span className="text-[#f47422]">Our Manufacturing Expertise.</span>

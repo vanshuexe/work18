@@ -1,61 +1,14 @@
 import about from "../../config/about";
 import PageBanner from "../PageBanner";
 import SiteLink from "../SiteLink";
+import SectionHeading, { bodyText } from "../SectionHeading";
 
 const Paragraphs = ({ items }) =>
   items.map((text, index) => (
-    <p key={index} className="text-[15px] leading-[1.9] text-gray-700 sm:text-[17px]">
+    <p key={index} className={bodyText}>
       {text}
     </p>
   ));
-
-// Outline icons (24x24, currentColor strokes).
-const ICONS = {
-  building: (
-    <>
-      <path d="M4 21V7l8-4 8 4v14" />
-      <path d="M9 21v-5h6v5M8 10h.01M12 10h.01M16 10h.01M8 13.5h.01M12 13.5h.01M16 13.5h.01" />
-    </>
-  ),
-  target: (
-    <>
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="12" r="5" />
-      <circle cx="12" cy="12" r="1.2" />
-      <path d="M12 3V1M12 23v-2M3 12H1M23 12h-2" />
-    </>
-  ),
-  shield: (
-    <>
-      <path d="M12 3 5 6v5.5c0 4.3 2.9 7.6 7 9.5 4.1-1.9 7-5.2 7-9.5V6l-7-3Z" />
-      <path d="m9 12 2 2 4-4.5" />
-    </>
-  ),
-  factory: (
-    <>
-      <path d="M3 21V10l6 3.5V10l6 3.5V6h3v15H3Z" />
-      <path d="M7 17h.01M11 17h.01M15 17h.01" />
-    </>
-  ),
-  rocket: (
-    <>
-      <path d="M12 2c3.5 2.2 5 5.8 5 9.5L14.5 15h-5L7 11.5C7 7.8 8.5 4.2 12 2Z" />
-      <circle cx="12" cy="9" r="1.6" />
-      <path d="m7 12-3 3 3 .5M17 12l3 3-3 .5M10 19c0 1.5.8 2.5 2 3 1.2-.5 2-1.5 2-3" />
-    </>
-  ),
-};
-
-function SectionIcon({ name }) {
-  if (!ICONS[name]) return null;
-  return (
-    <span className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#f6f1fa] text-[#512178]">
-      <svg className="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-        {ICONS[name]}
-      </svg>
-    </span>
-  );
-}
 
 export default function AboutPage() {
   return (
@@ -119,12 +72,9 @@ export default function AboutPage() {
       {/* Long-form sections */}
       {about.sections.map((section, index) => (
         <section key={section.title} className={index ? "border-t border-gray-200" : ""}>
-          <div className="mx-auto grid max-w-7xl gap-6 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[320px_1fr] lg:gap-16 lg:py-20">
-            <div className="lg:sticky lg:top-28 lg:self-start">
-              <SectionIcon name={section.icon} />
-              <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl">{section.title}</h2>
-            </div>
-            <div className="max-w-3xl space-y-6">
+          <div className="mx-auto grid max-w-4xl gap-6 px-5 py-12 sm:px-8 sm:py-16 lg:py-20">
+            <SectionHeading icon={section.icon} title={section.title} />
+            <div className="space-y-6">
               <Paragraphs items={section.paragraphs} />
               {section.title === "Who we are" ? (
                 <div className="pt-2">

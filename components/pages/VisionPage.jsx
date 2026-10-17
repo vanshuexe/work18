@@ -1,5 +1,6 @@
 import content from "../../config/company";
 import SiteLink from "../SiteLink";
+import SectionHeading, { bodyText } from "../SectionHeading";
 
 const vision = content.company.find((section) => section.title === "Our Vision");
 
@@ -28,15 +29,15 @@ export default function VisionPage() {
       </section>
 
       <section className="border-t border-gray-200">
-        <div className="mx-auto grid max-w-7xl gap-8 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[320px_1fr] lg:gap-16">
-          <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl">What it rests on</h2>
+        <div className="mx-auto grid max-w-4xl gap-6 px-5 py-12 sm:px-8 sm:py-16">
+          <SectionHeading icon="foundation" title="What it rests on" />
           <div>
-            <p className="text-[15px] leading-[1.8] text-gray-700 sm:text-base">{foundation}</p>
+            <p className={bodyText}>{foundation}</p>
             <ol className="mt-6 divide-y divide-gray-200 border-y border-gray-200">
               {foundations.map((item, index) => (
                 <li key={item} className="flex items-baseline gap-5 py-3.5">
                   <span className="w-6 font-poppins text-sm font-bold text-[#f47422]">{index + 1}</span>
-                  <span className="text-base font-semibold text-gray-900">{item}</span>
+                  <span className="text-base font-semibold text-gray-900 sm:text-[17px]">{item}</span>
                 </li>
               ))}
             </ol>
@@ -45,9 +46,9 @@ export default function VisionPage() {
       </section>
 
       <section className="border-t border-gray-200">
-        <div className="mx-auto grid max-w-7xl gap-8 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[320px_1fr] lg:gap-16">
-          <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl">From India to the world</h2>
-          <p className="text-[15px] leading-[1.8] text-gray-700 sm:text-base">{reach}</p>
+        <div className="mx-auto grid max-w-4xl gap-6 px-5 py-12 sm:px-8 sm:py-16">
+          <SectionHeading icon="globe" title="From India to the world" />
+          <p className={bodyText}>{reach}</p>
         </div>
       </section>
 

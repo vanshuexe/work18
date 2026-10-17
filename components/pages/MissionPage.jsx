@@ -1,6 +1,7 @@
 import content from "../../config/company";
 import PageBanner from "../PageBanner";
 import SiteLink from "../SiteLink";
+import SectionHeading from "../SectionHeading";
 
 const mission = content.company.find((section) => section.title === "Our Mission");
 
@@ -24,13 +25,13 @@ export default function MissionPage() {
       </section>
 
       <section className="border-t border-gray-200">
-        <div className="mx-auto grid max-w-7xl gap-8 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[320px_1fr] lg:gap-16">
-          <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl">We are committed to</h2>
+        <div className="mx-auto grid max-w-4xl gap-6 px-5 py-12 sm:px-8 sm:py-16">
+          <SectionHeading icon="checklist" title="We are committed to" />
           <ol className="divide-y divide-gray-200 border-y border-gray-200">
             {commitments.map((item, index) => (
               <li key={item} className="flex items-baseline gap-5 py-4">
                 <span className="w-6 flex-shrink-0 font-poppins text-sm font-bold text-[#f47422]">{index + 1}</span>
-                <span className="text-[15px] leading-relaxed text-gray-800 sm:text-base">{item}</span>
+                <span className="text-[15px] leading-[1.8] text-gray-800 sm:text-[17px]">{item}</span>
               </li>
             ))}
           </ol>
@@ -38,8 +39,8 @@ export default function MissionPage() {
       </section>
 
       <section className="border-t border-gray-200">
-        <div className="mx-auto grid max-w-7xl gap-8 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[320px_1fr] lg:gap-16">
-          <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl">In one line</h2>
+        <div className="mx-auto grid max-w-4xl gap-6 px-5 py-12 sm:px-8 sm:py-16">
+          <SectionHeading icon="spark" title="In one line" />
           <p className="border-l-4 border-[#f47422] pl-5 font-poppins text-lg font-semibold leading-relaxed text-[#2a1442] sm:text-xl">
             {promise}
           </p>
