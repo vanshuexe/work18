@@ -67,5 +67,22 @@ module.exports = {
         },
       ],
     },
+    {
+      title: "Exterior Paints",
+      images: [
+        {
+          src: "/gallery/exterior-1.webp",
+          width: 1254,
+          height: 1254,
+          alt: "High-rise apartment building painted in cream with grey and teal accent panels",
+        },
+        {
+          src: "/gallery/exterior-2.webp",
+          width: 990,
+          height: 1589,
+          alt: "Workers on a suspended platform painting the facade of a tall building in orange, beige and yellow",
+        },
+      ],
+    },
   ],
 };
