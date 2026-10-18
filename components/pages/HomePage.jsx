@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import SiteLink from "../SiteLink";
 import contact from "../../config/contact";
+import { WhatsAppIcon, whatsappLink } from "../WhatsAppButton";
 import company from "../../config/company";
 import site from "../../config/site";
 import { cssStyle, formatDate } from "../../lib/presentation";
@@ -236,7 +237,9 @@ export default function HomePage({ home, countries } = {}) {
                 <div className={"grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16"}>
                   <div>
                     <p className={"text-sm font-bold uppercase tracking-[0.2em] text-[#f47422]"}>About us</p>
-                    <h2 className={`${sectionHeading} mt-3`}>About Aeropolish</h2>
+                    <h2 className={`${sectionHeading} mt-3`}>
+                      About <span className={"heading-orange"}>Aeropolish</span>
+                    </h2>
                     <div className={"mt-5 text-[15px] leading-[1.7] text-gray-700 sm:text-base"}>
                       {/* Mobile responsive only: concise 2-3 liner */}
                       <p className={"block sm:hidden leading-relaxed"}>
@@ -732,7 +735,7 @@ export default function HomePage({ home, countries } = {}) {
                   >
                     {/* Header with Eyebrow Badge, SVG Icon, Heading and Subtitle */}
                     <div className={"text-center max-w-3xl mx-auto mb-8 md:mb-12"}>
-                      <h2 className={sectionHeading}>
+                      <h2 className={`${sectionHeading} heading-orange`}>
                         Stronger Paints, Brighter Results
                       </h2>
                     </div>
@@ -831,7 +834,7 @@ export default function HomePage({ home, countries } = {}) {
             {/* Paint Gallery (videos) */}
             <div className={"w-full"} style={cssStyle(sectionStyle)}>
               <div className={"text-center px-4 max-w-3xl mx-auto mb-8 sm:mb-12"}>
-                <h2 className={sectionHeading}>Aeropolish Paint Gallery</h2>
+                <h2 className={`${sectionHeading} heading-orange`}>Aeropolish Paint Gallery</h2>
                 <p className={"mt-3 text-sm sm:text-base font-manrope text-gray-600"}>
                   Watch walls come alive with colour, finish and craftsmanship.
                 </p>
@@ -871,7 +874,7 @@ export default function HomePage({ home, countries } = {}) {
             {/* Contact */}
             <div className={"w-full"} style={cssStyle(sectionStyle)}>
               <div className={"text-center px-4 max-w-3xl mx-auto mb-8 sm:mb-12"}>
-                <h2 className={sectionHeading}>Get in Touch with Aeropolish</h2>
+                <h2 className={`${sectionHeading} heading-orange`}>Get in Touch with Aeropolish</h2>
               </div>
 
               <div className={"w-[96%] sm:w-[98%] mx-auto"}>
@@ -969,13 +972,23 @@ export default function HomePage({ home, countries } = {}) {
                                 Call Us
                               </div>
                               <div className={"text-sm sm:text-base font-bold font-poppins text-white"}>
-                                {contact.phones.map((phone, index) => (
-                                  <span key={phone.tel}>
-                                    {index ? " / " : ""}
+                                {contact.phones.map((phone) => (
+                                  <div key={phone.tel} className={"flex flex-wrap items-center gap-2"}>
                                     <a href={`tel:${phone.tel}`} className={"hover:underline"}>
                                       {phone.label}
                                     </a>
-                                  </span>
+                                    {phone.whatsapp ? (
+                                      <a
+                                        href={whatsappLink()}
+                                        target={"_blank"}
+                                        rel={"noopener noreferrer"}
+                                        className={"inline-flex items-center gap-1 rounded-full bg-[#25d366] px-2.5 py-0.5 text-[11px] font-bold text-white"}
+                                      >
+                                        <WhatsAppIcon className={"h-3.5 w-3.5"} />
+                                        WhatsApp
+                                      </a>
+                                    ) : null}
+                                  </div>
                                 ))}
                               </div>
                             </div>
@@ -1057,7 +1070,13 @@ export default function HomePage({ home, countries } = {}) {
                               <div className={"space-y-2 text-xs sm:text-sm font-semibold font-manrope text-white"}>
                                 {contact.units.map((unit) => (
                                   <p key={unit.name} className={"leading-snug"}>
-                                    <span className={"font-bold"}>{unit.name}: </span>
+                                    <span className={"inline-flex items-center gap-1 font-bold"}>
+                                      <svg className={"h-4 w-4 flex-shrink-0 text-amber-300"} viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"2"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
+                                        <path d={"M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"} />
+                                        <circle cx={"12"} cy={"9.5"} r={"2.5"} />
+                                      </svg>
+                                      {unit.name}:
+                                    </span>{" "}
                                     {unit.address}
                                   </p>
                                 ))}

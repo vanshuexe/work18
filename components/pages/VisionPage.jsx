@@ -1,6 +1,7 @@
 import content from "../../config/company";
 import SiteLink from "../SiteLink";
 import SectionHeading, { bodyText } from "../SectionHeading";
+import Rich, { mark } from "../Rich";
 
 const vision = content.company.find((section) => section.title === "Our Vision");
 
@@ -25,14 +26,18 @@ export default function VisionPage() {
 
       <section className="mx-auto max-w-4xl px-5 py-12 sm:px-8 sm:py-16">
         <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#f47422]">{tagline}</p>
-        <p className="mt-4 font-poppins text-xl font-semibold leading-relaxed text-[#2a1442] sm:text-2xl">{statement}</p>
+        <p className="mt-4 font-poppins text-xl font-semibold leading-relaxed text-[#2a1442] sm:text-2xl">
+          <Rich text={mark(statement, { orange: ["globally trusted Indian coatings company"], bold: ["industrial, infrastructure, engineering, construction and decorative"] })} />
+        </p>
       </section>
 
       <section className="border-t border-gray-200">
         <div className="mx-auto grid max-w-4xl gap-6 px-5 py-12 sm:px-8 sm:py-16">
           <SectionHeading icon="foundation" title="What it rests on" />
           <div>
-            <p className={bodyText}>{foundation}</p>
+            <p className={bodyText}>
+              <Rich text={mark(foundation, { bold: ["quality, technology, innovation, manufacturing excellence and long-term customer relationships"] })} />
+            </p>
             <ol className="mt-6 divide-y divide-gray-200 border-y border-gray-200">
               {foundations.map((item, index) => (
                 <li key={item} className="flex items-baseline gap-5 py-3.5">
@@ -48,7 +53,9 @@ export default function VisionPage() {
       <section className="border-t border-gray-200">
         <div className="mx-auto grid max-w-4xl gap-6 px-5 py-12 sm:px-8 sm:py-16">
           <SectionHeading icon="globe" title="From India to the world" />
-          <p className={bodyText}>{reach}</p>
+          <p className={bodyText}>
+            <Rich text={mark(reach, { orange: ["respected and dependable name in the global paints and coatings industry"] })} />
+          </p>
         </div>
       </section>
 

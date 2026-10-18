@@ -10,7 +10,7 @@ const navigation = [
       { label: "Our Vision", href: "/our-vision" },
       { label: "Our Mission", href: "/our-mission" },
       { label: "Client Inquiry", href: "/client" },
-      { label: "Become a Vendor", href: "/vendor" },
+      { label: "Become a Vendor / Supplier", href: "/vendor" },
       { label: "Investor Relations", href: "/investor" },
     ],
   },
@@ -54,7 +54,7 @@ const footerLinks = {
     { label: "Our Gallery", href: "/gallery" },
     { label: "Contact Us", href: "/#contact" },
     { label: "Client Inquiry", href: "/client" },
-    { label: "Become a Vendor", href: "/vendor" },
+    { label: "Become a Vendor / Supplier", href: "/vendor" },
     { label: "Investor Relations", href: "/investor" },
   ],
 };

@@ -2,13 +2,35 @@ import about from "../../config/about";
 import PageBanner from "../PageBanner";
 import SiteLink from "../SiteLink";
 import SectionHeading, { bodyText } from "../SectionHeading";
+import Rich from "../Rich";
 
 const Paragraphs = ({ items }) =>
-  items.map((text, index) => (
-    <p key={index} className={bodyText}>
-      {text}
-    </p>
-  ));
+  items.map((item, index) => {
+    if (typeof item === "string") {
+      return (
+        <p key={index} className={bodyText}>
+          <Rich text={item} />
+        </p>
+      );
+    }
+    if (item.sub) {
+      return (
+        <p key={index} className="font-poppins text-lg font-bold text-[#f47422] sm:text-xl">
+          {item.sub}
+        </p>
+      );
+    }
+    return (
+      <ul key={index} className="space-y-2">
+        {item.list.map((entry) => (
+          <li key={entry} className="flex gap-3 text-[15px] font-bold leading-relaxed text-gray-900 sm:text-[17px]">
+            <span className="mt-[11px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[#f47422]" />
+            <span>{entry}</span>
+          </li>
+        ))}
+      </ul>
+    );
+  });
 
 export default function AboutPage() {
   return (

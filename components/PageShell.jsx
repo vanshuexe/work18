@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import Interactions from "./Interactions";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function PageShell({
   children,
@@ -20,6 +21,7 @@ export default function PageShell({
           <Footer />
         </div>
       )}
+      <WhatsAppButton />
       <Interactions behavior={behavior} />
     </div>
   );

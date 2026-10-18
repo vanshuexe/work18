@@ -1,9 +1,13 @@
 // Company contact details shown on the homepage contact section.
 module.exports = {
   phones: [
-    { label: "+91 84119 03508", tel: "+918411903508" },
     { label: "+91 97657 70020", tel: "+919765770020" },
+    { label: "+91 72191 10013", tel: "+917219110013", whatsapp: "917219110013" },
   ],
+  whatsapp: {
+    number: "917219110013",
+    message: "Hello Aeropolish, I would like to know more about your paints and coatings.",
+  },
   email: "Info@aeropolishpaints.com",
   units: [
     {

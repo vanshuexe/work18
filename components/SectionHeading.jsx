@@ -81,7 +81,7 @@ export default function SectionHeading({ icon, title }) {
   return (
     <div>
       <SectionIcon name={icon} />
-      <h2 className="font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl">{title}</h2>
+      <h2 className="font-poppins text-2xl font-bold text-[#f47422] sm:text-3xl">{title}</h2>
     </div>
   );
 }

@@ -52,19 +52,19 @@ export default function PrivateLabelPage() {
         <h1 className="font-poppins text-3xl font-bold text-[#0b2a6b] sm:text-4xl lg:text-5xl">
           Private Label &amp; White Label Paint <span className="text-[#f47422]">Manufacturing</span>
         </h1>
-        <p className="mt-3 font-poppins text-lg font-semibold text-[#2a1442] sm:text-xl">
+        <p className="mt-3 font-poppins text-lg font-semibold text-[#0b2a6b] sm:text-xl">
           Your Brand. <span className="text-[#f47422]">Our Manufacturing Expertise.</span>
         </p>
-        <p className="mt-6 text-base leading-[1.8] text-gray-700 sm:text-lg">
-          Have a vision for your own paint brand? Aeropolish helps turn your ideas into market-ready paint and coating
-          products under your own brand name.
+        <p className="mt-6 text-base font-bold leading-[1.8] text-[#0b2a6b] sm:text-lg">
+          <span className="text-[#f47422]">Have a vision for your own paint brand?</span> Aeropolish helps turn your
+          ideas into market-ready paint and coating products under your own brand name.
         </p>
-        <p className="mt-4 text-[15px] leading-[1.8] text-gray-600 sm:text-base">
+        <p className="mt-4 text-[15px] leading-[1.8] text-[#0b2a6b] sm:text-base">
           Whether you are an importer, distributor, wholesaler, retail chain, established manufacturer or entrepreneur
           looking to enter the paint industry, we offer private-label manufacturing solutions designed around your
           business goals.
         </p>
-        <p className="mt-4 text-[15px] leading-[1.8] text-gray-600 sm:text-base">
+        <p className="mt-4 text-[15px] leading-[1.8] text-[#0b2a6b] sm:text-base">
           From product selection and colour customisation to packaging and brand labelling, we help you build a paint
           portfolio that reflects your identity and market requirements.
         </p>
@@ -80,7 +80,7 @@ export default function PrivateLabelPage() {
 
       <section className="border-t border-gray-200 bg-gray-50">
         <div className="mx-auto max-w-7xl px-5 py-12 sm:px-8 sm:py-16">
-          <h2 className="text-center font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl">
+          <h2 className="text-center font-poppins text-2xl font-bold text-[#f47422] sm:text-3xl">
             Who Can Partner With Us?
           </h2>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
@@ -89,8 +89,8 @@ export default function PrivateLabelPage() {
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#f6f1fa] font-poppins text-sm font-bold text-[#512178]">
                   {index + 1}
                 </span>
-                <h3 className="mt-4 font-poppins text-base font-bold leading-snug text-[#2a1442]">{item.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-gray-600">{item.text}</p>
+                <h3 className="mt-4 font-poppins text-base font-bold leading-snug text-[#0b2a6b]">{item.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-[#0b2a6b]">{item.text}</p>
               </div>
             ))}
           </div>
@@ -99,12 +99,12 @@ export default function PrivateLabelPage() {
 
       <section>
         <div className="mx-auto max-w-7xl px-5 py-12 sm:px-8 sm:py-16">
-          <h2 className="text-center font-poppins text-2xl font-bold text-[#2a1442] sm:text-3xl">What We Offer</h2>
+          <h2 className="text-center font-poppins text-2xl font-bold text-[#f47422] sm:text-3xl">What We Offer</h2>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {offers.map((item) => (
               <div key={item.title} className="rounded-2xl border border-gray-200 border-t-4 border-t-[#f47422] bg-white p-6 shadow-sm">
-                <h3 className="font-poppins text-lg font-bold text-[#2a1442]">{item.title}</h3>
-                <p className="mt-2 text-[15px] leading-relaxed text-gray-600">{item.text}</p>
+                <h3 className="font-poppins text-lg font-normal text-[#0b2a6b]">{item.title}</h3>
+                <p className="mt-2 text-[15px] font-normal leading-relaxed text-[#0b2a6b]">{item.text}</p>
               </div>
             ))}
           </div>
