@@ -236,10 +236,8 @@ export default function HomePage({ home, countries } = {}) {
               <div className={"mx-auto max-w-7xl px-5 py-14 sm:px-8 sm:py-20"}>
                 <div className={"grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16"}>
                   <div>
-                    <p className={"text-sm font-bold uppercase tracking-[0.2em] text-[#f47422]"}>About us</p>
-                    <h2 className={`${sectionHeading} mt-3`}>
-                      About <span className={"heading-orange"}>Aeropolish</span>
-                    </h2>
+                    <p className={"text-sm font-bold uppercase tracking-[0.2em]"} style={{ color: "#062f74" }}>About us</p>
+                    <h2 className={`${sectionHeading} heading-orange mt-3`}>About Aeropolish</h2>
                     <div className={"mt-5 text-[15px] leading-[1.7] text-gray-700 sm:text-base"}>
                       {/* Mobile responsive only: concise 2-3 liner */}
                       <p className={"block sm:hidden leading-relaxed"}>
@@ -1032,57 +1030,50 @@ export default function HomePage({ home, countries } = {}) {
                             </div>
                           </div>
 
-                          <div
-                            className={
-                              "flex items-center gap-3.5 p-3 rounded-xl bg-white/10 backdrop-blur-md border border-white/15 text-white"
-                            }
-                          >
+                          {contact.units.map((unit) => (
                             <div
+                              key={unit.name}
                               className={
-                                "w-10 h-10 rounded-lg bg-amber-600/60 flex items-center justify-center flex-shrink-0 text-white shadow-sm"
+                                "flex items-start gap-3.5 p-3 rounded-xl bg-white/10 backdrop-blur-md border border-white/15 text-white"
                               }
                             >
-                              <svg
-                                className={"w-5 h-5"}
-                                fill={"none"}
-                                stroke={"currentColor"}
-                                viewBox={"0 0 24 24"}
-                                strokeWidth={"2"}
+                              <div
+                                className={
+                                  "w-10 h-10 rounded-lg bg-amber-600/60 flex items-center justify-center flex-shrink-0 text-white shadow-sm"
+                                }
                               >
-                                <path
-                                  strokeLinecap={"round"}
-                                  strokeLinejoin={"round"}
-                                  d={
-                                    "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                                  }
-                                />
-                                <path
-                                  strokeLinecap={"round"}
-                                  strokeLinejoin={"round"}
-                                  d={"M15 11a3 3 0 11-6 0 3 3 0 016 0z"}
-                                />
-                              </svg>
-                            </div>
-                            <div>
-                              <div className={"text-[11px] text-gray-300 font-medium uppercase tracking-wider"}>
-                                Our Units
+                                <svg
+                                  className={"w-5 h-5"}
+                                  fill={"none"}
+                                  stroke={"currentColor"}
+                                  viewBox={"0 0 24 24"}
+                                  strokeWidth={"2"}
+                                  aria-hidden={"true"}
+                                >
+                                  <path
+                                    strokeLinecap={"round"}
+                                    strokeLinejoin={"round"}
+                                    d={
+                                      "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                                    }
+                                  />
+                                  <path
+                                    strokeLinecap={"round"}
+                                    strokeLinejoin={"round"}
+                                    d={"M15 11a3 3 0 11-6 0 3 3 0 016 0z"}
+                                  />
+                                </svg>
                               </div>
-                              <div className={"space-y-2 text-xs sm:text-sm font-semibold font-manrope text-white"}>
-                                {contact.units.map((unit) => (
-                                  <p key={unit.name} className={"leading-snug"}>
-                                    <span className={"inline-flex items-center gap-1 font-bold"}>
-                                      <svg className={"h-4 w-4 flex-shrink-0 text-amber-300"} viewBox={"0 0 24 24"} fill={"none"} stroke={"currentColor"} strokeWidth={"2"} strokeLinecap={"round"} strokeLinejoin={"round"} aria-hidden={"true"}>
-                                        <path d={"M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"} />
-                                        <circle cx={"12"} cy={"9.5"} r={"2.5"} />
-                                      </svg>
-                                      {unit.name}:
-                                    </span>{" "}
-                                    {unit.address}
-                                  </p>
-                                ))}
+                              <div>
+                                <div className={"text-base sm:text-lg font-extrabold font-poppins text-amber-300"}>
+                                  {unit.name}
+                                </div>
+                                <div className={"mt-0.5 text-xs sm:text-sm font-semibold font-manrope leading-snug text-white"}>
+                                  {unit.address}
+                                </div>
                               </div>
                             </div>
-                          </div>
+                          ))}
                         </div>
                       </div>
 

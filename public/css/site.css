@@ -670,7 +670,7 @@ summary:focus-visible {
 
 /* Brand orange accents */
 .heading-orange { color:#f47422 !important; }
-.footer-brand .footer-slogan { color:#f47422; }
+.footer-brand .footer-slogan { color:#f47422; font-family:"Dancing Script","Brush Script MT",cursive; font-size:28px; font-weight:700; line-height:1.25; letter-spacing:.2px; max-width:260px; }
 .header-desktop-nav > a:hover,
 .header-dropdown > button:hover,
 .header-dropdown:hover > button,
