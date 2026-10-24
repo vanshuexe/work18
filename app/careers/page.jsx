@@ -1,10 +1,12 @@
 import PageShell from "../../components/PageShell";
 import Content from "../../components/pages/CareersPage";
 import data from "../../lib/data";
-import site from "../../config/site";
-import home from "../../config/home";
+import content from "../../lib/content.cjs";
+
+export const dynamic = "force-dynamic";
 export const metadata = { title: "Careers" };
-export default function Page() {
+export default async function Page() {
+  await content.load();
   const jobs = data.getJobs();
   const unique = (key) =>
     [...new Set(jobs.map((j) => j[key]).filter(Boolean))].sort();

@@ -1,11 +1,9 @@
-import content from "../../config/company";
 import PageBanner from "../PageBanner";
 import SiteLink from "../SiteLink";
 import SectionHeading from "../SectionHeading";
 
-const mission = content.company.find((section) => section.title === "Our Mission");
-
-export default function MissionPage() {
+export default function MissionPage({ company }) {
+  const mission = company.company.find((section) => section.title === "Our Mission");
   const paragraphs = mission.paragraphs;
   const tagline = paragraphs[0];
   const lead = paragraphs[1];

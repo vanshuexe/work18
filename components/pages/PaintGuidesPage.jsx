@@ -1,7 +1,7 @@
 import PageBanner from "../PageBanner";
 
 // The guide text lives in data/paint-guides.html (converted from the Paint Guides Word document).
-export default function PaintGuidesPage({ html = "" } = {}) {
+export default function PaintGuidesPage({ html = "", title = "Paint Application Guides", tagline = "Prepare Right. Apply Right. Protect Longer." } = {}) {
   return (
     <div className="bg-white font-manrope text-gray-900">
       <div className="px-3 pt-4 sm:px-4">
@@ -9,8 +9,8 @@ export default function PaintGuidesPage({ html = "" } = {}) {
           as="h1"
           tall
           image="/new-images/banner-interior.svg"
-          title="Paint Application Guides"
-          tagline="Prepare Right. Apply Right. Protect Longer."
+          title={title}
+          tagline={tagline}
         />
       </div>
 

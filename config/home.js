@@ -90,6 +90,70 @@ module.exports = {
     },
   ],
 
+  // Videos in the "Aeropolish Paint Gallery" section.
+  videos: [
+    { src: "/videos/stylish-wall-painting.mp4", title: "Stylish Wall Painting" },
+    { src: "/videos/wall-painting-1.mp4", title: "Wall Painting in Action" },
+    { src: "/videos/wall-painting-2.mp4", title: "Wall Painting Finish" },
+  ],
+
+  // Headings and paragraphs shown on the home page.
+  text: {
+    aboutEyebrow: "About us",
+    aboutHeading: "About Aeropolish",
+    aboutBlurb:
+      "Aeropolish is an emerging Indian paint and coatings company delivering reliable, high-performance solutions for decorative, commercial, and industrial applications.",
+    aboutCta: "Read more about us",
+
+    productsHeading: "Products",
+    productsIntroBefore: "Explore",
+    productsDecorative: "Decorative",
+    productsAnd: " and ",
+    productsIndustrial: "Industrial",
+    productsIntroAfter: "formulated for durability, color brilliance, and protection.",
+
+    effectsHeading: "Special Paint Effects",
+    effectsTitle: "Crafted for Durable Elegance",
+    effectsText:
+      "Elevate any living room, bedroom, or feature wall with light-reflecting metallics, velvet tactile softness, and natural stone-wash textures.",
+    effectsButton: "Explore Smart Effects",
+
+    shadeHeading: "Discover Your Perfect Shade",
+    shadeTitle: "Mocha Mousse & Earth Tones",
+    shadeText:
+      "Explore Aeropolish Paints' signature 2026 forecast — a grounding palette of velvety mocha, sun-baked terracotta, and soft sandstone designed to bring warmth and harmony home.",
+    shadeChips: [
+      { name: "Mocha Mousse", color: "#9E6D53" },
+      { name: "Terracotta Warmth", color: "#C87D55" },
+      { name: "Soft Sandstone", color: "#D4A373" },
+      { name: "Velvet Espresso", color: "#4A2E2B" },
+    ],
+    shadeButton: "Explore NCS Color Trends 2026",
+
+    paintsHeading: "Stronger Paints, Brighter Results",
+    paintsButton: "Explore Our Paints",
+
+    galleryHeading: "Aeropolish Paint Gallery",
+    gallerySub: "Watch walls come alive with colour, finish and craftsmanship.",
+
+    contactHeading: "Get in Touch with Aeropolish",
+    contactBadge: "Aeropolish Corporate Office",
+    contactTitle: "Let's Build Something Exceptional Together",
+    contactText:
+      "Whether you need guidance on heavy-duty industrial coatings or want to explore our color visualizer for an interior project, our experts are here to help.",
+    callLabel: "Call Us",
+    emailLabel: "Email Inquiries",
+    formTitle: "Send Us a Message",
+    formIntro: "Fill out the form below and our technical advisory team will get in touch within 24 hours.",
+    labelName: "Full Name",
+    labelCity: "City / Location",
+    labelProduct: "Product Interest",
+    labelEmail: "Email Address",
+    labelPhone: "Phone Number",
+    labelMessage: "How Can We Help You?",
+    submit: "Send Message",
+  },
+
   contactCategories: [
     { value: "interior-paints", label: "Interior Paints" },
     { value: "exterior-paints", label: "Exterior Paints" },

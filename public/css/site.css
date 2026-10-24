@@ -694,3 +694,12 @@ summary:focus-visible {
   .footer-brand { flex-direction:column; align-items:flex-start; gap:10px; }
   .footer-brand img { width:132px; flex:none; }
 }
+
+/* New wide logo (about 7:1): size by width so it keeps its proportions */
+.header-brand .header-brand-logo, .header-brand > img:first-child { height:auto; width:310px; max-width:310px; }
+.mobile-menu-brand .header-brand-logo, .mobile-menu-brand > img:first-child { height:auto; width:190px; max-width:190px; }
+.footer-brand img { width:250px; height:auto; border-radius:0; }
+@media (max-width:1199px) { .header-brand .header-brand-logo, .header-brand > img:first-child { width:240px; max-width:240px; } }
+@media (max-width:767px) { .header-brand .header-brand-logo, .header-brand > img:first-child { width:200px; max-width:200px; } .footer-brand img { width:220px; } }
+@media (max-width:359px) { .header-brand .header-brand-logo, .header-brand > img:first-child { width:150px; max-width:150px; height:auto; } }
+@media (max-width:480px) { .footer-brand img { width:200px; } }

@@ -37,6 +37,7 @@ const navigation = [
   },
   { label: "Private Label", href: "/private-label", key: "private-label" },
   { label: "Gallery", href: "/gallery", key: "gallery" },
+  { label: "Blogs", href: "/blogs", key: "blogs" },
 ];
 
 const footerLinks = {
@@ -52,6 +53,7 @@ const footerLinks = {
     { label: "Paint Guides", href: "/paint-guides" },
     { label: "Private Label", href: "/private-label" },
     { label: "Our Gallery", href: "/gallery" },
+    { label: "Blogs", href: "/blogs" },
     { label: "Contact Us", href: "/#contact" },
     { label: "Client Inquiry", href: "/client" },
     { label: "Become a Vendor / Supplier", href: "/vendor" },
@@ -146,6 +148,8 @@ module.exports = {
   seoTitle: "Aeropolish: Top industrial and home decorative paints",
   description:
     "Aeropolish: Top industrial and home decorative paints. Reliable, performance-oriented and value-driven coatings for industrial, commercial, infrastructure and decorative applications.",
+  // Footer text (the slogan under the logo and the copyright line).
+  footer: { slogan: "Apna Rang - Apni Pehchaan.", copyright: "Aeropolish Paints & Coating Industry" },
   navigation,
   footerLinks,
   productCategories,

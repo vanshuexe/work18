@@ -1,4 +1,3 @@
-import about from "../../config/about";
 import PageBanner from "../PageBanner";
 import SiteLink from "../SiteLink";
 import SectionHeading, { bodyText } from "../SectionHeading";
@@ -32,7 +31,7 @@ const Paragraphs = ({ items }) =>
     );
   });
 
-export default function AboutPage() {
+export default function AboutPage({ about }) {
   return (
     <div className="bg-white text-gray-900 font-manrope">
       {/* Banner */}

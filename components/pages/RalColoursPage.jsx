@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import RalTankPreview from "../RalTankPreview";
 
 const groups = [
   { key: "all", label: "All" },
@@ -15,10 +16,21 @@ const groups = [
   { key: "9", label: "White & Black" },
 ];
 
-export default function RalColoursPage({ colours }) {
+export default function RalColoursPage({ colours, content }) {
   const [group, setGroup] = useState("all");
   const [query, setQuery] = useState("");
   const [copied, setCopied] = useState("");
+  const [selected, setSelected] = useState(null);
+  const previewRef = useRef(null);
+
+  const choose = (colour) => {
+    setSelected(colour);
+    copy(colour);
+    // On phones the preview is above the list, so bring it into view.
+    if (typeof window !== "undefined" && window.innerWidth < 1024) {
+      previewRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase().replace(/^ral\s*/, "");
@@ -43,13 +55,13 @@ export default function RalColoursPage({ colours }) {
   return (
     <div className="bg-white font-manrope text-gray-900">
       <div className="px-3 pt-4 sm:px-4">
-        <h1 className="sr-only">RAL Colours</h1>
+        <h1 className="sr-only">{content.pageTitle}</h1>
         <div className="relative mx-auto w-full max-w-[1500px]">
           <img
-            src="/new-images/ral-banner.webp"
-            alt="Aeropolish RAL Color Code for perfect finishes: a wide range of RAL shades, accurate colour matching and long-lasting performance."
-            width="2000"
-            height="750"
+            src={content.banner.image}
+            alt={content.banner.alt}
+            width={content.banner.width}
+            height={content.banner.height}
             className="block h-auto w-full rounded-xl"
           />
           <a
@@ -62,13 +74,13 @@ export default function RalColoursPage({ colours }) {
       </div>
 
       <div id="ral-colour-list" className="mx-auto max-w-7xl scroll-mt-20 px-4 py-8 sm:px-6 sm:py-10">
-        <p className="mb-5 text-sm text-gray-600 sm:text-base">RAL Classic colour reference. Tap a colour to copy its code.</p>
+        <p className="mb-5 text-sm text-gray-600 sm:text-base">{content.intro}</p>
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <input
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search by code or name, e.g. 5015 or Sky blue"
+            placeholder={content.searchPlaceholder}
             aria-label="Search RAL colours"
             className="w-full rounded-xl border border-gray-300 px-4 py-3 text-base focus:border-[#512178] focus:outline-none lg:max-w-md"
           />
@@ -91,19 +103,25 @@ export default function RalColoursPage({ colours }) {
           </div>
         </div>
 
-        <p className="mt-5 text-sm text-gray-500" aria-live="polite">
+        <div className="mt-6 grid gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-8">
+          <div ref={previewRef} className="scroll-mt-24 lg:sticky lg:top-24 lg:self-start">
+            <RalTankPreview colour={selected} onReset={() => setSelected(null)} />
+          </div>
+          <div>
+        <p className="text-sm text-gray-500" aria-live="polite">
           {visible.length} {visible.length === 1 ? "colour" : "colours"}
         </p>
 
         {visible.length ? (
-          <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+          <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 xl:grid-cols-4">
             {visible.map((colour) => (
               <li key={colour.code}>
                 <button
                   type="button"
-                  onClick={() => copy(colour)}
-                  className="group block w-full overflow-hidden rounded-xl border border-gray-200 bg-white text-left transition-shadow hover:shadow-md focus-visible:shadow-md"
-                  aria-label={`Copy RAL ${colour.code}, ${colour.name}`}
+                  onClick={() => choose(colour)}
+                  className={`group block w-full overflow-hidden rounded-xl border bg-white text-left transition-shadow hover:shadow-md focus-visible:shadow-md ${selected?.code === colour.code ? "border-[#f47422] ring-2 ring-[#f47422]" : "border-gray-200"}`}
+                  aria-pressed={selected?.code === colour.code}
+                  aria-label={`Preview RAL ${colour.code}, ${colour.name} on the vessel and copy its code`}
                 >
                   <span className="relative block h-24 sm:h-28" style={{ backgroundColor: colour.hex }}>
                     {copied === colour.code && (
@@ -124,10 +142,11 @@ export default function RalColoursPage({ colours }) {
         ) : (
           <p className="py-16 text-center text-gray-500">No colours match your search.</p>
         )}
+          </div>
+        </div>
 
         <p className="mt-10 max-w-3xl text-sm leading-relaxed text-gray-500">
-          Colours shown are for guidance only. The displayed colour depends on your screen, and pearl or metallic colours cannot be
-          shown accurately. The finished colour may differ from what you see here.
+          {content.disclaimer}
         </p>
       </div>
     </div>

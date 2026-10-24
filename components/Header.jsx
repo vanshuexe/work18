@@ -1,12 +1,12 @@
 import SiteLink from './SiteLink';
-import site from '../config/site';
+import siteDefault from '../config/site';
 const Chevron = () => <svg data-chevron="" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m6 9 6 6 6-6" /></svg>;
 const Close = () => <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m6 6 12 12M6 18 18 6" /></svg>;
-export default function Header({active=''}) {
+export default function Header({active='', site=siteDefault}) {
  return <header className="site-header">
   <div className="header-bar">
    <button type="button" data-mobile-menu-open="" className="header-menu-button" aria-label="Open menu" aria-expanded="false" aria-controls="site-mobile-menu"><span /><span /><span /></button>
-   <SiteLink className="header-brand" href="/" aria-label="Aeropolish home"><img className="header-brand-logo" src="/aeropolish-navbar-logo.png" width="3964" height="855" alt="Aeropolish — Paints & Coating Industry" /></SiteLink>
+   <SiteLink className="header-brand" href="/" aria-label="Aeropolish home"><img className="header-brand-logo" src="/aeropolish-navbar-logo.png" width="1400" height="197" alt="Aeropolish — Paints & Coating Industry" /></SiteLink>
    <nav className="header-desktop-nav" aria-label="Main navigation">
     {site.navigation.map(item=>item.children ? <div key={item.key} data-dropdown="" className="header-dropdown">
      <button type="button" data-dropdown-toggle="" aria-expanded="false" aria-controls={`menu-${item.key}`} className={active===item.key ? 'is-current' : ''}>{item.label}<Chevron /></button>
@@ -24,7 +24,7 @@ export default function Header({active=''}) {
    </div>
   </div>
   <div id="site-mobile-menu" data-mobile-menu="" className="site-mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation" aria-hidden="true" inert>
-   <div className="mobile-menu-heading"><SiteLink href="/" className="mobile-menu-brand" aria-label="Aeropolish home"><img className="header-brand-logo" src="/aeropolish-navbar-logo.png" width="3964" height="855" alt="Aeropolish" /></SiteLink><button type="button" data-mobile-menu-close="" className="header-icon-button" aria-label="Close menu"><Close /></button></div>
+   <div className="mobile-menu-heading"><SiteLink href="/" className="mobile-menu-brand" aria-label="Aeropolish home"><img className="header-brand-logo" src="/aeropolish-navbar-logo.png" width="1400" height="197" alt="Aeropolish" /></SiteLink><button type="button" data-mobile-menu-close="" className="header-icon-button" aria-label="Close menu"><Close /></button></div>
    <nav aria-label="Mobile navigation">
     {site.navigation.map(item=>item.children ? <div key={item.key} data-mobile-submenu="">
      <button type="button" data-mobile-submenu-toggle="" aria-expanded="false" aria-controls={`mobile-${item.key}`} className={active===item.key ? 'is-current' : ''}>{item.label}<Chevron /></button>

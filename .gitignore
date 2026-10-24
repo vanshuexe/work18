@@ -3,3 +3,6 @@ storage/
 .next/
 out/
 *.log
+
+.env*.local
+admin-credentials.local.txt

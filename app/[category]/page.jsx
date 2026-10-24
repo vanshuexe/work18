@@ -1,20 +1,21 @@
 import { notFound } from "next/navigation";
 import PageShell from "../../components/PageShell";
 import ProductsPage from "../../components/pages/ProductsPage";
-import site from "../../config/site";
+import siteDefault from "../../config/site";
 import data from "../../lib/data";
+import content from "../../lib/content.cjs";
+import siteLib from "../../lib/site.cjs";
 
-export function generateStaticParams() {
-  return Object.keys(site.productCategories).map((category) => ({ category }));
-}
+export const dynamic = "force-dynamic";
 
+// Category banners, titles and descriptions can be edited in the admin panel (Menu, footer & SEO).
 function getCategory(slug) {
-  return Object.hasOwn(site.productCategories, slug)
-    ? site.productCategories[slug]
-    : null;
+  const categories = siteLib.getSite().productCategories || siteDefault.productCategories;
+  return Object.hasOwn(categories, slug) ? categories[slug] : null;
 }
 
 export async function generateMetadata({ params }) {
+  await content.load();
   const { category: slug } = await params;
   const category = getCategory(slug);
   return category
@@ -23,6 +24,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function CategoryPage({ params, searchParams }) {
+  await content.load();
   const { category: slug } = await params;
   const category = getCategory(slug);
   if (!category) notFound();

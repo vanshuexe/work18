@@ -1,13 +1,22 @@
 import PageShell from "../components/PageShell";
 import Content from "../components/pages/HomePage";
 import data from "../lib/data";
-import site from "../config/site";
-import home from "../config/home";
+import content from "../lib/content.cjs";
+import siteLib from "../lib/site.cjs";
+import blogLib from "../lib/blogs.cjs";
+import homeDefaults from "../config/home";
+import companyDefaults from "../config/company";
 
-export default function Page() {
+export const dynamic = "force-dynamic";
+
+export default async function Page() {
+  await content.load();
   const props = {
-    home,
+    home: content.get("home", homeDefaults),
+    company: content.get("company", companyDefaults),
+    contact: siteLib.getContact(),
     countries: data.getCountries(),
+    blogs: blogLib.getBlogs(),
   };
   return (
     <PageShell active="home" behavior="home" headerTheme="" hideFooter={false}>

@@ -2,12 +2,12 @@ import { notFound } from "next/navigation";
 import PageShell from "../../../components/PageShell";
 import NewsDetailPage from "../../../components/pages/NewsDetailPage";
 import data from "../../../lib/data";
+import content from "../../../lib/content.cjs";
 
-export function generateStaticParams() {
-  return data.getPosts().map((post) => ({ id: post._id }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }) {
+  await content.load();
   const post = data.getPost((await params).id);
   return {
     title: post?.title || "News not found",
@@ -16,6 +16,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function PostPage({ params }) {
+  await content.load();
   const post = data.getPost((await params).id);
   if (!post) notFound();
   return (

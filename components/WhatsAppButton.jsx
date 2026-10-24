@@ -1,5 +1,3 @@
-import contact from "../config/contact";
-
 // WhatsApp glyph (24x24).
 export const WhatsAppIcon = ({ className = "h-6 w-6" }) => (
   <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -7,14 +5,14 @@ export const WhatsAppIcon = ({ className = "h-6 w-6" }) => (
   </svg>
 );
 
-export const whatsappLink = (message = contact.whatsapp.message) =>
+export const whatsappLink = (contact, message = contact.whatsapp.message) =>
   `https://wa.me/${contact.whatsapp.number}?text=${encodeURIComponent(message)}`;
 
 // Floating chat button shown on every page.
-export default function WhatsAppButton() {
+export default function WhatsAppButton({ contact }) {
   return (
     <a
-      href={whatsappLink()}
+      href={whatsappLink(contact)}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with Aeropolish on WhatsApp"

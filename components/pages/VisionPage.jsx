@@ -1,14 +1,12 @@
-import content from "../../config/company";
 import SiteLink from "../SiteLink";
 import SectionHeading, { bodyText } from "../SectionHeading";
 import Rich, { mark } from "../Rich";
 
-const vision = content.company.find((section) => section.title === "Our Vision");
-
 // The foundations named in the vision statement itself.
 const foundations = ["Quality", "Technology", "Innovation", "Manufacturing excellence", "Long-term customer relationships"];
 
-export default function VisionPage() {
+export default function VisionPage({ company }) {
+  const vision = company.company.find((section) => section.title === "Our Vision");
   const [tagline, statement, foundation, reach] = vision.paragraphs;
 
   return (

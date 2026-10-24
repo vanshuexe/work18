@@ -1,8 +1,7 @@
 import { Fragment } from "react";
 import SiteLink from "../SiteLink";
-import contact from "../../config/contact";
+import { BlogCard } from "./BlogsPage";
 import { WhatsAppIcon, whatsappLink } from "../WhatsAppButton";
-import company from "../../config/company";
 import site from "../../config/site";
 import { cssStyle, formatDate } from "../../lib/presentation";
 
@@ -162,7 +161,8 @@ function PaintGridCard({ paint, style, compact = false }) {
   );
 }
 
-export default function HomePage({ home, countries } = {}) {
+export default function HomePage({ home, countries, company, contact, blogs } = {}) {
+  const t = home.text;
   const paintBy = Object.fromEntries(home.paints.map((paint) => [paint.label, paint]));
   const aboutParagraphs = company.company.find((section) => section.title === "About Us").paragraphs;
   const sectionHeading =
@@ -236,12 +236,12 @@ export default function HomePage({ home, countries } = {}) {
               <div className={"mx-auto max-w-7xl px-5 py-14 sm:px-8 sm:py-20"}>
                 <div className={"grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16"}>
                   <div>
-                    <p className={"text-sm font-bold uppercase tracking-[0.2em]"} style={{ color: "#062f74" }}>About us</p>
-                    <h2 className={`${sectionHeading} heading-orange mt-3`}>About Aeropolish</h2>
+                    <p className={"text-sm font-bold uppercase tracking-[0.2em]"} style={{ color: "#062f74" }}>{t.aboutEyebrow}</p>
+                    <h2 className={`${sectionHeading} heading-orange mt-3`}>{t.aboutHeading}</h2>
                     <div className={"mt-5 text-[15px] leading-[1.7] text-gray-700 sm:text-base"}>
                       {/* Mobile responsive only: concise 2-3 liner */}
                       <p className={"block sm:hidden leading-relaxed"}>
-                        Aeropolish is an emerging Indian paint and coatings company delivering reliable, high-performance solutions for decorative, commercial, and industrial applications.
+                        {t.aboutBlurb}
                       </p>
                       {/* Desktop: full descriptive paragraphs */}
                       <div className={"hidden sm:block space-y-4 leading-[1.8]"}>
@@ -254,7 +254,7 @@ export default function HomePage({ home, countries } = {}) {
                       href={"/about-us"}
                       className={"mt-5 sm:mt-7 inline-flex min-h-[44px] sm:min-h-[48px] items-center rounded-xl bg-[#512178] px-6 text-sm font-bold text-white transition-colors hover:bg-[#431b64]"}
                     >
-                      Read more about us
+                      {t.aboutCta}
                     </SiteLink>
                   </div>
                   <div className={"mx-auto flex w-full max-w-[460px] items-end justify-center gap-5 rounded-3xl bg-gradient-to-b from-[#f8f4fc] to-[#efe7f6] p-6 sm:p-8 sm:gap-7 relative"}>
@@ -304,32 +304,32 @@ export default function HomePage({ home, countries } = {}) {
                           "home-products-title text-3xl sm:text-4xl lg:text-5xl font-extrabold font-poppins text-gray-900 tracking-tight mb-3"
                         }
                       >
-                        Products
+                        {t.productsHeading}
                       </h2>
                       <p
                         className={
                           "text-sm sm:text-base lg:text-lg font-manrope text-center text-gray-600 max-w-2xl mx-auto leading-relaxed"
                         }
                       >
-                        Explore{" "}
+                        {t.productsIntroBefore}{" "}
                         <SiteLink
                           className={
                             "text-orange-500 hover:text-orange-600 font-semibold hover:underline transition-colors"
                           }
                           href={"/interior-paints"}
                         >
-                          Decorative
+                          {t.productsDecorative}
                         </SiteLink>
-                        {" and "}
+                        {t.productsAnd}
                         <SiteLink
                           className={
                             "text-orange-500 hover:text-orange-600 font-semibold hover:underline transition-colors"
                           }
                           href={"/industrial-paints"}
                         >
-                          Industrial
+                          {t.productsIndustrial}
                         </SiteLink>{" "}
-                        formulated for durability, color brilliance, and protection.
+                        {t.productsIntroAfter}
                       </p>
                     </div>
 
@@ -439,7 +439,7 @@ export default function HomePage({ home, countries } = {}) {
                     "text-3xl sm:text-4xl lg:text-5xl font-extrabold font-poppins text-gray-900 tracking-tight mb-3"
                   }
                 >
-                  Special Paint Effects
+                  {t.effectsHeading}
                 </h2>
               </div>
 
@@ -497,7 +497,7 @@ export default function HomePage({ home, countries } = {}) {
                           "text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold font-poppins text-white leading-tight drop-shadow-md"
                         }
                       >
-                        Crafted for Durable Elegance
+                        {t.effectsTitle}
                       </h3>
 
                       {/* Description */}
@@ -506,9 +506,7 @@ export default function HomePage({ home, countries } = {}) {
                           "text-xs sm:text-sm md:text-base text-gray-200 font-manrope mt-3 leading-relaxed drop-shadow"
                         }
                       >
-                        Elevate any living room, bedroom, or feature wall with
-                        light-reflecting metallics, velvet tactile softness, and
-                        natural stone-wash textures.
+                        {t.effectsText}
                       </p>
 
                     </div>
@@ -523,7 +521,7 @@ export default function HomePage({ home, countries } = {}) {
                           "inline-flex items-center gap-3 px-6 py-3.5 rounded-xl md:rounded-2xl bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold text-sm sm:text-base shadow-lg shadow-orange-500/30 hover:shadow-xl hover:shadow-orange-500/40 hover:-translate-y-0.5 transition-all duration-300 group/btn"
                         }
                       >
-                        <span>Explore Smart Effects</span>
+                        <span>{t.effectsButton}</span>
                         <span
                           className={
                             "w-7 h-7 rounded-full bg-white/25 flex items-center justify-center group-hover/btn:translate-x-1 transition-transform"
@@ -553,7 +551,7 @@ export default function HomePage({ home, countries } = {}) {
             {/* Discover Your Perfect Shade (colour trends) */}
             <div className={"w-full"} style={cssStyle(sectionStyle)}>
               <div className={"text-center px-4 max-w-3xl mx-auto mb-6 sm:mb-8"}>
-                <h2 className={sectionHeading}>Discover Your Perfect Shade</h2>
+                <h2 className={sectionHeading}>{t.shadeHeading}</h2>
               </div>
 
               <div
@@ -609,7 +607,7 @@ export default function HomePage({ home, countries } = {}) {
                         "text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold font-poppins text-white leading-tight drop-shadow-md"
                       }
                     >
-                      Mocha Mousse &amp; Earth Tones
+                      {t.shadeTitle}
                     </h3>
 
                     {/* Subtitle */}
@@ -618,7 +616,7 @@ export default function HomePage({ home, countries } = {}) {
                         "text-xs sm:text-sm md:text-base text-gray-100 font-manrope mt-2 sm:mt-3 leading-relaxed drop-shadow max-w-lg"
                       }
                     >
-                      {"Explore Aeropolish Paints' signature 2026 forecast — a grounding palette of velvety mocha, sun-baked terracotta, and soft sandstone designed to bring warmth and harmony home."}
+                      {t.shadeText}
                     </p>
 
                     {/* Color Swatch Chips */}
@@ -636,9 +634,9 @@ export default function HomePage({ home, countries } = {}) {
                           className={
                             "w-3.5 h-3.5 rounded-full shadow-inner border border-white/60 flex-shrink-0"
                           }
-                          style={cssStyle("background-color: #9E6D53")}
+                          style={cssStyle("background-color: " + t.shadeChips[0].color)}
                         />
-                        <span>Mocha Mousse</span>
+                        <span>{t.shadeChips[0].name}</span>
                       </div>
 
                       <div
@@ -650,9 +648,9 @@ export default function HomePage({ home, countries } = {}) {
                           className={
                             "w-3.5 h-3.5 rounded-full shadow-inner border border-white/60 flex-shrink-0"
                           }
-                          style={cssStyle("background-color: #C87D55")}
+                          style={cssStyle("background-color: " + t.shadeChips[1].color)}
                         />
-                        <span>Terracotta Warmth</span>
+                        <span>{t.shadeChips[1].name}</span>
                       </div>
 
                       <div
@@ -664,9 +662,9 @@ export default function HomePage({ home, countries } = {}) {
                           className={
                             "w-3.5 h-3.5 rounded-full shadow-inner border border-white/60 flex-shrink-0"
                           }
-                          style={cssStyle("background-color: #D4A373")}
+                          style={cssStyle("background-color: " + t.shadeChips[2].color)}
                         />
-                        <span>Soft Sandstone</span>
+                        <span>{t.shadeChips[2].name}</span>
                       </div>
 
                       <div
@@ -678,9 +676,9 @@ export default function HomePage({ home, countries } = {}) {
                           className={
                             "w-3.5 h-3.5 rounded-full shadow-inner border border-white/60 flex-shrink-0"
                           }
-                          style={cssStyle("background-color: #4A2E2B")}
+                          style={cssStyle("background-color: " + t.shadeChips[3].color)}
                         />
-                        <span>Velvet Espresso</span>
+                        <span>{t.shadeChips[3].name}</span>
                       </div>
                     </div>
 
@@ -692,7 +690,7 @@ export default function HomePage({ home, countries } = {}) {
                           "inline-flex items-center gap-3 px-6 py-3.5 rounded-xl md:rounded-2xl bg-gradient-to-r from-amber-600 via-amber-700 to-amber-900 hover:from-amber-700 hover:to-amber-950 text-white font-bold text-sm sm:text-base shadow-lg shadow-amber-900/30 hover:shadow-xl hover:shadow-amber-900/40 hover:-translate-y-0.5 transition-all duration-300 group/btn"
                         }
                       >
-                        <span>Explore NCS Color Trends 2026</span>
+                        <span>{t.shadeButton}</span>
                         <span
                           className={
                             "w-7 h-7 rounded-full bg-white/20 flex items-center justify-center group-hover/btn:translate-x-1 transition-transform"
@@ -734,7 +732,7 @@ export default function HomePage({ home, countries } = {}) {
                     {/* Header with Eyebrow Badge, SVG Icon, Heading and Subtitle */}
                     <div className={"text-center max-w-3xl mx-auto mb-8 md:mb-12"}>
                       <h2 className={`${sectionHeading} heading-orange`}>
-                        Stronger Paints, Brighter Results
+                        {t.paintsHeading}
                       </h2>
                     </div>
 
@@ -802,7 +800,7 @@ export default function HomePage({ home, countries } = {}) {
                           "inline-flex items-center gap-3 px-8 py-3.5 rounded-2xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-700 hover:from-blue-700 hover:to-violet-800 text-white font-bold text-sm sm:text-base shadow-xl shadow-indigo-500/25 hover:shadow-2xl hover:shadow-indigo-500/35 hover:-translate-y-0.5 transition-all duration-300 group/btn"
                         }
                       >
-                        <span>Explore Our Paints</span>
+                        <span>{t.paintsButton}</span>
                         <span
                           className={
                             "w-7 h-7 rounded-full bg-white/20 flex items-center justify-center group-hover/btn:translate-x-1 transition-transform"
@@ -832,9 +830,9 @@ export default function HomePage({ home, countries } = {}) {
             {/* Paint Gallery (videos) */}
             <div className={"w-full"} style={cssStyle(sectionStyle)}>
               <div className={"text-center px-4 max-w-3xl mx-auto mb-8 sm:mb-12"}>
-                <h2 className={`${sectionHeading} heading-orange`}>Aeropolish Paint Gallery</h2>
+                <h2 className={`${sectionHeading} heading-orange`}>{t.galleryHeading}</h2>
                 <p className={"mt-3 text-sm sm:text-base font-manrope text-gray-600"}>
-                  Watch walls come alive with colour, finish and craftsmanship.
+                  {t.gallerySub}
                 </p>
               </div>
               <div className={"w-[96%] sm:w-[98%] mx-auto max-w-5xl"}>
@@ -843,11 +841,7 @@ export default function HomePage({ home, countries } = {}) {
                     "flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide md:grid md:grid-cols-3 md:gap-6 md:overflow-visible md:pb-0"
                   }
                 >
-                  {[
-                    { src: "/videos/stylish-wall-painting.mp4", title: "Stylish Wall Painting" },
-                    { src: "/videos/wall-painting-1.mp4", title: "Wall Painting in Action" },
-                    { src: "/videos/wall-painting-2.mp4", title: "Wall Painting Finish" },
-                  ].map((video) => (
+                  {home.videos.map((video) => (
                     <figure
                       key={video.src}
                       className={
@@ -869,10 +863,33 @@ export default function HomePage({ home, countries } = {}) {
               </div>
             </div>
 
+            {/* Blogs */}
+            {blogs && blogs.posts.length ? (
+              <div className={"w-full"} style={cssStyle(sectionStyle)}>
+                <div className={"text-center px-4 max-w-3xl mx-auto mb-8 sm:mb-12"}>
+                  <h2 className={`${sectionHeading} heading-orange`}>{blogs.homeHeading}</h2>
+                  <p className={"mt-3 text-sm sm:text-base font-manrope text-gray-600"}>{blogs.homeSub}</p>
+                </div>
+                <div className={"w-[96%] sm:w-[98%] mx-auto max-w-6xl grid gap-6 sm:grid-cols-2 lg:grid-cols-3"}>
+                  {blogs.posts.slice(0, 3).map((post) => (
+                    <BlogCard key={post.slug} post={post} readMore={blogs.readMore} />
+                  ))}
+                </div>
+                <div className={"mt-8 text-center"}>
+                  <SiteLink
+                    href={"/blogs"}
+                    className={"inline-flex min-h-[48px] items-center rounded-xl bg-[#512178] px-6 text-sm font-bold text-white transition-colors hover:bg-[#431b64]"}
+                  >
+                    {blogs.homeButton}
+                  </SiteLink>
+                </div>
+              </div>
+            ) : null}
+
             {/* Contact */}
             <div className={"w-full"} style={cssStyle(sectionStyle)}>
               <div className={"text-center px-4 max-w-3xl mx-auto mb-8 sm:mb-12"}>
-                <h2 className={`${sectionHeading} heading-orange`}>Get in Touch with Aeropolish</h2>
+                <h2 className={`${sectionHeading} heading-orange`}>{t.contactHeading}</h2>
               </div>
 
               <div className={"w-[96%] sm:w-[98%] mx-auto"}>
@@ -917,7 +934,7 @@ export default function HomePage({ home, countries } = {}) {
                             }
                           >
                             <span className={"w-2 h-2 rounded-full bg-emerald-400 animate-pulse"} />
-                            <span>Aeropolish Corporate Office</span>
+                            <span>{t.contactBadge}</span>
                           </div>
 
                           <h3
@@ -925,7 +942,7 @@ export default function HomePage({ home, countries } = {}) {
                               "text-2xl sm:text-3xl lg:text-4xl font-extrabold font-poppins text-white leading-tight drop-shadow-md"
                             }
                           >
-                            Let&apos;s Build Something Exceptional Together
+                            {t.contactTitle}
                           </h3>
 
                           <p
@@ -933,7 +950,7 @@ export default function HomePage({ home, countries } = {}) {
                               "text-xs sm:text-sm md:text-base text-gray-200 font-manrope mt-3 leading-relaxed drop-shadow"
                             }
                           >
-                            Whether you need guidance on heavy-duty industrial coatings or want to explore our color visualizer for an interior project, our experts are here to help.
+                            {t.contactText}
                           </p>
                         </div>
 
@@ -967,7 +984,7 @@ export default function HomePage({ home, countries } = {}) {
                             </div>
                             <div>
                               <div className={"text-[11px] text-gray-300 font-medium uppercase tracking-wider"}>
-                                Call Us
+                                {t.callLabel}
                               </div>
                               <div className={"text-sm sm:text-base font-bold font-poppins text-white"}>
                                 {contact.phones.map((phone) => (
@@ -977,7 +994,7 @@ export default function HomePage({ home, countries } = {}) {
                                     </a>
                                     {phone.whatsapp ? (
                                       <a
-                                        href={whatsappLink()}
+                                        href={whatsappLink(contact)}
                                         target={"_blank"}
                                         rel={"noopener noreferrer"}
                                         className={"inline-flex items-center gap-1 rounded-full bg-[#25d366] px-2.5 py-0.5 text-[11px] font-bold text-white"}
@@ -1020,7 +1037,7 @@ export default function HomePage({ home, countries } = {}) {
                             </div>
                             <div>
                               <div className={"text-[11px] text-gray-300 font-medium uppercase tracking-wider"}>
-                                Email Inquiries
+                                {t.emailLabel}
                               </div>
                               <div className={"text-sm sm:text-base font-bold font-poppins text-white"}>
                                 <a href={`mailto:${contact.email}`} className={"hover:underline break-all"}>
@@ -1090,14 +1107,14 @@ export default function HomePage({ home, countries } = {}) {
                                 "text-xl sm:text-2xl md:text-3xl font-extrabold font-poppins text-gray-900"
                               }
                             >
-                              Send Us a Message
+                              {t.formTitle}
                             </h3>
                             <p
                               className={
                                 "text-xs sm:text-sm md:text-base text-gray-600 font-manrope mt-1"
                               }
                             >
-                              Fill out the form below and our technical advisory team will get in touch within 24 hours.
+                              {t.formIntro}
                             </p>
                           </div>
 
@@ -1110,7 +1127,7 @@ export default function HomePage({ home, countries } = {}) {
                           >
                             <div>
                               <label htmlFor={"name"} className={labelClass}>
-                                Full Name
+                                {t.labelName}
                               </label>
                               <div className={"relative"}>
                                 <input
@@ -1131,7 +1148,7 @@ export default function HomePage({ home, countries } = {}) {
                             >
                               <div>
                                 <label htmlFor={"city"} className={labelClass}>
-                                  City / Location
+                                  {t.labelCity}
                                 </label>
                                 <input
                                   type={"text"}
@@ -1147,7 +1164,7 @@ export default function HomePage({ home, countries } = {}) {
                                   htmlFor={"category"}
                                   className={labelClass}
                                 >
-                                  Product Interest
+                                  {t.labelProduct}
                                 </label>
                                 <select
                                   id={"category"}
@@ -1179,7 +1196,7 @@ export default function HomePage({ home, countries } = {}) {
                                   htmlFor={"email"}
                                   className={labelClass}
                                 >
-                                  Email Address
+                                  {t.labelEmail}
                                 </label>
                                 <input
                                   type={"email"}
@@ -1195,7 +1212,7 @@ export default function HomePage({ home, countries } = {}) {
                                   htmlFor={"phone"}
                                   className={labelClass}
                                 >
-                                  Phone Number
+                                  {t.labelPhone}
                                 </label>
                                 <div className={"grid grid-cols-5 gap-2"}>
                                   <select
@@ -1235,7 +1252,7 @@ export default function HomePage({ home, countries } = {}) {
                                 htmlFor={"message"}
                                 className={labelClass}
                               >
-                                How Can We Help You?
+                                {t.labelMessage}
                               </label>
                               <textarea
                                 id={"message"}
@@ -1263,7 +1280,7 @@ export default function HomePage({ home, countries } = {}) {
                                   "background: linear-gradient(to right, #512178, #6d28d9, #4c1d95)",
                                 )}
                               >
-                                <span>Send Message</span>
+                                <span>{t.submit}</span>
                                 <svg
                                   className={"w-5 h-5 text-white"}
                                   fill={"none"}
