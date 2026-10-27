@@ -149,7 +149,13 @@ module.exports = {
   description:
     "Aeropolish: Top industrial and home decorative paints. Reliable, performance-oriented and value-driven coatings for industrial, commercial, infrastructure and decorative applications.",
   // Footer text (the slogan under the logo and the copyright line).
-  footer: { slogan: "Apna Rang - Apni Pehchaan.", copyright: "Aeropolish Paints & Coating Industry" },
+  footer: {
+    slogan: "Apna Rang - Apni Pehchaan.",
+    copyright: "Aeropolish Paints & Coating Industry",
+    noticeTitle: "Project Completion and Handover",
+    notice:
+      "Development is scheduled to conclude on 24 October 2026. After development is complete, the developer will hand over all project files and the project database to Mahadev finance account. From the date the handover is completed, the client is responsible for operating, maintaining, securing, and managing the website and its content, accounts, and transactions. To the extent permitted by applicable law and subject to any written agreement, the developer is not responsible for fraud, unlawful activity, or other actions arising from the client's or other users' use of the website after handover. This statement does not exclude liability that cannot legally be excluded.",
+  },
   navigation,
   footerLinks,
   productCategories,

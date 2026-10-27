@@ -1,6 +1,7 @@
 import PageBanner from "../PageBanner";
 import SiteLink from "../SiteLink";
 import { formatDate } from "../../lib/presentation";
+import { readingMinutes } from "./BlogPostPage";
 
 export function BlogCard({ post, readMore }) {
   return (
@@ -12,6 +13,7 @@ export function BlogCard({ post, readMore }) {
         <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-semibold text-gray-500">
           {post.category ? <span className="rounded-full bg-[#f6f1fa] px-2.5 py-1 text-[#512178]">{post.category}</span> : null}
           {post.date ? <span>{formatDate(post.date)}</span> : null}
+          <span>{readingMinutes(post)} min read</span>
         </div>
         <h3 className="font-poppins text-lg font-bold leading-snug text-gray-900">
           <SiteLink href={`/blogs/${post.slug}`} className="hover:text-[#f47422]">{post.title}</SiteLink>

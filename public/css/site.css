@@ -330,6 +330,9 @@ a:focus-visible,button:focus-visible { outline:3px solid #f47a22; outline-offset
 .footer-columns h2 { font-size:16px; font-weight:700; color:var(--site-blue); margin:0 0 12px; }
 .footer-columns a { display:flex; align-items:center; min-height:40px; padding:6px 0; font-size:14px; line-height:1.5; overflow-wrap:anywhere; }
 .footer-columns a:hover { color:#d75b0b; }
+.footer-notice { max-width:1240px; margin:28px auto 0; border-top:1px solid #dce3ec; padding-top:18px; }
+.footer-notice h2 { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; margin:0 0 6px; }
+.footer-notice p { font-size:12px; line-height:1.7; margin:0; opacity:.85; }
 .footer-bottom { max-width:1240px; margin:32px auto 0; border-top:1px solid #dce3ec; padding-top:20px; font-size:12px; line-height:1.7; }
 .aeropolish-page { padding-top:32px; }
 .inquiry-grid > div,.inquiry-field { min-width:0; }

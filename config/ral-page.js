@@ -7,7 +7,7 @@ module.exports = {
     height: 750,
   },
   pageTitle: "RAL Colours",
-  intro: "RAL Classic colour reference. Tap a colour to see it on the vessel and copy its code.",
+  intro: "RAL Classic colour reference. Tap a colour to see it on the steel pipes or pressure vessel and copy its code.",
   searchPlaceholder: "Search by code or name, e.g. 5015 or Sky blue",
   disclaimer:
     "Colours shown are for guidance only. The displayed colour depends on your screen, and pearl or metallic colours cannot be shown accurately. The finished colour may differ from what you see here.",

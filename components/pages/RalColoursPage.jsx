@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
-import RalTankPreview from "../RalTankPreview";
+import RalPreview from "../RalPreview";
 
 const groups = [
   { key: "all", label: "All" },
@@ -105,7 +105,7 @@ export default function RalColoursPage({ colours, content }) {
 
         <div className="mt-6 grid gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-8">
           <div ref={previewRef} className="scroll-mt-24 lg:sticky lg:top-24 lg:self-start">
-            <RalTankPreview colour={selected} onReset={() => setSelected(null)} />
+            <RalPreview colour={selected} onReset={() => setSelected(null)} />
           </div>
           <div>
         <p className="text-sm text-gray-500" aria-live="polite">
@@ -121,7 +121,7 @@ export default function RalColoursPage({ colours, content }) {
                   onClick={() => choose(colour)}
                   className={`group block w-full overflow-hidden rounded-xl border bg-white text-left transition-shadow hover:shadow-md focus-visible:shadow-md ${selected?.code === colour.code ? "border-[#f47422] ring-2 ring-[#f47422]" : "border-gray-200"}`}
                   aria-pressed={selected?.code === colour.code}
-                  aria-label={`Preview RAL ${colour.code}, ${colour.name} on the vessel and copy its code`}
+                  aria-label={`Preview RAL ${colour.code}, ${colour.name} and copy its code`}
                 >
                   <span className="relative block h-24 sm:h-28" style={{ backgroundColor: colour.hex }}>
                     {copied === colour.code && (
