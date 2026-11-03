@@ -135,11 +135,10 @@ export default function RalPreview({ colour, onReset }) {
         continue;
       }
       const sh = shade[i];
-      // Body shading around the true colour: an average pixel shows the exact RAL colour, darker
-      // areas go a little darker and brighter ones a little lighter. Kept gentle so the colour reads true.
-      const body = Math.min(1.12, Math.max(0.4, 1 + (sh - 1) * 0.55));
-      // Only a faint sheen on the brightest reflections, so the steel does not look chrome-plated.
-      const spec = Math.min(0.14, Math.max(0, sh - 1.35) * 0.16);
+      // Preserve the photo's full light-to-shadow range so the chosen swatch stays recognizable.
+      const body = Math.min(1.3, Math.max(0.18, sh));
+      // Retain a restrained neutral glint only in the brightest reflections.
+      const spec = Math.min(0.07, Math.max(0, sh - 1.45) * 0.1);
       for (let c = 0; c < 3; c++) {
         const painted = target[c] * body;
         const lit = painted + (255 - painted) * spec;

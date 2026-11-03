@@ -15,10 +15,10 @@ export function BlogCard({ post, readMore }) {
           {post.date ? <span>{formatDate(post.date)}</span> : null}
           <span>{readingMinutes(post)} min read</span>
         </div>
-        <h3 className="font-poppins text-lg font-bold leading-snug text-gray-900">
+        <h3 className="font-poppins text-lg font-bold leading-snug text-gray-900" style={post.titleColor ? { color: post.titleColor } : undefined}>
           <SiteLink href={`/blogs/${post.slug}`} className="hover:text-[#f47422]">{post.title}</SiteLink>
         </h3>
-        {post.excerpt ? <p className="mt-2 flex-1 text-sm leading-relaxed text-gray-600">{post.excerpt}</p> : null}
+        {post.excerpt ? <p className="mt-2 flex-1 text-sm leading-relaxed text-gray-600" style={post.excerptColor ? { color: post.excerptColor } : undefined}>{post.excerpt}</p> : null}
         <SiteLink href={`/blogs/${post.slug}`} className="mt-4 inline-flex text-sm font-bold text-[#f47422] hover:underline">
           {readMore} →
         </SiteLink>
@@ -31,7 +31,7 @@ export default function BlogsPage({ blogs }) {
   return (
     <div className="bg-white font-manrope text-gray-900">
       <div className="px-3 pt-4 sm:px-4">
-        <PageBanner as="h1" tall image={blogs.banner} title={blogs.title} tagline={blogs.tagline} />
+        <PageBanner as="h1" tall overlay={false} fitImage image={blogs.bannerDesktop} mobileImage={blogs.bannerMobile} title={blogs.title} tagline={blogs.tagline} className="border border-gray-400 shadow-xl shadow-black/25" />
       </div>
       <section className="mx-auto max-w-7xl px-5 py-12 sm:px-8 sm:py-16">
         {blogs.posts.length ? (

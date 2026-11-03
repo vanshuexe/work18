@@ -39,6 +39,78 @@ const display = (value) => {
   return String(value);
 };
 
+const escapeHtml = (value) =>
+  String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+
+function downloadPdf(submission, labels) {
+  const popup = window.open("", "_blank");
+  if (!popup) throw new Error("Allow pop-ups to create the inquiry PDF.");
+  const kind = KIND[submission.kind]?.label || humanize(submission.kind);
+  const fields = entries(submission, labels);
+  const attachmentRows = (submission.attachments || []).map((item) => ({
+    label: "Uploaded document",
+    value: item.name,
+  }));
+  const rows = [...fields, ...attachmentRows]
+    .map(
+      ({ label, value }) =>
+        `<tr><th>${escapeHtml(label)}</th><td>${escapeHtml(value).replace(/\n/g, "<br>")}</td></tr>`,
+    )
+    .join("");
+  const logo = `${window.location.origin}/aeropolish-navbar-logo.png`;
+  const fileName = `${submission.kind}-inquiry-${String(submission.id).slice(0, 8)}.pdf`;
+
+  popup.history.replaceState(null, "", `/admin/${encodeURIComponent(fileName)}`);
+  popup.document.title = fileName;
+  popup.document.open();
+  popup.document.write(`<!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <title>${escapeHtml(fileName)}</title>
+        <style>
+          @page { size: A4; margin: 18mm 16mm; }
+          * { box-sizing: border-box; }
+          body { position: relative; margin: 0; color: #172033; font: 11pt/1.5 Arial, sans-serif; }
+          body::before { position: fixed; z-index: -1; inset: 20% 12%; content: ""; background: url("${escapeHtml(logo)}") center center / contain no-repeat; opacity: .055; pointer-events: none; }
+          header { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-bottom: 14px; border-bottom: 3px solid #f47422; }
+          header img { display: block; width: min(58%, 360px); max-height: 70px; object-fit: contain; object-position: left center; }
+          .company { text-align: right; color: #4b5563; font-size: 9pt; }
+          .company strong { display: block; color: #512178; font-size: 12pt; }
+          h1 { margin: 26px 0 4px; color: #2a1442; font-size: 21pt; }
+          .meta { margin: 0 0 20px; color: #5b6472; font-size: 9pt; }
+          table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+          th, td { padding: 9px 10px; border: 1px solid #d9dee7; vertical-align: top; overflow-wrap: anywhere; }
+          th { width: 28%; background: #f6f1fa; color: #512178; text-align: left; font-size: 9pt; text-transform: uppercase; }
+          td { white-space: normal; }
+          @media print { tr { break-inside: avoid; } body::before { position: fixed; print-color-adjust: exact; -webkit-print-color-adjust: exact; } }
+        </style>
+      </head>
+      <body>
+        <header>
+          <img src="${escapeHtml(logo)}" alt="Aeropolish">
+          <div class="company">
+            <strong>Inquiry details</strong>
+            ${escapeHtml(kind)}<br>
+            ${escapeHtml(when(submission.created_at))}
+          </div>
+        </header>
+        <main>
+          <h1>${escapeHtml(kind)}</h1>
+          <p class="meta">Received: ${escapeHtml(when(submission.created_at))} · Status: ${escapeHtml(STATUS[submission.status]?.label || submission.status)} · Reference: ${escapeHtml(submission.id)}</p>
+          <table><tbody>${rows}</tbody></table>
+        </main>
+        <script>window.addEventListener("load", function () { setTimeout(function () { window.focus(); window.print(); }, 300); });</script>
+      </body>
+    </html>`);
+  popup.document.close();
+}
+
 // Phone fields come with their own "...CountryCode" field; show them together.
 function entries(submission, labels) {
   const data = submission.data || {};
@@ -99,7 +171,7 @@ function Attachment({ item, api }) {
   );
 }
 
-function Row({ submission, labels, open, onToggle, onStatus, onDelete, api }) {
+function Row({ submission, labels, open, onToggle, onStatus, onDelete, api, onError }) {
   const kind = KIND[submission.kind] || { label: submission.kind, short: submission.kind, tone: "bg-gray-100 text-gray-700" };
   const status = STATUS[submission.status] || STATUS.new;
   const fields = open ? entries(submission, labels) : [];
@@ -136,6 +208,19 @@ function Row({ submission, labels, open, onToggle, onStatus, onDelete, api }) {
             </div>
           ) : null}
           <div className="flex flex-wrap items-center gap-2 border-t border-gray-100 pt-3">
+            <button
+              type="button"
+              className={secondary}
+              onClick={() => {
+                try {
+                  downloadPdf(submission, labels);
+                } catch (error) {
+                  onError(error.message);
+                }
+              }}
+            >
+              Download PDF
+            </button>
             {d.email ? (
               <a className={primary} href={`mailto:${d.email}`}>
                 Reply by email
@@ -313,6 +398,7 @@ export default function QueriesPanel({ api, onCount }) {
                 onStatus={setRowStatus}
                 onDelete={remove}
                 api={api}
+                onError={setError}
               />
             ))}
           </div>

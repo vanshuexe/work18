@@ -1,4 +1,5 @@
 // Site-wide settings: navigation, product categories and colour families.
+const tagIcons = require("./tag-icons").default;
 
 const navigation = [
   { label: "Home", href: "/", key: "home" },
@@ -95,39 +96,6 @@ const productCategories = {
 };
 
 // Product tag name -> icon in public/tags (most are the slugified name)
-const tagIconOverrides = {
-  "Yellowing Resistance": "non-yellowing",
-};
-
-function tagIcon(tag) {
-  const file =
-    tagIconOverrides[tag] ||
-    tag
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-|-$/g, "");
-  // Tags without a dedicated icon fall back to a generic one instead of a broken image.
-  return availableTagIcons().has(file) ? `/tags/${file}.svg` : "/tags/generic.svg";
-}
-
-let tagIconFiles;
-function availableTagIcons() {
-  if (!tagIconFiles) {
-    const fs = require("fs");
-    const path = require("path");
-    try {
-      tagIconFiles = new Set(
-        fs
-          .readdirSync(path.join(process.cwd(), "public", "tags"))
-          .map((name) => name.replace(/\.svg$/, "")),
-      );
-    } catch {
-      return new Set();
-    }
-  }
-  return tagIconFiles;
-}
-
 // Colour families on Our Colors / Color Visualizer, in display order
 const colorFamilies = [
   { type: "off-white", label: "Off White", swatch: "#F5F5F5" },
@@ -159,6 +127,6 @@ module.exports = {
   navigation,
   footerLinks,
   productCategories,
-  tagIcon,
+  tagIcons,
   colorFamilies,
 };

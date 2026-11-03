@@ -1,23 +1,57 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
+import tagIcons from "../../config/tag-icons";
 
 // A form generated from the page's own content: text boxes for text, upload buttons for images and
 // videos, repeatable cards for lists. It works for any page without a hand-written form.
 
-const IMAGE_KEY = /(image|img|photo|poster|logo|banner|thumbnail|picture)(s|link|url)?$/i;
+const IMAGE_KEY = /(image|img|photo|poster|logo|banner|thumbnail|picture)(desktop|mobile)?(s|link|url)?$/i;
 const IMAGE_EXT = /\.(png|jpe?g|webp|gif|avif|svg)(\?|#|$)/i;
 const VIDEO_EXT = /\.(mp4|webm|mov)(\?|#|$)/i;
 const FILE_EXT = /\.(pdf|docx?)(\?|#|$)/i;
-const TITLE_KEYS = ["title", "name", "label", "productNameEn", "heading", "alt", "key", "src"];
+const TITLE_KEYS = ["title", "name", "label", "productNameEn", "heading", "alt", "key", "src", "tag"];
 const HIDDEN = new Set(["_id", "__v", "createdAt", "updatedAt"]);
 
 const humanize = (key) =>
+  ({
+    bannerDesktop: "Desktop banner image",
+    bannerMobile: "Mobile banner image (screens up to 640px)",
+    titleColor: "Title color",
+    excerptColor: "Paragraph / excerpt color",
+    headingColor: "Section heading color",
+    color: "Text color",
+    fontSize: "Text size",
+    blocks: "Article content blocks",
+  })[key] ||
   String(key)
     .replace(/^data\./, "")
     .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
     .replace(/[_-]+/g, " ")
     .replace(/^./, (c) => c.toUpperCase());
+
+const isHexColor = (value) => /^#[0-9a-f]{6}$/i.test(value);
+
+function ColorField({ name, value, onChange }) {
+  const color = isHexColor(value) ? value : "#f47422";
+  return (
+    <div className="flex items-center gap-3">
+      <input
+        type="color"
+        aria-label={`${humanize(name)} picker`}
+        value={color}
+        onChange={(event) => onChange(event.target.value)}
+        className="h-10 w-14 cursor-pointer rounded border border-gray-300 bg-white p-1"
+      />
+      <span className="text-sm text-gray-600">{value || "Theme default"}</span>
+      {value ? (
+        <button type="button" onClick={() => onChange("")} className="text-xs font-semibold text-[#512178] underline">
+          Use default
+        </button>
+      ) : null}
+    </div>
+  );
+}
 
 function mediaKind(key, value) {
   if (typeof value !== "string") return null;
@@ -115,6 +149,49 @@ function MediaField({ name, value, kind, onChange, upload }) {
 }
 
 function Leaf({ name, value, onChange, upload }) {
+  if (name === "type") {
+    return (
+      <select className={inputClass} value={value || "paragraph"} onChange={(event) => onChange(event.target.value)}>
+        <option value="heading">Heading</option>
+        <option value="paragraph">Paragraph</option>
+        <option value="list">Bullet / numbered list</option>
+        <option value="image">Image</option>
+      </select>
+    );
+  }
+  if (name === "level") {
+    return (
+      <select className={inputClass} value={value || "h3"} onChange={(event) => onChange(event.target.value)}>
+        <option value="h2">Large heading</option>
+        <option value="h3">Small heading</option>
+      </select>
+    );
+  }
+  if (name === "fontSize") {
+    return (
+      <select className={inputClass} value={value || ""} onChange={(event) => onChange(event.target.value)}>
+        <option value="">Default</option>
+        <option value="small">Small</option>
+        <option value="normal">Normal</option>
+        <option value="large">Large</option>
+      </select>
+    );
+  }
+  if (name === "color" || name.endsWith("Color")) {
+    return <ColorField name={name} value={String(value || "")} onChange={onChange} />;
+  }
+  if (name === "icon") {
+    return (
+      <div className="flex items-center gap-3">
+        <select className={inputClass} value={value || "/tags/generic.svg"} onChange={(event) => onChange(event.target.value)}>
+          {tagIcons.map((icon) => (
+            <option key={icon} value={`/tags/${icon}.svg`}>{icon}</option>
+          ))}
+        </select>
+        <img src={value || "/tags/generic.svg"} alt="" className="h-8 w-8 object-contain" />
+      </div>
+    );
+  }
   if (typeof value === "boolean") {
     return (
       <label className="flex items-center gap-2 text-sm text-gray-800">
@@ -230,7 +307,101 @@ function ItemButtons({ index, total, move, remove }) {
   );
 }
 
+function BlocksEditor({ blocks, onChange, upload }) {
+  const add = (type) => {
+    const defaults = {
+      heading: { type, text: "", level: "h3", color: "" },
+      paragraph: { type, text: "", color: "", fontSize: "", bold: false, italic: false },
+      list: { type, ordered: false, items: [""], color: "" },
+      image: { type, image: "", alt: "", caption: "" },
+    };
+    onChange([...blocks, defaults[type]]);
+  };
+  const update = (index, next) => onChange(blocks.map((block, i) => (i === index ? next : block)));
+  const move = (from, to) => {
+    if (to < 0 || to >= blocks.length) return;
+    const next = blocks.slice();
+    const [block] = next.splice(from, 1);
+    next.splice(to, 0, block);
+    onChange(next);
+  };
+  const remove = (index) => {
+    if (window.confirm("Delete this content block?")) onChange(blocks.filter((_, i) => i !== index));
+  };
+
+  return (
+    <div className="space-y-3">
+      {blocks.map((block, index) => (
+        <div key={index} className="rounded-xl border border-gray-200 bg-gray-50 p-3">
+          <div className="mb-3 flex items-center justify-between gap-2">
+            <strong className="text-sm text-gray-800">{index + 1}. {humanize(block.type || "paragraph")}</strong>
+            <ItemButtons index={index} total={blocks.length} move={move} remove={remove} />
+          </div>
+          <div className="space-y-3">
+            <div>
+              <Label>Block type</Label>
+              <Leaf name="type" value={block.type} onChange={(type) => update(index, {
+                heading: { type, text: "", level: "h3", color: "" },
+                paragraph: { type, text: "", color: "", fontSize: "", bold: false, italic: false },
+                list: { type, ordered: false, items: [""], color: "" },
+                image: { type, image: "", alt: "", caption: "" },
+              }[type])} />
+            </div>
+            {block.type === "heading" ? (
+              <>
+                <div><Label>Heading</Label><Leaf name="text" value={block.text || ""} onChange={(text) => update(index, { ...block, text })} /></div>
+                <div><Label>Heading size</Label><Leaf name="level" value={block.level || "h3"} onChange={(level) => update(index, { ...block, level })} /></div>
+                <div><Label>Heading color</Label><ColorField name="color" value={block.color || ""} onChange={(color) => update(index, { ...block, color })} /></div>
+              </>
+            ) : null}
+            {block.type === "paragraph" ? (
+              <>
+                <div><Label>Paragraph text</Label><Leaf name="text" value={block.text || ""} onChange={(text) => update(index, { ...block, text })} /></div>
+                <div><Label>Paragraph color</Label><ColorField name="color" value={block.color || ""} onChange={(color) => update(index, { ...block, color })} /></div>
+                <div><Label>Text size</Label><Leaf name="fontSize" value={block.fontSize || ""} onChange={(fontSize) => update(index, { ...block, fontSize })} /></div>
+                <div className="flex gap-5">
+                  <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={Boolean(block.bold)} onChange={(event) => update(index, { ...block, bold: event.target.checked })} /> Bold</label>
+                  <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={Boolean(block.italic)} onChange={(event) => update(index, { ...block, italic: event.target.checked })} /> Italic</label>
+                </div>
+              </>
+            ) : null}
+            {block.type === "list" ? (
+              <>
+                <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={Boolean(block.ordered)} onChange={(event) => update(index, { ...block, ordered: event.target.checked })} /> Numbered list</label>
+                <div><Label>List text color</Label><ColorField name="color" value={block.color || ""} onChange={(color) => update(index, { ...block, color })} /></div>
+                <div><Label>List items</Label><ListEditor name="items" items={Array.isArray(block.items) ? block.items : []} onChange={(items) => update(index, { ...block, items })} upload={upload} depth={1} /></div>
+              </>
+            ) : null}
+            {block.type === "image" ? (
+              <>
+                <div><Label>Image</Label><MediaField name="image" value={block.image || ""} kind="image" onChange={(image) => update(index, { ...block, image })} upload={upload} /></div>
+                <div><Label>Image description</Label><Leaf name="alt" value={block.alt || ""} onChange={(alt) => update(index, { ...block, alt })} /></div>
+                <div><Label>Caption</Label><Leaf name="caption" value={block.caption || ""} onChange={(caption) => update(index, { ...block, caption })} /></div>
+              </>
+            ) : null}
+          </div>
+        </div>
+      ))}
+      <div className="flex flex-wrap gap-2">
+        {[
+          ["heading", "+ Add heading"],
+          ["paragraph", "+ Add paragraph"],
+          ["list", "+ Add list"],
+          ["image", "+ Add image"],
+        ].map(([type, label]) => (
+          <button key={type} type="button" onClick={() => add(type)} className="rounded-lg border border-[#512178] px-3 py-1.5 text-sm font-semibold text-[#512178] hover:bg-[#f6f1fa]">
+            {label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Node({ name, value, onChange, upload, depth = 0, bare = false }) {
+  if (name === "blocks" && Array.isArray(value)) {
+    return <BlocksEditor blocks={value} onChange={onChange} upload={upload} />;
+  }
   if (Array.isArray(value)) {
     return <ListEditor name={name} items={value} onChange={onChange} upload={upload} depth={depth} />;
   }

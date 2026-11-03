@@ -4,7 +4,8 @@
 // made from the title. In a section's text, leave a blank line between paragraphs, start lines with
 // "- " for a list, and use **bold** or ==bold orange== for emphasis.
 module.exports = {
-  banner: "/new-images/careers.svg",
+  bannerDesktop: "/new-images/careers.svg",
+  bannerMobile: "",
   title: "Aeropolish Blog",
   tagline: "Paint tips, colour ideas and coating know-how from our experts.",
   emptyText: "No blog posts yet. Please check back soon.",

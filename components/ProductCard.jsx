@@ -1,7 +1,8 @@
 import { Fragment } from "react";
 import SiteLink from "./SiteLink";
-import site from "../config/site";
+import { tagIcon } from "../lib/tag-icons.cjs";
 import { cssStyle, formatDate } from "../lib/presentation";
+import ProductDetailsButton from "./ProductDetailsButton";
 
 export default function ProductCard({ product, visible = true } = {}) {
   const tags = product.tags || [];
@@ -80,7 +81,7 @@ export default function ProductCard({ product, visible = true } = {}) {
                                   )}
                                 >
                                   <img
-                                    src={site.tagIcon(tag)}
+                                    src={tagIcon(tag)}
                                     alt={tag}
                                     className={
                                       "tag-icon h-5 w-5 object-contain"
@@ -106,7 +107,10 @@ export default function ProductCard({ product, visible = true } = {}) {
               </div>
             </>
           ) : null}
-          <div className={"mt-auto pt-3 flex gap-2"}>
+          <div className={"mt-auto pt-3"}>
+            <ProductDetailsButton product={product} />
+          </div>
+          <div className={"pt-2 flex gap-2"}>
             {product.pdfLinkEn ? (
               <a
                 href={product.pdfLinkEn}

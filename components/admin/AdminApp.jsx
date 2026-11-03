@@ -19,6 +19,7 @@ const VIEW = {
   site: "/",
   contact: "/#contact",
   "data.products": "/interior-paints",
+  "data.productDetails": "/interior-paints",
   "data.posts": "/news",
   "data.jobs": "/careers",
 };

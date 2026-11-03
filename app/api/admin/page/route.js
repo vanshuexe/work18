@@ -1,7 +1,10 @@
 import content from "../../../../lib/content.cjs";
 import editable from "../../../../lib/editable.cjs";
+import { createRequire } from "node:module";
 
 const MAX_BYTES = 6 * 1024 * 1024;
+const require = createRequire(import.meta.url);
+const { prepareBlogsForEditor } = require("../../../../lib/blog-blocks.cjs");
 
 async function authorised(request) {
   const user = await content.verifyAdmin(request);
@@ -19,9 +22,34 @@ export async function GET(request) {
   const page = entry(request);
   if (!page) return Response.json({ error: "Unknown page" }, { status: 404 });
   await content.load({ force: true });
-  const defaults = page.defaults();
+  const rawDefaults = page.defaults();
+  const defaults = page.key === "blogs" ? prepareBlogsForEditor(rawDefaults) : rawDefaults;
   const saved = content.raw(page.key);
-  return Response.json({ key: page.key, label: page.label, defaults, value: saved === undefined ? defaults : content.merge(defaults, saved), saved: saved !== undefined });
+  let value = saved === undefined ? defaults : content.merge(defaults, saved);
+  if (page.key === "blogs") {
+    value = prepareBlogsForEditor(value);
+    value.bannerDesktop =
+      typeof saved?.bannerDesktop === "string"
+        ? saved.bannerDesktop
+        : typeof saved?.banner === "string"
+          ? saved.banner
+          : defaults.bannerDesktop;
+    value.bannerMobile =
+      typeof saved?.bannerMobile === "string"
+        ? saved.bannerMobile
+        : defaults.bannerMobile;
+    delete value.banner;
+  }
+  if (page.key === "data.productDetails" && Array.isArray(saved)) {
+    const savedById = new Map(
+      saved.filter((item) => item && typeof item._id === "string").map((item) => [item._id, item]),
+    );
+    value = defaults.map((item) => ({
+      ...item,
+      ...(savedById.get(item._id) || {}),
+    }));
+  }
+  return Response.json({ key: page.key, label: page.label, defaults, value, saved: saved !== undefined });
 }
 
 // Save the edited content of a page.
