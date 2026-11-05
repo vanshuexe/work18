@@ -4,5 +4,7 @@ storage/
 out/
 *.log
 
+.env
 .env*.local
 admin-credentials.local.txt
+/airpaints.zip

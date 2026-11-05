@@ -28,6 +28,14 @@ const card = "rounded-2xl border border-gray-200 bg-white shadow-sm";
 const primary = "rounded-lg bg-[#512178] px-4 py-2 text-sm font-semibold text-white hover:bg-[#431b64] disabled:opacity-60";
 const secondary = "rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-800 hover:border-[#512178] disabled:opacity-60";
 
+function getSupabaseClient(url, key) {
+  const cached = globalThis.__airpaintsAdminSupabaseClient;
+  if (cached?.url === url && cached?.key === key) return cached.client;
+  const client = createClient(url, key);
+  globalThis.__airpaintsAdminSupabaseClient = { url, key, client };
+  return client;
+}
+
 function SetupNotice() {
   return (
     <div className="mx-auto max-w-2xl px-5 py-16">
@@ -116,7 +124,7 @@ function ChangePassword({ supabase, onClose }) {
 
 export default function AdminApp({ supabaseUrl, supabaseAnonKey, adminEmail, configured }) {
   const supabase = useMemo(
-    () => (supabaseUrl && supabaseAnonKey ? createClient(supabaseUrl, supabaseAnonKey) : null),
+    () => (supabaseUrl && supabaseAnonKey ? getSupabaseClient(supabaseUrl, supabaseAnonKey) : null),
     [supabaseUrl, supabaseAnonKey],
   );
   const [session, setSession] = useState(undefined); // undefined = checking

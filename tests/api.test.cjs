@@ -5,6 +5,7 @@ const os = require("node:os");
 const path = require("node:path");
 const api = require("../lib/api.cjs");
 const data = require("../lib/data");
+const content = require("../lib/content.cjs");
 const {
   validateApplication,
   MAX_CV_BYTES,
@@ -32,6 +33,58 @@ const contact = (body) =>
     }),
     ["contact"],
   );
+
+test("admin token verification uses the public Supabase key and enforces the admin email", async () => {
+  const envNames = [
+    "SUPABASE_URL",
+    "NEXT_PUBLIC_SUPABASE_URL",
+    "SUPABASE_PUBLISHABLE_KEY",
+    "SUPABASE_ANON_KEY",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+    "SUPABASE_SECRET_KEY",
+    "SUPABASE_SERVICE_ROLE_KEY",
+    "ADMIN_EMAIL",
+  ];
+  const previousEnv = Object.fromEntries(envNames.map((name) => [name, process.env[name]]));
+  const previousFetch = global.fetch;
+  for (const name of envNames) delete process.env[name];
+  process.env.SUPABASE_URL = "https://project.example";
+  process.env.SUPABASE_ANON_KEY = "public-project-key";
+  process.env.SUPABASE_SERVICE_ROLE_KEY = "service-role-key";
+  process.env.ADMIN_EMAIL = "admin@example.com";
+  let requestOptions;
+  global.fetch = async (_url, options) => {
+    requestOptions = options;
+    return Response.json({ email: "ADMIN@example.com" });
+  };
+
+  try {
+    const user = await content.verifyAdmin(
+      new Request("http://localhost/api/admin/pages", {
+        headers: { Authorization: "Bearer user-access-token" },
+      }),
+    );
+    assert.equal(user.email, "ADMIN@example.com");
+    assert.equal(requestOptions.headers.apikey, "public-project-key");
+    assert.equal(requestOptions.headers.Authorization, "Bearer user-access-token");
+
+    global.fetch = async () => Response.json({ email: "other@example.com" });
+    assert.equal(
+      await content.verifyAdmin(
+        new Request("http://localhost/api/admin/pages", {
+          headers: { Authorization: "Bearer user-access-token" },
+        }),
+      ),
+      null,
+    );
+  } finally {
+    global.fetch = previousFetch;
+    for (const name of envNames) {
+      if (previousEnv[name] === undefined) delete process.env[name];
+      else process.env[name] = previousEnv[name];
+    }
+  }
+});
 
 test("all data APIs retain their response formats", async () => {
   for (const [endpoint, key] of [
